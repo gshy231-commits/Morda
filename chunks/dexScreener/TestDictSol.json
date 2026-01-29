@@ -1,0 +1,5505 @@
+[
+  {
+    "baseContract": "H7bTHGb5Cvo5fGe5jBDNDPUv8KykQnzyZA3qZ8sH7yxw",
+    "targetContract": "Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB",
+    "chain": "SOL",
+    "targetCoin": "USDT",
+    "isChainsConflict": false,
+    "symbol": {
+      "bybit_spot": "GUMMYUSDT",
+      "mxc": "GUMMYUSDT",
+      "huobi": "gummyusdt",
+      "xt": "gummy_USDT",
+      "poloniex": "GUMMY_USDT"
+    },
+    "baseCoin": {
+      "bybit_spot": "GUMMY",
+      "mxc": "GUMMY",
+      "huobi": "gummy",
+      "xt": "gummy",
+      "poloniex": "GUMMY"
+    },
+    "chains": null,
+    "commitedChains": {
+      "bybit_spot": "SOL",
+      "mxc": "SOL",
+      "huobi": "SOLANA",
+      "xt": "SOL-SOL",
+      "poloniex": "SOL"
+    },
+    "parsedChains": {
+      "bybit_spot": "SOL",
+      "mxc": "SOL",
+      "huobi": "SOL",
+      "xt": "SOL",
+      "poloniex": "SOL"
+    },
+    "prices": {
+      "bybit_spot": 0.001543,
+      "mxc": 0.001552,
+      "huobi": 0.001555,
+      "xt": 0.001552,
+      "poloniex": 0.00004
+    },
+    "spreads": {
+      "bybit_spot": 3757.5,
+      "mxc": 3780.0,
+      "huobi": 3787.5,
+      "xt": 3780.0,
+      "poloniex": 0
+    },
+    "liquidity": null,
+    "fdv": null,
+    "capitalization": null,
+    "isDepositAllowed": {
+      "bybit_spot": true,
+      "mxc": true,
+      "huobi": true,
+      "xt": true,
+      "poloniex": true
+    },
+    "isWithdrawAllowed": {
+      "bybit_spot": true,
+      "mxc": true,
+      "huobi": true,
+      "xt": true,
+      "poloniex": true
+    }
+  },
+  {
+    "baseContract": "AxGAbdFtdbj2oNXa4dKqFvwHzgFtW9mFHWmd7vQfpump",
+    "targetContract": "Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB",
+    "chain": "SOL",
+    "targetCoin": "USDT",
+    "isChainsConflict": false,
+    "symbol": {
+      "bybit_spot": "HATUSDT",
+      "mxc": "HATUSDT",
+      "huobi": "hatusdt",
+      "gate": "HAT_USDT",
+      "xt": "hat_USDT",
+      "poloniex": "HAT_USDT"
+    },
+    "baseCoin": {
+      "bybit_spot": "HAT",
+      "mxc": "HAT",
+      "huobi": "hat",
+      "gate": "HAT",
+      "xt": "hat",
+      "poloniex": "HAT"
+    },
+    "chains": null,
+    "commitedChains": {
+      "bybit_spot": "SOL",
+      "mxc": "SOL",
+      "huobi": "SOLANA",
+      "gate": "HAT",
+      "xt": "SOL-SOL",
+      "poloniex": "SOL"
+    },
+    "parsedChains": {
+      "bybit_spot": "SOL",
+      "mxc": "SOL",
+      "huobi": "SOL",
+      "gate": "SOL",
+      "xt": "SOL",
+      "poloniex": "SOL"
+    },
+    "prices": {
+      "bybit_spot": 0.00244,
+      "mxc": 0.002428,
+      "gate": 0.00243,
+      "huobi": 0.00241,
+      "xt": 0.00244,
+      "poloniex": 0.00075
+    },
+    "spreads": {
+      "bybit_spot": 225.33333333333333333333333333,
+      "mxc": 223.73333333333333333333333333,
+      "gate": 224,
+      "huobi": 221.33333333333333333333333333,
+      "xt": 225.33333333333333333333333333,
+      "poloniex": 0
+    },
+    "liquidity": null,
+    "fdv": null,
+    "capitalization": null,
+    "isDepositAllowed": {
+      "bybit_spot": true,
+      "mxc": true,
+      "huobi": true,
+      "gate": true,
+      "xt": true,
+      "poloniex": true
+    },
+    "isWithdrawAllowed": {
+      "bybit_spot": true,
+      "mxc": true,
+      "huobi": true,
+      "gate": true,
+      "xt": true,
+      "poloniex": true
+    }
+  },
+  {
+    "baseContract": "AFbX8oGjGpmVFywbVouvhQSRmiW2aR1mohfahi4Y2AdB",
+    "targetContract": "Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB",
+    "chain": "SOL",
+    "targetCoin": "USDT",
+    "isChainsConflict": false,
+    "symbol": {
+      "bybit_spot": "GSTUSDT",
+      "mxc": "GSTUSDT",
+      "bitget": "GSTUSDT",
+      "huobi": "gstusdt",
+      "bitmart": "GST_USDT",
+      "gate": "GST_USDT",
+      "xt": "gst_USDT"
+    },
+    "baseCoin": {
+      "bybit_spot": "GST",
+      "mxc": "GST",
+      "bitget": "GST",
+      "huobi": "gst",
+      "bitmart": "GST",
+      "gate": "GST",
+      "xt": "gst"
+    },
+    "chains": null,
+    "commitedChains": {
+      "bybit_spot": "SOL",
+      "mxc": "SOL",
+      "bitget": "SOL",
+      "huobi": "SOLANA",
+      "bitmart": "SOL",
+      "gate": "GST",
+      "xt": "SOL-SOL"
+    },
+    "parsedChains": {
+      "bybit_spot": "SOL",
+      "mxc": "SOL",
+      "bitget": "SOL",
+      "huobi": "SOL",
+      "bitmart": "SOL",
+      "gate": "SOL",
+      "xt": "SOL"
+    },
+    "prices": {
+      "bybit_spot": 0.00619,
+      "mxc": 0.006204,
+      "bitget": 0.00623,
+      "gate": 0.002909,
+      "xt": 0.00620
+    },
+    "spreads": {
+      "bybit_spot": 112.78789962186318322447576487,
+      "mxc": 113.26916466139566861464420763,
+      "bitget": 114.16294259195599862495702991,
+      "gate": 0,
+      "xt": 113.13166036438638707459608113
+    },
+    "liquidity": null,
+    "fdv": null,
+    "capitalization": null,
+    "isDepositAllowed": {
+      "bybit_spot": true,
+      "mxc": true,
+      "bitget": true,
+      "huobi": false,
+      "bitmart": false,
+      "gate": false,
+      "xt": true
+    },
+    "isWithdrawAllowed": {
+      "bybit_spot": true,
+      "mxc": true,
+      "bitget": true,
+      "huobi": true,
+      "bitmart": false,
+      "gate": false,
+      "xt": true
+    }
+  },
+  {
+    "baseContract": "HNg5PYJmtqcmzXrv6S9zP1CDKk5BgDuyFBxbvNApump",
+    "targetContract": "Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB",
+    "chain": "SOL",
+    "targetCoin": "USDT",
+    "isChainsConflict": false,
+    "symbol": {
+      "bybit_spot": "ALCHUSDT",
+      "mxc": "ALCHUSDT",
+      "bitget": "ALCHUSDT",
+      "huobi": "alchusdt",
+      "bitmart": "ALCH-SOL_USDT",
+      "gate": "ALCH_USDT",
+      "xt": "alch_USDT",
+      "poloniex": "ALCH_USDT"
+    },
+    "baseCoin": {
+      "bybit_spot": "ALCH",
+      "mxc": "ALCH",
+      "bitget": "ALCH",
+      "huobi": "alch",
+      "bitmart": "ALCH-SOL",
+      "gate": "ALCH",
+      "xt": "alch",
+      "poloniex": "ALCH"
+    },
+    "chains": null,
+    "commitedChains": {
+      "bybit_spot": "SOL",
+      "mxc": "SOL",
+      "bitget": "SOL",
+      "huobi": "SOLANA",
+      "bitmart": "SOL",
+      "gate": "ALCH",
+      "xt": "SOL-SOL",
+      "poloniex": "SOL"
+    },
+    "parsedChains": {
+      "bybit_spot": "SOL",
+      "mxc": "SOL",
+      "bitget": "SOL",
+      "huobi": "SOL",
+      "bitmart": "SOL",
+      "gate": "SOL",
+      "xt": "SOL",
+      "poloniex": "SOL"
+    },
+    "prices": {
+      "bybit_spot": 0.05821,
+      "mxc": 0.05823,
+      "bitget": 0.05826,
+      "gate": 0.05827,
+      "huobi": 0.05828,
+      "xt": 0.05826,
+      "poloniex": 0.08452
+    },
+    "spreads": {
+      "bybit_spot": 0,
+      "mxc": 0.0343583576705033499398728741,
+      "bitget": 0.0858958941762583748496821852,
+      "gate": 0.1030750730115100498196186222,
+      "huobi": 0.1202542518467617247895550593,
+      "xt": 0.0858958941762583748496821852,
+      "poloniex": 45.198419515547156845902765848
+    },
+    "liquidity": null,
+    "fdv": null,
+    "capitalization": null,
+    "isDepositAllowed": {
+      "bybit_spot": true,
+      "mxc": true,
+      "bitget": true,
+      "huobi": true,
+      "bitmart": true,
+      "gate": true,
+      "xt": true,
+      "poloniex": true
+    },
+    "isWithdrawAllowed": {
+      "bybit_spot": true,
+      "mxc": true,
+      "bitget": true,
+      "huobi": true,
+      "bitmart": true,
+      "gate": true,
+      "xt": true,
+      "poloniex": true
+    }
+  },
+  {
+    "baseContract": "Df6yfrKC8kZE3KNkrHERKzAetSxbrWeniQfyJY4Jpump",
+    "targetContract": "Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB",
+    "chain": "SOL",
+    "targetCoin": "USDT",
+    "isChainsConflict": false,
+    "symbol": {
+      "bybit_spot": "CHILLGUYUSDT",
+      "mxc": "CHILLGUYUSDT",
+      "bitget": "CHILLGUYUSDT",
+      "bitmart": "CHILLGUY-SOL_USDT",
+      "gate": "CHILLGUY_USDT",
+      "xt": "chillguy_USDT",
+      "poloniex": "CHILLGUY_USDT"
+    },
+    "baseCoin": {
+      "bybit_spot": "CHILLGUY",
+      "mxc": "CHILLGUY",
+      "bitget": "CHILLGUY",
+      "bitmart": "CHILLGUY-SOL",
+      "gate": "CHILLGUY",
+      "xt": "chillguy",
+      "poloniex": "CHILLGUY"
+    },
+    "chains": null,
+    "commitedChains": {
+      "bybit_spot": "SOL",
+      "mxc": "SOL",
+      "bitget": "SOL",
+      "bitmart": "SOL",
+      "gate": "CHILLGUY",
+      "xt": "SOL-SOL",
+      "poloniex": "SOL"
+    },
+    "parsedChains": {
+      "bybit_spot": "SOL",
+      "mxc": "SOL",
+      "bitget": "SOL",
+      "bitmart": "SOL",
+      "gate": "SOL",
+      "xt": "SOL",
+      "poloniex": "SOL"
+    },
+    "prices": {
+      "bybit_spot": 0.02029,
+      "mxc": 0.02025,
+      "bitget": 0.02028,
+      "gate": 0.02029,
+      "xt": 0.02017,
+      "poloniex": 0.0277
+    },
+    "spreads": {
+      "bybit_spot": 0.5949429846306395637084779375,
+      "mxc": 0.3966286564204263758056519584,
+      "bitget": 0.5453644025780862667327714427,
+      "gate": 0.5949429846306395637084779375,
+      "xt": 0,
+      "poloniex": 37.33267228557263262270699058
+    },
+    "liquidity": null,
+    "fdv": null,
+    "capitalization": null,
+    "isDepositAllowed": {
+      "bybit_spot": true,
+      "mxc": true,
+      "bitget": true,
+      "bitmart": true,
+      "gate": true,
+      "xt": true,
+      "poloniex": true
+    },
+    "isWithdrawAllowed": {
+      "bybit_spot": true,
+      "mxc": true,
+      "bitget": true,
+      "bitmart": true,
+      "gate": true,
+      "xt": true,
+      "poloniex": true
+    }
+  },
+  {
+    "baseContract": "CBdCxKo9QavR9hfShgpEBG3zekorAeD7W1jfq2o3pump",
+    "targetContract": "Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB",
+    "chain": "SOL",
+    "targetCoin": "USDT",
+    "isChainsConflict": false,
+    "symbol": {
+      "bybit_spot": "LUCEUSDT",
+      "mxc": "LUCEUSDT",
+      "bitget": "LUCEUSDT",
+      "huobi": "luceusdt",
+      "bitmart": "LUCE-SOL_USDT",
+      "kucoin": "LUCE-USDT",
+      "xt": "luce_USDT",
+      "poloniex": "LUCE_USDT"
+    },
+    "baseCoin": {
+      "bybit_spot": "LUCE",
+      "mxc": "LUCE",
+      "bitget": "LUCE",
+      "huobi": "luce",
+      "bitmart": "LUCE-SOL",
+      "kucoin": "LUCE",
+      "xt": "luce",
+      "poloniex": "LUCE"
+    },
+    "chains": null,
+    "commitedChains": {
+      "bybit_spot": "SOL",
+      "mxc": "SOL",
+      "bitget": "SOL",
+      "huobi": "SOLANA",
+      "bitmart": "SOL",
+      "kucoin": "SOL",
+      "xt": "SOL-SOL",
+      "poloniex": "SOL"
+    },
+    "parsedChains": {
+      "bybit_spot": "SOL",
+      "mxc": "SOL",
+      "bitget": "SOL",
+      "huobi": "SOL",
+      "bitmart": "SOL",
+      "kucoin": "SOL",
+      "xt": "SOL",
+      "poloniex": "SOL"
+    },
+    "prices": {
+      "bybit_spot": 0.02245,
+      "mxc": 0.022324,
+      "bitget": 0.02229,
+      "kucoin": 0.02225,
+      "huobi": 0.02236,
+      "xt": 0.02236,
+      "poloniex": 0.017
+    },
+    "spreads": {
+      "bybit_spot": 32.058823529411764705882352941,
+      "mxc": 31.317647058823529411764705882,
+      "bitget": 31.117647058823529411764705882,
+      "kucoin": 30.882352941176470588235294118,
+      "huobi": 31.529411764705882352941176471,
+      "xt": 31.529411764705882352941176471,
+      "poloniex": 0
+    },
+    "liquidity": null,
+    "fdv": null,
+    "capitalization": null,
+    "isDepositAllowed": {
+      "bybit_spot": true,
+      "mxc": true,
+      "bitget": true,
+      "huobi": true,
+      "bitmart": true,
+      "kucoin": true,
+      "xt": true,
+      "poloniex": true
+    },
+    "isWithdrawAllowed": {
+      "bybit_spot": true,
+      "mxc": true,
+      "bitget": true,
+      "huobi": true,
+      "bitmart": true,
+      "kucoin": true,
+      "xt": true,
+      "poloniex": true
+    }
+  },
+  {
+    "baseContract": "DriFtupJYLTosbwoN8koMbEYSx54aFAVLddWsbksjwg7",
+    "targetContract": "Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB",
+    "chain": "SOL",
+    "targetCoin": "USDT",
+    "isChainsConflict": false,
+    "symbol": {
+      "bybit_spot": "DRIFTUSDT",
+      "mxc": "DRIFTUSDT",
+      "bitget": "DRIFTUSDT",
+      "huobi": "driftusdt",
+      "bitmart": "DRIFT_USDT",
+      "gate": "DRIFT_USDT",
+      "xt": "drift_USDT",
+      "poloniex": "DRIFT_USDT"
+    },
+    "baseCoin": {
+      "bybit_spot": "DRIFT",
+      "mxc": "DRIFT",
+      "bitget": "DRIFT",
+      "huobi": "drift",
+      "bitmart": "DRIFT",
+      "gate": "DRIFT",
+      "xt": "drift",
+      "poloniex": "DRIFT"
+    },
+    "chains": null,
+    "commitedChains": {
+      "bybit_spot": "SOL",
+      "mxc": "SOL",
+      "bitget": "SOL",
+      "huobi": "SOLANA",
+      "bitmart": "SOL",
+      "gate": "DRIFT",
+      "xt": "SOL-SOL",
+      "poloniex": "SOL"
+    },
+    "parsedChains": {
+      "bybit_spot": "SOL",
+      "mxc": "SOL",
+      "bitget": "SOL",
+      "huobi": "SOL",
+      "bitmart": "SOL",
+      "gate": "SOL",
+      "xt": "SOL",
+      "poloniex": "SOL"
+    },
+    "prices": {
+      "bybit_spot": 0.4594,
+      "mxc": 0.4608,
+      "bitget": 0.4597,
+      "gate": 0.4594,
+      "huobi": 0.4595,
+      "bitmart": 0.4587,
+      "xt": 0.4594,
+      "poloniex": 0.6053
+    },
+    "spreads": {
+      "bybit_spot": 0.1526051885764115979943318073,
+      "mxc": 0.4578155657292347939829954218,
+      "bitget": 0.2180074122520165685633311533,
+      "gate": 0.1526051885764115979943318073,
+      "huobi": 0.1744059298016132548506649226,
+      "bitmart": 0,
+      "xt": 0.1526051885764115979943318073,
+      "poloniex": 31.959886636145628951384347068
+    },
+    "liquidity": null,
+    "fdv": null,
+    "capitalization": null,
+    "isDepositAllowed": {
+      "bybit_spot": true,
+      "mxc": true,
+      "bitget": true,
+      "huobi": true,
+      "bitmart": true,
+      "gate": true,
+      "xt": true,
+      "poloniex": true
+    },
+    "isWithdrawAllowed": {
+      "bybit_spot": true,
+      "mxc": true,
+      "bitget": true,
+      "huobi": true,
+      "bitmart": true,
+      "gate": true,
+      "xt": true,
+      "poloniex": true
+    }
+  },
+  {
+    "baseContract": "WENWENvqqNya429ubCdR81ZmD69brwQaaBYY6p3LCpk",
+    "targetContract": "Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB",
+    "chain": "SOL",
+    "targetCoin": "USDT",
+    "isChainsConflict": false,
+    "symbol": {
+      "bybit_spot": "WENUSDT",
+      "mxc": "WENUSDT",
+      "bitget": "WENUSDT",
+      "huobi": "wenusdt",
+      "bitmart": "WEN_USDT",
+      "gate": "WEN_USDT",
+      "xt": "wen_USDT",
+      "poloniex": "WEN_USDT"
+    },
+    "baseCoin": {
+      "bybit_spot": "WEN",
+      "mxc": "WEN",
+      "bitget": "WEN",
+      "huobi": "wen",
+      "bitmart": "WEN",
+      "gate": "WEN",
+      "xt": "wen",
+      "poloniex": "WEN"
+    },
+    "chains": null,
+    "commitedChains": {
+      "bybit_spot": "SOL",
+      "mxc": "SOL",
+      "bitget": "SOL",
+      "huobi": "SOLANA",
+      "bitmart": "SOL",
+      "gate": "WEN",
+      "xt": "SOL-SOL",
+      "poloniex": "SOL"
+    },
+    "parsedChains": {
+      "bybit_spot": "SOL",
+      "mxc": "SOL",
+      "bitget": "SOL",
+      "huobi": "SOL",
+      "bitmart": "SOL",
+      "gate": "SOL",
+      "xt": "SOL",
+      "poloniex": "SOL"
+    },
+    "prices": {
+      "bybit_spot": 0.00001989,
+      "mxc": 0.0000199,
+      "bitget": 0.0000198,
+      "gate": 0.00001992,
+      "huobi": 0.0000198,
+      "bitmart": 0.00001985,
+      "xt": 0.00001992,
+      "poloniex": 0.0000259
+    },
+    "spreads": {
+      "bybit_spot": 0.4545454545454545454545454545,
+      "mxc": 0.5050505050505050505050505051,
+      "bitget": 0,
+      "gate": 0.6060606060606060606060606061,
+      "huobi": 0,
+      "bitmart": 0.2525252525252525252525252525,
+      "xt": 0.6060606060606060606060606061,
+      "poloniex": 30.808080808080808080808080808
+    },
+    "liquidity": null,
+    "fdv": null,
+    "capitalization": null,
+    "isDepositAllowed": {
+      "bybit_spot": true,
+      "mxc": true,
+      "bitget": true,
+      "huobi": true,
+      "bitmart": true,
+      "gate": true,
+      "xt": true,
+      "poloniex": true
+    },
+    "isWithdrawAllowed": {
+      "bybit_spot": true,
+      "mxc": true,
+      "bitget": true,
+      "huobi": true,
+      "bitmart": true,
+      "gate": true,
+      "xt": true,
+      "poloniex": true
+    }
+  },
+  {
+    "baseContract": "5z3EqYQo9HiCEs3R84RCDMu2n7anpDMxRhdK8PSWmrRC",
+    "targetContract": "Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB",
+    "chain": "SOL",
+    "targetCoin": "USDT",
+    "isChainsConflict": false,
+    "symbol": {
+      "bybit_spot": "PONKEUSDT",
+      "mxc": "PONKEUSDT",
+      "bitget": "PONKEUSDT",
+      "huobi": "ponkeusdt",
+      "bitmart": "PONKE_USDT",
+      "gate": "PONKE_USDT",
+      "xt": "ponke_USDT",
+      "poloniex": "PONKE_USDT"
+    },
+    "baseCoin": {
+      "bybit_spot": "PONKE",
+      "mxc": "PONKE",
+      "bitget": "PONKE",
+      "huobi": "ponke",
+      "bitmart": "PONKE",
+      "gate": "PONKE",
+      "xt": "ponke",
+      "poloniex": "PONKE"
+    },
+    "chains": null,
+    "commitedChains": {
+      "bybit_spot": "SOL",
+      "mxc": "SOL",
+      "bitget": "SOL",
+      "huobi": "SOLANA",
+      "bitmart": "SOL",
+      "gate": "PONKE",
+      "xt": "SOL-SOL",
+      "poloniex": "SOL"
+    },
+    "parsedChains": {
+      "bybit_spot": "SOL",
+      "mxc": "SOL",
+      "bitget": "SOL",
+      "huobi": "SOL",
+      "bitmart": "SOL",
+      "gate": "SOL",
+      "xt": "SOL",
+      "poloniex": "SOL"
+    },
+    "prices": {
+      "bybit_spot": 0.07309,
+      "mxc": 0.07313,
+      "bitget": 0.07226,
+      "gate": 0.0729,
+      "huobi": 0.072948,
+      "bitmart": 0.07309,
+      "xt": 0.08989,
+      "poloniex": 0.07329
+    },
+    "spreads": {
+      "bybit_spot": 1.1486299474121228895654580681,
+      "mxc": 1.2039856075283697758095765292,
+      "bitget": 0,
+      "gate": 0.8856905618599501799058953778,
+      "huobi": 0.9521173539994464433988375311,
+      "bitmart": 1.1486299474121228895654580681,
+      "xt": 24.398007196235815112095211735,
+      "poloniex": 1.4254082479933573207860503737
+    },
+    "liquidity": null,
+    "fdv": null,
+    "capitalization": null,
+    "isDepositAllowed": {
+      "bybit_spot": true,
+      "mxc": true,
+      "bitget": true,
+      "huobi": true,
+      "bitmart": true,
+      "gate": true,
+      "xt": true,
+      "poloniex": true
+    },
+    "isWithdrawAllowed": {
+      "bybit_spot": true,
+      "mxc": true,
+      "bitget": true,
+      "huobi": true,
+      "bitmart": true,
+      "gate": true,
+      "xt": true,
+      "poloniex": true
+    }
+  },
+  {
+    "baseContract": "EcQCUYv57C4V6RoPxkVUiDwtX1SP8y8FP5AEToYL8Az",
+    "targetContract": "Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB",
+    "chain": "SOL",
+    "targetCoin": "USDT",
+    "isChainsConflict": false,
+    "symbol": {
+      "bybit_spot": "WLKNUSDT",
+      "bitget": "WLKNUSDT",
+      "huobi": "wlknusdt",
+      "bitmart": "WLKN_USDT",
+      "gate": "WLKN_USDT",
+      "poloniex": "WLKN_USDT"
+    },
+    "baseCoin": {
+      "bybit_spot": "WLKN",
+      "bitget": "WLKN",
+      "huobi": "wlkn",
+      "bitmart": "WLKN",
+      "gate": "WLKN",
+      "poloniex": "WLKN"
+    },
+    "chains": null,
+    "commitedChains": {
+      "bybit_spot": "SOL",
+      "bitget": "SOL",
+      "huobi": "SOLANA",
+      "bitmart": "SOL",
+      "gate": "WLKN",
+      "poloniex": "SOL"
+    },
+    "parsedChains": {
+      "bybit_spot": "SOL",
+      "bitget": "SOL",
+      "huobi": "SOL",
+      "bitmart": "SOL",
+      "gate": "SOL",
+      "poloniex": "SOL"
+    },
+    "prices": {
+      "bybit_spot": 0.0006121,
+      "gate": 0.000609,
+      "huobi": 0.000612,
+      "poloniex": 0.00075
+    },
+    "spreads": {
+      "bybit_spot": 0.5090311986863711001642036125,
+      "gate": 0,
+      "huobi": 0.4926108374384236453201970443,
+      "poloniex": 23.152709359605911330049261084
+    },
+    "liquidity": null,
+    "fdv": null,
+    "capitalization": null,
+    "isDepositAllowed": {
+      "bybit_spot": true,
+      "bitget": false,
+      "huobi": true,
+      "bitmart": false,
+      "gate": true,
+      "poloniex": true
+    },
+    "isWithdrawAllowed": {
+      "bybit_spot": true,
+      "bitget": true,
+      "huobi": true,
+      "bitmart": true,
+      "gate": true,
+      "poloniex": true
+    }
+  },
+  {
+    "baseContract": "7i5KKsX2weiTkry7jA4ZwSuXGhs5eJBEjY8vVxR4pfRx",
+    "targetContract": "Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB",
+    "chain": "SOL",
+    "targetCoin": "USDT",
+    "isChainsConflict": false,
+    "symbol": {
+      "bybit_spot": "GMTUSDT",
+      "okex": "GMT-USDT",
+      "mxc": "STEPNUSDT",
+      "bitget": "GMTUSDT",
+      "huobi": "gmtusdt",
+      "bitmart": "GMT_USDT",
+      "gate": "GMT_USDT",
+      "xt": "gmt_USDT",
+      "poloniex": "GMT_USDT"
+    },
+    "baseCoin": {
+      "bybit_spot": "GMT",
+      "okex": "GMT",
+      "mxc": "STEPN",
+      "bitget": "GMT",
+      "huobi": "gmt",
+      "bitmart": "GMT",
+      "gate": "GMT",
+      "xt": "gmt",
+      "poloniex": "GMT"
+    },
+    "chains": null,
+    "commitedChains": {
+      "bybit_spot": "SOL",
+      "okex": "GMT-Solana",
+      "mxc": "SOL",
+      "bitget": "SOL",
+      "huobi": "SOLANA",
+      "bitmart": "SOL",
+      "gate": "GMT",
+      "xt": "SOL-SOL",
+      "poloniex": "SOL"
+    },
+    "parsedChains": {
+      "bybit_spot": "SOL",
+      "okex": "SOL",
+      "mxc": "SOL",
+      "bitget": "SOL",
+      "huobi": "SOL",
+      "bitmart": "SOL",
+      "gate": "SOL",
+      "xt": "SOL",
+      "poloniex": "SOL"
+    },
+    "prices": {
+      "bybit_spot": 0.0411,
+      "okex": 0.04124,
+      "mxc": 0.04126,
+      "bitget": 0.0411,
+      "gate": 0.04084,
+      "huobi": 0.0409,
+      "bitmart": 0.04105,
+      "xt": 0.0412,
+      "poloniex": 0.0495
+    },
+    "spreads": {
+      "bybit_spot": 0.6366307541625857002938295788,
+      "okex": 0.979431929480901077375122429,
+      "mxc": 1.0284035259549461312438785504,
+      "bitget": 0.6366307541625857002938295788,
+      "gate": 0,
+      "huobi": 0.1469147894221351616062683643,
+      "bitmart": 0.5142017629774730656219392752,
+      "xt": 0.8814887365328109696376101861,
+      "poloniex": 21.204701273261508325171400588
+    },
+    "liquidity": null,
+    "fdv": null,
+    "capitalization": null,
+    "isDepositAllowed": {
+      "bybit_spot": true,
+      "okex": true,
+      "mxc": true,
+      "bitget": true,
+      "huobi": true,
+      "bitmart": true,
+      "gate": true,
+      "xt": true,
+      "poloniex": true
+    },
+    "isWithdrawAllowed": {
+      "bybit_spot": false,
+      "okex": true,
+      "mxc": false,
+      "bitget": true,
+      "huobi": true,
+      "bitmart": true,
+      "gate": true,
+      "xt": true,
+      "poloniex": true
+    }
+  },
+  {
+    "baseContract": "2qEHjDLDLbuBgRYvsxhc5D6uDWAivNFZGan56P1tpump",
+    "targetContract": "Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB",
+    "chain": "SOL",
+    "targetCoin": "USDT",
+    "isChainsConflict": false,
+    "symbol": {
+      "bybit_spot": "PNUTUSDT",
+      "okex": "PNUT-USDT",
+      "mxc": "PNUTUSDT",
+      "bitget": "PNUTUSDT",
+      "huobi": "pnutusdt",
+      "bitmart": "PNUT-SOL_USDT",
+      "gate": "PNUT_USDT",
+      "xt": "pnut_USDT",
+      "poloniex": "PNUTSOL_USDT"
+    },
+    "baseCoin": {
+      "bybit_spot": "PNUT",
+      "okex": "PNUT",
+      "mxc": "PNUT",
+      "bitget": "PNUT",
+      "huobi": "pnut",
+      "bitmart": "PNUT-SOL",
+      "gate": "PNUT",
+      "xt": "pnut",
+      "poloniex": "PNUTSOL"
+    },
+    "chains": null,
+    "commitedChains": {
+      "bybit_spot": "SOL",
+      "okex": "PNUT-Solana",
+      "mxc": "SOL",
+      "bitget": "SOL",
+      "huobi": "SOLANA",
+      "bitmart": "SOL",
+      "gate": "PNUT",
+      "xt": "SOL-SOL",
+      "poloniex": "SOL"
+    },
+    "parsedChains": {
+      "bybit_spot": "SOL",
+      "okex": "SOL",
+      "mxc": "SOL",
+      "bitget": "SOL",
+      "huobi": "SOL",
+      "bitmart": "SOL",
+      "gate": "SOL",
+      "xt": "SOL",
+      "poloniex": "SOL"
+    },
+    "prices": {
+      "bybit_spot": 0.1363,
+      "okex": 0.1364,
+      "mxc": 0.1364,
+      "bitget": 0.1363,
+      "gate": 0.1357,
+      "huobi": 0.1363,
+      "xt": 0.1363,
+      "poloniex": 0.11438
+    },
+    "spreads": {
+      "bybit_spot": 19.16418954362650813079209652,
+      "okex": 19.251617415632103514600454625,
+      "mxc": 19.251617415632103514600454625,
+      "bitget": 19.16418954362650813079209652,
+      "gate": 18.639622311592935827941947893,
+      "huobi": 19.16418954362650813079209652,
+      "xt": 19.16418954362650813079209652,
+      "poloniex": 0
+    },
+    "liquidity": null,
+    "fdv": null,
+    "capitalization": null,
+    "isDepositAllowed": {
+      "bybit_spot": true,
+      "okex": true,
+      "mxc": true,
+      "bitget": true,
+      "huobi": true,
+      "bitmart": false,
+      "gate": true,
+      "xt": true,
+      "poloniex": true
+    },
+    "isWithdrawAllowed": {
+      "bybit_spot": true,
+      "okex": true,
+      "mxc": true,
+      "bitget": true,
+      "huobi": true,
+      "bitmart": false,
+      "gate": true,
+      "xt": true,
+      "poloniex": true
+    }
+  },
+  {
+    "baseContract": "Grass7B4RdKfBCjTKgSqnXkqjwiGvQyFbuSCUJr3XXjs",
+    "targetContract": "Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB",
+    "chain": "SOL",
+    "targetCoin": "USDT",
+    "isChainsConflict": false,
+    "symbol": {
+      "bybit_spot": "GRASSUSDT",
+      "mxc": "GRASSUSDT",
+      "bitget": "GRASSUSDT",
+      "huobi": "grassusdt",
+      "bitmart": "$GRASS-SOL_USDT",
+      "gate": "GRASS_USDT",
+      "xt": "grass_USDT",
+      "poloniex": "GRASS_USDT"
+    },
+    "baseCoin": {
+      "bybit_spot": "GRASS",
+      "mxc": "GRASS",
+      "bitget": "GRASS",
+      "huobi": "grass",
+      "bitmart": "$GRASS-SOL",
+      "gate": "GRASS",
+      "xt": "grass",
+      "poloniex": "GRASS"
+    },
+    "chains": null,
+    "commitedChains": {
+      "bybit_spot": "SOL",
+      "mxc": "SOL",
+      "bitget": "SOL",
+      "huobi": "SOLANA",
+      "bitmart": "SOL",
+      "gate": "GRASS",
+      "xt": "SOL-SOL",
+      "poloniex": "SOL"
+    },
+    "parsedChains": {
+      "bybit_spot": "SOL",
+      "mxc": "SOL",
+      "bitget": "SOL",
+      "huobi": "SOL",
+      "bitmart": "SOL",
+      "gate": "SOL",
+      "xt": "SOL",
+      "poloniex": "SOL"
+    },
+    "prices": {
+      "bybit_spot": 1.8254,
+      "mxc": 1.8257,
+      "bitget": 1.8266,
+      "gate": 1.8274,
+      "huobi": 1.8277,
+      "xt": 1.8270,
+      "poloniex": 1.596
+    },
+    "spreads": {
+      "bybit_spot": 14.373433583959899749373433584,
+      "mxc": 14.392230576441102756892230576,
+      "bitget": 14.448621553884711779448621554,
+      "gate": 14.498746867167919799498746867,
+      "huobi": 14.51754385964912280701754386,
+      "xt": 14.473684210526315789473684211,
+      "poloniex": 0
+    },
+    "liquidity": null,
+    "fdv": null,
+    "capitalization": null,
+    "isDepositAllowed": {
+      "bybit_spot": true,
+      "mxc": true,
+      "bitget": true,
+      "huobi": true,
+      "bitmart": true,
+      "gate": true,
+      "xt": true,
+      "poloniex": true
+    },
+    "isWithdrawAllowed": {
+      "bybit_spot": true,
+      "mxc": true,
+      "bitget": true,
+      "huobi": true,
+      "bitmart": true,
+      "gate": true,
+      "xt": true,
+      "poloniex": true
+    }
+  },
+  {
+    "baseContract": "EchesyfXePKdLtoiZSL8pBe8Myagyy8ZRqsACNCFGnvp",
+    "targetContract": "Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB",
+    "chain": "SOL",
+    "targetCoin": "USDT",
+    "isChainsConflict": false,
+    "symbol": {
+      "bybit_spot": "FIDAUSDT",
+      "mxc": "FIDAUSDT",
+      "bitget": "FIDAUSDT",
+      "bitmart": "FIDA_USDT",
+      "gate": "FIDA_USDT",
+      "xt": "fida_USDT",
+      "poloniex": "FIDA_USDT"
+    },
+    "baseCoin": {
+      "bybit_spot": "FIDA",
+      "mxc": "FIDA",
+      "bitget": "FIDA",
+      "bitmart": "FIDA",
+      "gate": "FIDA",
+      "xt": "fida",
+      "poloniex": "FIDA"
+    },
+    "chains": null,
+    "commitedChains": {
+      "bybit_spot": "SOL",
+      "mxc": "SOL",
+      "bitget": "SOL",
+      "bitmart": "SOL",
+      "gate": "FIDA",
+      "xt": "SOL-SOL",
+      "poloniex": "SOL"
+    },
+    "parsedChains": {
+      "bybit_spot": "SOL",
+      "mxc": "SOL",
+      "bitget": "SOL",
+      "bitmart": "SOL",
+      "gate": "SOL",
+      "xt": "SOL",
+      "poloniex": "SOL"
+    },
+    "prices": {
+      "bybit_spot": 0.07,
+      "mxc": 0.06993,
+      "bitget": 0.0698,
+      "gate": 0.0699,
+      "bitmart": 0.0697,
+      "xt": 0.0700,
+      "poloniex": 0.0793
+    },
+    "spreads": {
+      "bybit_spot": 0.4304160688665710186513629842,
+      "mxc": 0.3299856527977044476327116212,
+      "bitget": 0.1434720229555236728837876614,
+      "gate": 0.2869440459110473457675753228,
+      "bitmart": 0,
+      "xt": 0.4304160688665710186513629842,
+      "poloniex": 13.773314203730272596843615495
+    },
+    "liquidity": null,
+    "fdv": null,
+    "capitalization": null,
+    "isDepositAllowed": {
+      "bybit_spot": true,
+      "mxc": true,
+      "bitget": true,
+      "bitmart": true,
+      "gate": true,
+      "xt": true,
+      "poloniex": true
+    },
+    "isWithdrawAllowed": {
+      "bybit_spot": true,
+      "mxc": true,
+      "bitget": true,
+      "bitmart": true,
+      "gate": true,
+      "xt": true,
+      "poloniex": true
+    }
+  },
+  {
+    "baseContract": "TNSRxcUxoT9xBG3de7PiJyTDYu7kskLqcpddxnEJAS6",
+    "targetContract": "Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB",
+    "chain": "SOL",
+    "targetCoin": "USDT",
+    "isChainsConflict": false,
+    "symbol": {
+      "bybit_spot": "TNSRUSDT",
+      "okex": "TNSR-USDT",
+      "mxc": "TNSRUSDT",
+      "bitget": "TNSRUSDT",
+      "huobi": "tnsrusdt",
+      "bitmart": "TNSR_USDT",
+      "gate": "TNSR_USDT",
+      "xt": "tnsr_USDT",
+      "poloniex": "TNSR_USDT"
+    },
+    "baseCoin": {
+      "bybit_spot": "TNSR",
+      "okex": "TNSR",
+      "mxc": "TNSR",
+      "bitget": "TNSR",
+      "huobi": "tnsr",
+      "bitmart": "TNSR",
+      "gate": "TNSR",
+      "xt": "tnsr",
+      "poloniex": "TNSR"
+    },
+    "chains": null,
+    "commitedChains": {
+      "bybit_spot": "SOL",
+      "okex": "TNSR-Solana",
+      "mxc": "SOL",
+      "bitget": "SOL",
+      "huobi": "SOLANA",
+      "bitmart": "SOL",
+      "gate": "TNSR",
+      "xt": "SOL-SOL",
+      "poloniex": "SOL"
+    },
+    "parsedChains": {
+      "bybit_spot": "SOL",
+      "okex": "SOL",
+      "mxc": "SOL",
+      "bitget": "SOL",
+      "huobi": "SOL",
+      "bitmart": "SOL",
+      "gate": "SOL",
+      "xt": "SOL",
+      "poloniex": "SOL"
+    },
+    "prices": {
+      "bybit_spot": 0.1167,
+      "okex": 0.1172,
+      "mxc": 0.1171,
+      "bitget": 0.1171,
+      "gate": 0.1171,
+      "huobi": 0.115,
+      "bitmart": 0.1167,
+      "xt": 0.1172,
+      "poloniex": 0.1307
+    },
+    "spreads": {
+      "bybit_spot": 1.4782608695652173913043478261,
+      "okex": 1.9130434782608695652173913043,
+      "mxc": 1.8260869565217391304347826087,
+      "bitget": 1.8260869565217391304347826087,
+      "gate": 1.8260869565217391304347826087,
+      "huobi": 0,
+      "bitmart": 1.4782608695652173913043478261,
+      "xt": 1.9130434782608695652173913043,
+      "poloniex": 13.652173913043478260869565217
+    },
+    "liquidity": null,
+    "fdv": null,
+    "capitalization": null,
+    "isDepositAllowed": {
+      "bybit_spot": true,
+      "okex": true,
+      "mxc": true,
+      "bitget": true,
+      "huobi": true,
+      "bitmart": true,
+      "gate": true,
+      "xt": true,
+      "poloniex": true
+    },
+    "isWithdrawAllowed": {
+      "bybit_spot": true,
+      "okex": true,
+      "mxc": true,
+      "bitget": true,
+      "huobi": true,
+      "bitmart": true,
+      "gate": true,
+      "xt": true,
+      "poloniex": true
+    }
+  },
+  {
+    "baseContract": "CzLSujWBLFsSjncfkh59rUFqvafWcY5tzedWJSuypump",
+    "targetContract": "Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB",
+    "chain": "SOL",
+    "targetCoin": "USDT",
+    "isChainsConflict": false,
+    "symbol": {
+      "bybit_spot": "GOATUSDT",
+      "okex": "GOAT-USDT",
+      "mxc": "GOATUSDT",
+      "bitget": "GOATUSDT",
+      "huobi": "goatusdt",
+      "bitmart": "GOAT_USDT",
+      "gate": "GOAT_USDT",
+      "xt": "goat_USDT",
+      "poloniex": "GOAT_USDT"
+    },
+    "baseCoin": {
+      "bybit_spot": "GOAT",
+      "okex": "GOAT",
+      "mxc": "GOAT",
+      "bitget": "GOAT",
+      "huobi": "goat",
+      "bitmart": "GOAT",
+      "gate": "GOAT",
+      "xt": "goat",
+      "poloniex": "GOAT"
+    },
+    "chains": null,
+    "commitedChains": {
+      "bybit_spot": "SOL",
+      "okex": "GOAT-Solana",
+      "mxc": "SOL",
+      "bitget": "SOL",
+      "huobi": "SOLANA",
+      "bitmart": "SOL",
+      "gate": "GOAT",
+      "xt": "SOL-SOL",
+      "poloniex": "SOL"
+    },
+    "parsedChains": {
+      "bybit_spot": "SOL",
+      "okex": "SOL",
+      "mxc": "SOL",
+      "bitget": "SOL",
+      "huobi": "SOL",
+      "bitmart": "SOL",
+      "gate": "SOL",
+      "xt": "SOL",
+      "poloniex": "SOL"
+    },
+    "prices": {
+      "bybit_spot": 0.0415,
+      "okex": 0.04158,
+      "mxc": 0.04149,
+      "bitget": 0.0416,
+      "gate": 0.0416,
+      "huobi": 0.0413,
+      "bitmart": 0.0413,
+      "xt": 0.0416,
+      "poloniex": 0.0462
+    },
+    "spreads": {
+      "bybit_spot": 0.4842615012106537530266343826,
+      "okex": 0.6779661016949152542372881356,
+      "mxc": 0.4600484261501210653753026634,
+      "bitget": 0.7263922518159806295399515738,
+      "gate": 0.7263922518159806295399515738,
+      "huobi": 0,
+      "bitmart": 0,
+      "xt": 0.7263922518159806295399515738,
+      "poloniex": 11.864406779661016949152542373
+    },
+    "liquidity": null,
+    "fdv": null,
+    "capitalization": null,
+    "isDepositAllowed": {
+      "bybit_spot": true,
+      "okex": true,
+      "mxc": true,
+      "bitget": true,
+      "huobi": true,
+      "bitmart": true,
+      "gate": true,
+      "xt": true,
+      "poloniex": true
+    },
+    "isWithdrawAllowed": {
+      "bybit_spot": true,
+      "okex": true,
+      "mxc": true,
+      "bitget": true,
+      "huobi": true,
+      "bitmart": true,
+      "gate": true,
+      "xt": true,
+      "poloniex": true
+    }
+  },
+  {
+    "baseContract": "EKpQGSJtjMFqKZ9KQanSqYXRcF8fBopzLHYxdM65zcjm",
+    "targetContract": "Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB",
+    "chain": "SOL",
+    "targetCoin": "USDT",
+    "isChainsConflict": false,
+    "symbol": {
+      "bybit_spot": "WIFUSDT",
+      "okex": "WIF-USDT",
+      "mxc": "WIFUSDT",
+      "bitget": "WIFUSDT",
+      "huobi": "wifusdt",
+      "bitmart": "WIF_USDT",
+      "gate": "WIF_USDT",
+      "xt": "wif_USDT",
+      "poloniex": "WIF_USDT"
+    },
+    "baseCoin": {
+      "bybit_spot": "WIF",
+      "okex": "WIF",
+      "mxc": "WIF",
+      "bitget": "WIF",
+      "huobi": "wif",
+      "bitmart": "WIF",
+      "gate": "WIF",
+      "xt": "wif",
+      "poloniex": "WIF"
+    },
+    "chains": null,
+    "commitedChains": {
+      "bybit_spot": "SOL",
+      "okex": "WIF-Solana",
+      "mxc": "SOL",
+      "bitget": "SOL",
+      "huobi": "SOLANA",
+      "bitmart": "SOL",
+      "gate": "WIF",
+      "xt": "SOL-SOL",
+      "poloniex": "SOL"
+    },
+    "parsedChains": {
+      "bybit_spot": "SOL",
+      "okex": "SOL",
+      "mxc": "SOL",
+      "bitget": "SOL",
+      "huobi": "SOL",
+      "bitmart": "SOL",
+      "gate": "SOL",
+      "xt": "SOL",
+      "poloniex": "SOL"
+    },
+    "prices": {
+      "bybit_spot": 0.348,
+      "okex": 0.3485,
+      "mxc": 0.348,
+      "bitget": 0.349,
+      "gate": 0.3486,
+      "huobi": 0.3485,
+      "bitmart": 0.3468,
+      "xt": 0.348,
+      "poloniex": 0.3818
+    },
+    "spreads": {
+      "bybit_spot": 0.3460207612456747404844290657,
+      "okex": 0.4901960784313725490196078431,
+      "mxc": 0.3460207612456747404844290657,
+      "bitget": 0.6343713956170703575547866205,
+      "gate": 0.5190311418685121107266435986,
+      "huobi": 0.4901960784313725490196078431,
+      "bitmart": 0,
+      "xt": 0.3460207612456747404844290657,
+      "poloniex": 10.092272202998846597462514418
+    },
+    "liquidity": null,
+    "fdv": null,
+    "capitalization": null,
+    "isDepositAllowed": {
+      "bybit_spot": true,
+      "okex": true,
+      "mxc": true,
+      "bitget": true,
+      "huobi": true,
+      "bitmart": true,
+      "gate": true,
+      "xt": true,
+      "poloniex": true
+    },
+    "isWithdrawAllowed": {
+      "bybit_spot": true,
+      "okex": true,
+      "mxc": true,
+      "bitget": true,
+      "huobi": true,
+      "bitmart": true,
+      "gate": true,
+      "xt": true,
+      "poloniex": true
+    }
+  },
+  {
+    "baseContract": "8x5VqbHA8D7NkD52uNuS5nnt3PwA8pLD34ymskeSo2Wn",
+    "targetContract": "Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB",
+    "chain": "SOL",
+    "targetCoin": "USDT",
+    "isChainsConflict": false,
+    "symbol": {
+      "bybit_spot": "ZEREBROUSDT",
+      "mxc": "ZEREBROUSDT",
+      "bitget": "ZEREBROUSDT",
+      "huobi": "zerebrousdt",
+      "bitmart": "ZEREBRO-SOL_USDT",
+      "gate": "ZEREBRO_USDT",
+      "xt": "zerebro_USDT",
+      "poloniex": "ZEREBRO_USDT"
+    },
+    "baseCoin": {
+      "bybit_spot": "ZEREBRO",
+      "mxc": "ZEREBRO",
+      "bitget": "ZEREBRO",
+      "huobi": "zerebro",
+      "bitmart": "ZEREBRO-SOL",
+      "gate": "ZEREBRO",
+      "xt": "zerebro",
+      "poloniex": "ZEREBRO"
+    },
+    "chains": null,
+    "commitedChains": {
+      "bybit_spot": "SOL",
+      "mxc": "SOL",
+      "bitget": "SOL",
+      "huobi": "SOLANA",
+      "bitmart": "SOL",
+      "gate": "ZEREBRO",
+      "xt": "SOL-SOL",
+      "poloniex": "SOL"
+    },
+    "parsedChains": {
+      "bybit_spot": "SOL",
+      "mxc": "SOL",
+      "bitget": "SOL",
+      "huobi": "SOL",
+      "bitmart": "SOL",
+      "gate": "SOL",
+      "xt": "SOL",
+      "poloniex": "SOL"
+    },
+    "prices": {
+      "bybit_spot": 0.0219,
+      "mxc": 0.02186,
+      "bitget": 0.0217,
+      "gate": 0.02191,
+      "huobi": 0.0218,
+      "xt": 0.02171,
+      "poloniex": 0.0200894
+    },
+    "spreads": {
+      "bybit_spot": 9.012713172120620824912640497,
+      "mxc": 8.813603193724053480940197318,
+      "bitget": 8.017163280137784105050424602,
+      "gate": 9.062490666719762660905751292,
+      "huobi": 8.51493822612920246498153255,
+      "xt": 8.066940774736925941043535397,
+      "poloniex": 0
+    },
+    "liquidity": null,
+    "fdv": null,
+    "capitalization": null,
+    "isDepositAllowed": {
+      "bybit_spot": true,
+      "mxc": true,
+      "bitget": true,
+      "huobi": true,
+      "bitmart": true,
+      "gate": true,
+      "xt": true,
+      "poloniex": true
+    },
+    "isWithdrawAllowed": {
+      "bybit_spot": true,
+      "mxc": true,
+      "bitget": true,
+      "huobi": true,
+      "bitmart": true,
+      "gate": true,
+      "xt": true,
+      "poloniex": true
+    }
+  },
+  {
+    "baseContract": "HhJpBhRRn4g56VsyLuT8DL5Bv31HkXqsrahTTUCZeZg4",
+    "targetContract": "Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB",
+    "chain": "SOL",
+    "targetCoin": "USDT",
+    "isChainsConflict": false,
+    "symbol": {
+      "bybit_spot": "MYROUSDT",
+      "mxc": "MYROUSDT",
+      "bitget": "MYROUSDT",
+      "huobi": "myrousdt",
+      "bitmart": "MYRO_USDT",
+      "gate": "MYRO_USDT",
+      "xt": "myro_USDT",
+      "poloniex": "MYRO_USDT"
+    },
+    "baseCoin": {
+      "bybit_spot": "MYRO",
+      "mxc": "MYRO",
+      "bitget": "MYRO",
+      "huobi": "myro",
+      "bitmart": "MYRO",
+      "gate": "MYRO",
+      "xt": "myro",
+      "poloniex": "MYRO"
+    },
+    "chains": null,
+    "commitedChains": {
+      "bybit_spot": "SOL",
+      "mxc": "SOL",
+      "bitget": "SOL",
+      "huobi": "SOLANA",
+      "bitmart": "SOL",
+      "gate": "MYRO",
+      "xt": "SOL-SOL",
+      "poloniex": "SOL"
+    },
+    "parsedChains": {
+      "bybit_spot": "SOL",
+      "mxc": "SOL",
+      "bitget": "SOL",
+      "huobi": "SOL",
+      "bitmart": "SOL",
+      "gate": "SOL",
+      "xt": "SOL",
+      "poloniex": "SOL"
+    },
+    "prices": {
+      "bybit_spot": 0.01371,
+      "mxc": 0.01371,
+      "bitget": 0.01371,
+      "gate": 0.01371,
+      "huobi": 0.013606,
+      "bitmart": 0.01364,
+      "xt": 0.01280,
+      "poloniex": 0.01382
+    },
+    "spreads": {
+      "bybit_spot": 7.109375,
+      "mxc": 7.109375,
+      "bitget": 7.109375,
+      "gate": 7.109375,
+      "huobi": 6.296875,
+      "bitmart": 6.5625,
+      "xt": 0,
+      "poloniex": 7.96875
+    },
+    "liquidity": null,
+    "fdv": null,
+    "capitalization": null,
+    "isDepositAllowed": {
+      "bybit_spot": true,
+      "mxc": true,
+      "bitget": true,
+      "huobi": true,
+      "bitmart": true,
+      "gate": true,
+      "xt": true,
+      "poloniex": true
+    },
+    "isWithdrawAllowed": {
+      "bybit_spot": true,
+      "mxc": true,
+      "bitget": true,
+      "huobi": true,
+      "bitmart": true,
+      "gate": true,
+      "xt": true,
+      "poloniex": true
+    }
+  },
+  {
+    "baseContract": "7GCihgDB8fe6KNjn2MYtkzZcRjQy3t9GHdC8uHYmW2hr",
+    "targetContract": "Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB",
+    "chain": "SOL",
+    "targetCoin": "USDT",
+    "isChainsConflict": false,
+    "symbol": {
+      "bybit_spot": "POPCATUSDT",
+      "mxc": "POPCATUSDT",
+      "huobi": "popcatusdt",
+      "bitmart": "POPCAT_USDT",
+      "gate": "POPCAT_USDT",
+      "xt": "popcat_USDT",
+      "poloniex": "POPCAT_USDT"
+    },
+    "baseCoin": {
+      "bybit_spot": "POPCAT",
+      "mxc": "POPCAT",
+      "huobi": "popcat",
+      "bitmart": "POPCAT",
+      "gate": "POPCAT",
+      "xt": "popcat",
+      "poloniex": "POPCAT"
+    },
+    "chains": null,
+    "commitedChains": {
+      "bybit_spot": "SOL",
+      "mxc": "SOL",
+      "huobi": "SOLANA",
+      "bitmart": "SOL",
+      "gate": "POPCAT",
+      "xt": "SOL-SOL",
+      "poloniex": "SOL"
+    },
+    "parsedChains": {
+      "bybit_spot": "SOL",
+      "mxc": "SOL",
+      "huobi": "SOL",
+      "bitmart": "SOL",
+      "gate": "SOL",
+      "xt": "SOL",
+      "poloniex": "SOL"
+    },
+    "prices": {
+      "bybit_spot": 0.1415,
+      "mxc": 0.1416,
+      "gate": 0.1415,
+      "huobi": 0.1415,
+      "xt": 0.1415,
+      "poloniex": 0.13267
+    },
+    "spreads": {
+      "bybit_spot": 6.6556116680485414939323132585,
+      "mxc": 6.7309866586266676716665410417,
+      "gate": 6.6556116680485414939323132585,
+      "huobi": 6.6556116680485414939323132585,
+      "xt": 6.6556116680485414939323132585,
+      "poloniex": 0
+    },
+    "liquidity": null,
+    "fdv": null,
+    "capitalization": null,
+    "isDepositAllowed": {
+      "bybit_spot": true,
+      "mxc": true,
+      "huobi": true,
+      "bitmart": true,
+      "gate": true,
+      "xt": true,
+      "poloniex": true
+    },
+    "isWithdrawAllowed": {
+      "bybit_spot": true,
+      "mxc": true,
+      "huobi": true,
+      "bitmart": true,
+      "gate": true,
+      "xt": true,
+      "poloniex": true
+    }
+  },
+  {
+    "baseContract": "5MAYDfq5yxtudAhtfyuMBuHZjgAbaS9tbEyEQYAhDS5y",
+    "targetContract": "Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB",
+    "chain": "SOL",
+    "targetCoin": "USDT",
+    "isChainsConflict": false,
+    "symbol": {
+      "bybit_spot": "ACSUSDT",
+      "mxc": "ACSUSDT",
+      "huobi": "acsusdt",
+      "bitmart": "ACS_USDT",
+      "gate": "ACS_USDT"
+    },
+    "baseCoin": {
+      "bybit_spot": "ACS",
+      "mxc": "ACS",
+      "huobi": "acs",
+      "bitmart": "ACS",
+      "gate": "ACS"
+    },
+    "chains": null,
+    "commitedChains": {
+      "bybit_spot": "SOL",
+      "mxc": "SOL",
+      "huobi": "SOLANA",
+      "bitmart": "SOL",
+      "gate": "ACS"
+    },
+    "parsedChains": {
+      "bybit_spot": "SOL",
+      "mxc": "SOL",
+      "huobi": "SOL",
+      "bitmart": "SOL",
+      "gate": "SOL"
+    },
+    "prices": {
+      "bybit_spot": 0.0011333,
+      "mxc": 0.0011337,
+      "gate": 0.001133,
+      "huobi": 0.001067,
+      "bitmart": 0.001136
+    },
+    "spreads": {
+      "bybit_spot": 6.2136832239925023430178069353,
+      "mxc": 6.2511715089034676663542642924,
+      "gate": 6.1855670103092783505154639175,
+      "huobi": 0,
+      "bitmart": 6.4667291471415182755388940956
+    },
+    "liquidity": null,
+    "fdv": null,
+    "capitalization": null,
+    "isDepositAllowed": {
+      "bybit_spot": true,
+      "mxc": true,
+      "huobi": true,
+      "bitmart": true,
+      "gate": true
+    },
+    "isWithdrawAllowed": {
+      "bybit_spot": true,
+      "mxc": true,
+      "huobi": true,
+      "bitmart": true,
+      "gate": true
+    }
+  },
+  {
+    "baseContract": "JUPyiwrYJFskUPiHa7hkeR8VUtAeFoSYbKedZNsDvCN",
+    "targetContract": "Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB",
+    "chain": "SOL",
+    "targetCoin": "USDT",
+    "isChainsConflict": false,
+    "symbol": {
+      "bybit_spot": "JUPUSDT",
+      "okex": "JUP-USDT",
+      "mxc": "JUPUSDT",
+      "bitget": "JUPUSDT",
+      "huobi": "jupusdt",
+      "bitmart": "JUP_USDT",
+      "gate": "JUP_USDT",
+      "xt": "jup_USDT",
+      "poloniex": "JUP_USDT"
+    },
+    "baseCoin": {
+      "bybit_spot": "JUP",
+      "okex": "JUP",
+      "mxc": "JUP",
+      "bitget": "JUP",
+      "huobi": "jup",
+      "bitmart": "JUP",
+      "gate": "JUP",
+      "xt": "jup",
+      "poloniex": "JUP"
+    },
+    "chains": null,
+    "commitedChains": {
+      "bybit_spot": "SOL",
+      "okex": "JUP-Solana",
+      "mxc": "SOL",
+      "bitget": "SOL",
+      "huobi": "SOLANA",
+      "bitmart": "SOL",
+      "gate": "JUP",
+      "xt": "SOL-SOL",
+      "poloniex": "SOL"
+    },
+    "parsedChains": {
+      "bybit_spot": "SOL",
+      "okex": "SOL",
+      "mxc": "SOL",
+      "bitget": "SOL",
+      "huobi": "SOL",
+      "bitmart": "SOL",
+      "gate": "SOL",
+      "xt": "SOL",
+      "poloniex": "SOL"
+    },
+    "prices": {
+      "bybit_spot": 0.3432,
+      "okex": 0.3434,
+      "mxc": 0.3433,
+      "bitget": 0.3433,
+      "gate": 0.3429,
+      "huobi": 0.3403,
+      "bitmart": 0.34160,
+      "xt": 0.3433,
+      "poloniex": 0.3285
+    },
+    "spreads": {
+      "bybit_spot": 4.4748858447488584474885844749,
+      "okex": 4.5357686453576864535768645358,
+      "mxc": 4.5053272450532724505327245053,
+      "bitget": 4.5053272450532724505327245053,
+      "gate": 4.3835616438356164383561643836,
+      "huobi": 3.5920852359208523592085235921,
+      "bitmart": 3.9878234398782343987823439878,
+      "xt": 4.5053272450532724505327245053,
+      "poloniex": 0
+    },
+    "liquidity": null,
+    "fdv": null,
+    "capitalization": null,
+    "isDepositAllowed": {
+      "bybit_spot": true,
+      "okex": true,
+      "mxc": true,
+      "bitget": true,
+      "huobi": true,
+      "bitmart": true,
+      "gate": true,
+      "xt": true,
+      "poloniex": true
+    },
+    "isWithdrawAllowed": {
+      "bybit_spot": true,
+      "okex": true,
+      "mxc": true,
+      "bitget": true,
+      "huobi": true,
+      "bitmart": true,
+      "gate": true,
+      "xt": true,
+      "poloniex": true
+    }
+  },
+  {
+    "baseContract": "MEW1gQWJ3nEXg2qgERiKu7FAFj79PHvQVREQUzScPP5",
+    "targetContract": "Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB",
+    "chain": "SOL",
+    "targetCoin": "USDT",
+    "isChainsConflict": false,
+    "symbol": {
+      "bybit_spot": "MEWUSDT",
+      "okex": "MEW-USDT",
+      "mxc": "MEWUSDT",
+      "bitget": "MEWUSDT",
+      "huobi": "mewusdt",
+      "bitmart": "MEW_USDT",
+      "gate": "MEW_USDT",
+      "xt": "mew_USDT",
+      "poloniex": "MEW_USDT"
+    },
+    "baseCoin": {
+      "bybit_spot": "MEW",
+      "okex": "MEW",
+      "mxc": "MEW",
+      "bitget": "MEW",
+      "huobi": "mew",
+      "bitmart": "MEW",
+      "gate": "MEW",
+      "xt": "mew",
+      "poloniex": "MEW"
+    },
+    "chains": null,
+    "commitedChains": {
+      "bybit_spot": "SOL",
+      "okex": "MEW-Solana",
+      "mxc": "SOL",
+      "bitget": "SOL",
+      "huobi": "SOLANA",
+      "bitmart": "SOL",
+      "gate": "MEW",
+      "xt": "SOL-SOL",
+      "poloniex": "SOL"
+    },
+    "parsedChains": {
+      "bybit_spot": "SOL",
+      "okex": "SOL",
+      "mxc": "SOL",
+      "bitget": "SOL",
+      "huobi": "SOL",
+      "bitmart": "SOL",
+      "gate": "SOL",
+      "xt": "SOL",
+      "poloniex": "SOL"
+    },
+    "prices": {
+      "bybit_spot": 0.002144,
+      "okex": 0.002147,
+      "mxc": 0.002147,
+      "bitget": 0.002146,
+      "gate": 0.002146,
+      "huobi": 0.002132,
+      "bitmart": 0.002135,
+      "xt": 0.002147,
+      "poloniex": 0.002222
+    },
+    "spreads": {
+      "bybit_spot": 0.5628517823639774859287054409,
+      "okex": 0.7035647279549718574108818011,
+      "mxc": 0.7035647279549718574108818011,
+      "bitget": 0.6566604127579737335834896811,
+      "gate": 0.6566604127579737335834896811,
+      "huobi": 0,
+      "bitmart": 0.1407129455909943714821763602,
+      "xt": 0.7035647279549718574108818011,
+      "poloniex": 4.2213883677298311444652908068
+    },
+    "liquidity": null,
+    "fdv": null,
+    "capitalization": null,
+    "isDepositAllowed": {
+      "bybit_spot": true,
+      "okex": true,
+      "mxc": true,
+      "bitget": true,
+      "huobi": true,
+      "bitmart": true,
+      "gate": true,
+      "xt": true,
+      "poloniex": true
+    },
+    "isWithdrawAllowed": {
+      "bybit_spot": true,
+      "okex": true,
+      "mxc": true,
+      "bitget": true,
+      "huobi": true,
+      "bitmart": true,
+      "gate": true,
+      "xt": true,
+      "poloniex": true
+    }
+  },
+  {
+    "baseContract": "9PR7nCP9DpcUotnDPVLUBUZKu5WAYkwrCUx9wDnSpump",
+    "targetContract": "Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB",
+    "chain": "SOL",
+    "targetCoin": "USDT",
+    "isChainsConflict": false,
+    "symbol": {
+      "bybit_spot": "BANUSDT",
+      "mxc": "BANUSDT",
+      "bitget": "BANUSDT",
+      "huobi": "banusdt",
+      "bitmart": "BAN-SOL_USDT",
+      "gate": "BAN_USDT",
+      "xt": "ban_USDT",
+      "poloniex": "BAN_USDT"
+    },
+    "baseCoin": {
+      "bybit_spot": "BAN",
+      "mxc": "BAN",
+      "bitget": "BAN",
+      "huobi": "ban",
+      "bitmart": "BAN-SOL",
+      "gate": "BAN",
+      "xt": "ban",
+      "poloniex": "BAN"
+    },
+    "chains": null,
+    "commitedChains": {
+      "bybit_spot": "SOL",
+      "mxc": "SOL",
+      "bitget": "SOL",
+      "huobi": "SOLANA",
+      "bitmart": "SOL",
+      "gate": "BAN",
+      "xt": "SOL-SOL",
+      "poloniex": "SOL"
+    },
+    "parsedChains": {
+      "bybit_spot": "SOL",
+      "mxc": "SOL",
+      "bitget": "SOL",
+      "huobi": "SOL",
+      "bitmart": "SOL",
+      "gate": "SOL",
+      "xt": "SOL",
+      "poloniex": "SOL"
+    },
+    "prices": {
+      "bybit_spot": 0.04799,
+      "mxc": 0.04801,
+      "bitget": 0.0479,
+      "gate": 0.04784,
+      "huobi": 0.04796,
+      "xt": 0.04809,
+      "poloniex": 0.04632
+    },
+    "spreads": {
+      "bybit_spot": 3.6053540587219343696027633851,
+      "mxc": 3.6485319516407599309153713299,
+      "bitget": 3.4110535405872193436960276339,
+      "gate": 3.2815198618307426597582037997,
+      "huobi": 3.540587219343696027633851468,
+      "xt": 3.8212435233160621761658031088,
+      "poloniex": 0
+    },
+    "liquidity": null,
+    "fdv": null,
+    "capitalization": null,
+    "isDepositAllowed": {
+      "bybit_spot": true,
+      "mxc": true,
+      "bitget": true,
+      "huobi": true,
+      "bitmart": true,
+      "gate": true,
+      "xt": true,
+      "poloniex": true
+    },
+    "isWithdrawAllowed": {
+      "bybit_spot": true,
+      "mxc": true,
+      "bitget": true,
+      "huobi": true,
+      "bitmart": true,
+      "gate": true,
+      "xt": true,
+      "poloniex": true
+    }
+  },
+  {
+    "baseContract": "hntyVP6YFm1Hg25TN9WGLqM12b8TQmcknKrdu1oxWux",
+    "targetContract": "Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB",
+    "chain": "SOL",
+    "targetCoin": "USDT",
+    "isChainsConflict": false,
+    "symbol": {
+      "bybit_spot": "HNTUSDT",
+      "mxc": "HNTUSDT",
+      "bitget": "HNTUSDT",
+      "bitmart": "HNT_USDT",
+      "gate": "HNT_USDT",
+      "xt": "hnt_USDT",
+      "poloniex": "HNT_USDT"
+    },
+    "baseCoin": {
+      "bybit_spot": "HNT",
+      "mxc": "HNT",
+      "bitget": "HNT",
+      "bitmart": "HNT",
+      "gate": "HNT",
+      "xt": "hnt",
+      "poloniex": "HNT"
+    },
+    "chains": null,
+    "commitedChains": {
+      "bybit_spot": "SOL",
+      "mxc": "SOL",
+      "bitget": "SOL",
+      "bitmart": "SOL",
+      "gate": "HNT",
+      "xt": "SOL-SOL",
+      "poloniex": "SOL"
+    },
+    "parsedChains": {
+      "bybit_spot": "SOL",
+      "mxc": "SOL",
+      "bitget": "SOL",
+      "bitmart": "SOL",
+      "gate": "SOL",
+      "xt": "SOL",
+      "poloniex": "SOL"
+    },
+    "prices": {
+      "bybit_spot": 2.61,
+      "mxc": 2.591,
+      "bitget": 2.608,
+      "gate": 2.61,
+      "bitmart": 2.5972,
+      "xt": 2.610,
+      "poloniex": 2.68
+    },
+    "spreads": {
+      "bybit_spot": 0.733307603241991509069857198,
+      "mxc": 0,
+      "bitget": 0.6561173292165187186414511772,
+      "gate": 0.733307603241991509069857198,
+      "bitmart": 0.2392898494789656503280586646,
+      "xt": 0.733307603241991509069857198,
+      "poloniex": 3.4349671941335391740640679274
+    },
+    "liquidity": null,
+    "fdv": null,
+    "capitalization": null,
+    "isDepositAllowed": {
+      "bybit_spot": true,
+      "mxc": true,
+      "bitget": true,
+      "bitmart": true,
+      "gate": true,
+      "xt": true,
+      "poloniex": true
+    },
+    "isWithdrawAllowed": {
+      "bybit_spot": true,
+      "mxc": true,
+      "bitget": true,
+      "bitmart": true,
+      "gate": true,
+      "xt": true,
+      "poloniex": true
+    }
+  },
+  {
+    "baseContract": "NYANpAp9Cr7YarBNrby7Xx4xU6No6JKTBuohNA3yscP",
+    "targetContract": "Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB",
+    "chain": "SOL",
+    "targetCoin": "USDT",
+    "isChainsConflict": false,
+    "symbol": {
+      "bybit_spot": "NYANUSDT",
+      "mxc": "NYANUSDT",
+      "bitget": "NYANUSDT",
+      "huobi": "nyanusdt",
+      "bitmart": "NYAN_USDT",
+      "gate": "NYAN_USDT"
+    },
+    "baseCoin": {
+      "bybit_spot": "NYAN",
+      "mxc": "NYAN",
+      "bitget": "NYAN",
+      "huobi": "nyan",
+      "bitmart": "NYAN",
+      "gate": "NYAN"
+    },
+    "chains": null,
+    "commitedChains": {
+      "bybit_spot": "SOL",
+      "mxc": "SOL",
+      "bitget": "SOL",
+      "huobi": "SOLANA",
+      "bitmart": "SOL",
+      "gate": "NYAN"
+    },
+    "parsedChains": {
+      "bybit_spot": "SOL",
+      "mxc": "SOL",
+      "bitget": "SOL",
+      "huobi": "SOL",
+      "bitmart": "SOL",
+      "gate": "SOL"
+    },
+    "prices": {
+      "bybit_spot": 0.01764,
+      "mxc": 0.01765,
+      "gate": 0.0182,
+      "huobi": 0.0177,
+      "bitmart": 0.0176
+    },
+    "spreads": {
+      "bybit_spot": 0.2272727272727272727272727273,
+      "mxc": 0.2840909090909090909090909091,
+      "gate": 3.4090909090909090909090909091,
+      "huobi": 0.5681818181818181818181818182,
+      "bitmart": 0
+    },
+    "liquidity": null,
+    "fdv": null,
+    "capitalization": null,
+    "isDepositAllowed": {
+      "bybit_spot": true,
+      "mxc": true,
+      "bitget": true,
+      "huobi": true,
+      "bitmart": true,
+      "gate": true
+    },
+    "isWithdrawAllowed": {
+      "bybit_spot": true,
+      "mxc": true,
+      "bitget": true,
+      "huobi": true,
+      "bitmart": true,
+      "gate": true
+    }
+  },
+  {
+    "baseContract": "rndrizKT3MK1iimdxRdWabcF7Zg7AR5T4nud4EkHBof",
+    "targetContract": "Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB",
+    "chain": "SOL",
+    "targetCoin": "USDT",
+    "isChainsConflict": false,
+    "symbol": {
+      "bybit_spot": "RENDERUSDT",
+      "okex": "RENDER-USDT",
+      "mxc": "RENDERUSDT",
+      "bitget": "RENDERUSDT",
+      "huobi": "renderusdt",
+      "bitmart": "RENDER_USDT",
+      "gate": "RENDER_USDT",
+      "xt": "render_USDT",
+      "poloniex": "RENDER_USDT"
+    },
+    "baseCoin": {
+      "bybit_spot": "RENDER",
+      "okex": "RENDER",
+      "mxc": "RENDER",
+      "bitget": "RENDER",
+      "huobi": "render",
+      "bitmart": "RENDER",
+      "gate": "RENDER",
+      "xt": "render",
+      "poloniex": "RENDER"
+    },
+    "chains": null,
+    "commitedChains": {
+      "bybit_spot": "SOL",
+      "okex": "RENDER-Solana",
+      "mxc": "SOL",
+      "bitget": "SOL",
+      "huobi": "SPL",
+      "bitmart": "SOL",
+      "gate": "RENDER",
+      "xt": "SOL-SOL",
+      "poloniex": "SOL"
+    },
+    "parsedChains": {
+      "bybit_spot": "SOL",
+      "okex": "SOL",
+      "mxc": "SOL",
+      "bitget": "SOL",
+      "huobi": "SOL",
+      "bitmart": "SOL",
+      "gate": "SOL",
+      "xt": "SOL",
+      "poloniex": "SOL"
+    },
+    "prices": {
+      "bybit_spot": 2.967,
+      "okex": 2.967,
+      "mxc": 2.964,
+      "bitget": 2.966,
+      "gate": 2.963,
+      "huobi": 2.9662,
+      "bitmart": 2.950,
+      "xt": 2.968,
+      "poloniex": 3.0101
+    },
+    "spreads": {
+      "bybit_spot": 0.5762711864406779661016949153,
+      "okex": 0.5762711864406779661016949153,
+      "mxc": 0.4745762711864406779661016949,
+      "bitget": 0.5423728813559322033898305085,
+      "gate": 0.4406779661016949152542372881,
+      "huobi": 0.5491525423728813559322033898,
+      "bitmart": 0,
+      "xt": 0.610169491525423728813559322,
+      "poloniex": 2.0372881355932203389830508475
+    },
+    "liquidity": null,
+    "fdv": null,
+    "capitalization": null,
+    "isDepositAllowed": {
+      "bybit_spot": true,
+      "okex": true,
+      "mxc": true,
+      "bitget": true,
+      "huobi": true,
+      "bitmart": true,
+      "gate": true,
+      "xt": true,
+      "poloniex": true
+    },
+    "isWithdrawAllowed": {
+      "bybit_spot": true,
+      "okex": true,
+      "mxc": true,
+      "bitget": true,
+      "huobi": true,
+      "bitmart": true,
+      "gate": true,
+      "xt": true,
+      "poloniex": true
+    }
+  },
+  {
+    "baseContract": "6p6xgHyF7AeE6TZkSmFsko444wqoP15icUSqi2jfGiPN",
+    "targetContract": "Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB",
+    "chain": "SOL",
+    "targetCoin": "USDT",
+    "isChainsConflict": false,
+    "symbol": {
+      "bybit_spot": "TRUMPUSDT",
+      "okex": "TRUMP-USDT",
+      "mxc": "TRUMPUSDT",
+      "bitget": "TRUMPUSDT",
+      "huobi": "trumpusdt",
+      "bitmart": "TRUMP-SOL_USDT",
+      "gate": "TRUMP_USDT",
+      "xt": "trump_USDT",
+      "poloniex": "TRUMPSOL_USDT"
+    },
+    "baseCoin": {
+      "bybit_spot": "TRUMP",
+      "okex": "TRUMP",
+      "mxc": "TRUMP",
+      "bitget": "TRUMP",
+      "huobi": "trump",
+      "bitmart": "TRUMP-SOL",
+      "gate": "TRUMP",
+      "xt": "trump",
+      "poloniex": "TRUMPSOL"
+    },
+    "chains": null,
+    "commitedChains": {
+      "bybit_spot": "SOL",
+      "okex": "TRUMP-Solana",
+      "mxc": "SOL",
+      "bitget": "SOL",
+      "huobi": "SOLANA",
+      "bitmart": "SOL",
+      "gate": "TRUMP",
+      "xt": "SOL-SOL",
+      "poloniex": "SOL"
+    },
+    "parsedChains": {
+      "bybit_spot": "SOL",
+      "okex": "SOL",
+      "mxc": "SOL",
+      "bitget": "SOL",
+      "huobi": "SOL",
+      "bitmart": "SOL",
+      "gate": "SOL",
+      "xt": "SOL",
+      "poloniex": "SOL"
+    },
+    "prices": {
+      "bybit_spot": 7.93,
+      "okex": 7.931,
+      "mxc": 7.928,
+      "bitget": 7.928,
+      "gate": 7.929,
+      "huobi": 7.9272,
+      "xt": 7.93,
+      "poloniex": 7.78
+    },
+    "spreads": {
+      "bybit_spot": 1.9280205655526992287917737789,
+      "okex": 1.9408740359897172236503856041,
+      "mxc": 1.9023136246786632390745501285,
+      "bitget": 1.9023136246786632390745501285,
+      "gate": 1.9151670951156812339331619537,
+      "huobi": 1.8920308483290488431876606684,
+      "xt": 1.9280205655526992287917737789,
+      "poloniex": 0
+    },
+    "liquidity": null,
+    "fdv": null,
+    "capitalization": null,
+    "isDepositAllowed": {
+      "bybit_spot": true,
+      "okex": true,
+      "mxc": true,
+      "bitget": true,
+      "huobi": true,
+      "bitmart": true,
+      "gate": true,
+      "xt": true,
+      "poloniex": true
+    },
+    "isWithdrawAllowed": {
+      "bybit_spot": true,
+      "okex": true,
+      "mxc": true,
+      "bitget": true,
+      "huobi": true,
+      "bitmart": true,
+      "gate": true,
+      "xt": true,
+      "poloniex": true
+    }
+  },
+  {
+    "baseContract": "EKpQGSJtjMFqKZ9KQanSqYXRcF8fBopzLHYxdM65zcjm",
+    "targetContract": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+    "chain": "SOL",
+    "targetCoin": "USDC",
+    "isChainsConflict": false,
+    "symbol": {
+      "bybit_spot": "WIFUSDC",
+      "okex": "WIF-USDC",
+      "mxc": "WIFUSDC",
+      "bitget": "WIFUSDC",
+      "huobi": "wifusdc",
+      "bitmart": "WIF_USDC",
+      "gate": "WIF_USDC",
+      "xt": "wif_USDC",
+      "poloniex": "WIF_USDC"
+    },
+    "baseCoin": {
+      "bybit_spot": "WIF",
+      "okex": "WIF",
+      "mxc": "WIF",
+      "bitget": "WIF",
+      "huobi": "wif",
+      "bitmart": "WIF",
+      "gate": "WIF",
+      "xt": "wif",
+      "poloniex": "WIF"
+    },
+    "chains": null,
+    "commitedChains": {
+      "bybit_spot": "SOL",
+      "okex": "WIF-Solana",
+      "mxc": "SOL",
+      "bitget": "SOL",
+      "huobi": "SOLANA",
+      "bitmart": "SOL",
+      "gate": "WIF",
+      "xt": "SOL-SOL",
+      "poloniex": "SOL"
+    },
+    "parsedChains": {
+      "bybit_spot": "SOL",
+      "okex": "SOL",
+      "mxc": "SOL",
+      "bitget": "SOL",
+      "huobi": "SOL",
+      "bitmart": "SOL",
+      "gate": "SOL",
+      "xt": "SOL",
+      "poloniex": "SOL"
+    },
+    "prices": {
+      "bybit_spot": 0.344,
+      "okex": 0.3504,
+      "gate": 0.346
+    },
+    "spreads": {
+      "bybit_spot": 0,
+      "okex": 1.8604651162790697674418604651,
+      "gate": 0.5813953488372093023255813953
+    },
+    "liquidity": null,
+    "fdv": null,
+    "capitalization": null,
+    "isDepositAllowed": {
+      "bybit_spot": true,
+      "okex": true,
+      "mxc": true,
+      "bitget": true,
+      "huobi": true,
+      "bitmart": true,
+      "gate": true,
+      "xt": true,
+      "poloniex": true
+    },
+    "isWithdrawAllowed": {
+      "bybit_spot": true,
+      "okex": true,
+      "mxc": true,
+      "bitget": true,
+      "huobi": true,
+      "bitmart": true,
+      "gate": true,
+      "xt": true,
+      "poloniex": true
+    }
+  },
+  {
+    "baseContract": "DezXAZ8z7PnrnRJjz3wXBoRgixCa6xjnB7YaB1pPB263",
+    "targetContract": "Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB",
+    "chain": "SOL",
+    "targetCoin": "USDT",
+    "isChainsConflict": false,
+    "symbol": {
+      "bybit_spot": "BONKUSDT",
+      "okex": "BONK-USDT",
+      "mxc": "BONKUSDT",
+      "bitget": "BONKUSDT",
+      "huobi": "bonkusdt",
+      "bitmart": "BONK_USDT",
+      "gate": "BONK_USDT",
+      "xt": "bonk_USDT",
+      "poloniex": "BONK_USDT"
+    },
+    "baseCoin": {
+      "bybit_spot": "BONK",
+      "okex": "BONK",
+      "mxc": "BONK",
+      "bitget": "BONK",
+      "huobi": "bonk",
+      "bitmart": "BONK",
+      "gate": "BONK",
+      "xt": "bonk",
+      "poloniex": "BONK"
+    },
+    "chains": null,
+    "commitedChains": {
+      "bybit_spot": "SOL",
+      "okex": "BONK-Solana",
+      "mxc": "SOL",
+      "bitget": "SOL",
+      "huobi": "SOLANA",
+      "bitmart": "SOL",
+      "gate": "BONK",
+      "xt": "SOL-SOL",
+      "poloniex": "SOL"
+    },
+    "parsedChains": {
+      "bybit_spot": "SOL",
+      "okex": "SOL",
+      "mxc": "SOL",
+      "bitget": "SOL",
+      "huobi": "SOL",
+      "bitmart": "SOL",
+      "gate": "SOL",
+      "xt": "SOL",
+      "poloniex": "SOL"
+    },
+    "prices": {
+      "bybit_spot": 0.00001023,
+      "okex": 0.0000102,
+      "mxc": 0.00001024,
+      "bitget": 0.00001024,
+      "gate": 0.00001022,
+      "huobi": 0.0000102335,
+      "bitmart": 0.0000101900,
+      "xt": 0.00001023,
+      "poloniex": 0.000010059
+    },
+    "spreads": {
+      "bybit_spot": 1.6999701759618252311362958545,
+      "okex": 1.4017297942141365940948404414,
+      "mxc": 1.7993836365443881101501143255,
+      "bitget": 1.7993836365443881101501143255,
+      "gate": 1.6005567153792623521224773834,
+      "huobi": 1.7347648871657222387911323193,
+      "bitmart": 1.3023163336315737150810219704,
+      "xt": 1.6999701759618252311362958545,
+      "poloniex": 0
+    },
+    "liquidity": null,
+    "fdv": null,
+    "capitalization": null,
+    "isDepositAllowed": {
+      "bybit_spot": true,
+      "okex": true,
+      "mxc": true,
+      "bitget": true,
+      "huobi": true,
+      "bitmart": true,
+      "gate": true,
+      "xt": true,
+      "poloniex": true
+    },
+    "isWithdrawAllowed": {
+      "bybit_spot": true,
+      "okex": true,
+      "mxc": true,
+      "bitget": true,
+      "huobi": true,
+      "bitmart": true,
+      "gate": true,
+      "xt": true,
+      "poloniex": true
+    }
+  },
+  {
+    "baseContract": "7i5KKsX2weiTkry7jA4ZwSuXGhs5eJBEjY8vVxR4pfRx",
+    "targetContract": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+    "chain": "SOL",
+    "targetCoin": "USDC",
+    "isChainsConflict": false,
+    "symbol": {
+      "bybit_spot": "GMTUSDC",
+      "okex": "GMT-USDC",
+      "mxc": "STEPNUSDC",
+      "bitget": "GMTUSDC",
+      "huobi": "gmtusdc",
+      "bitmart": "GMT_USDC",
+      "gate": "GMT_USDC",
+      "xt": "gmt_USDC",
+      "poloniex": "GMT_USDC"
+    },
+    "baseCoin": {
+      "bybit_spot": "GMT",
+      "okex": "GMT",
+      "mxc": "STEPN",
+      "bitget": "GMT",
+      "huobi": "gmt",
+      "bitmart": "GMT",
+      "gate": "GMT",
+      "xt": "gmt",
+      "poloniex": "GMT"
+    },
+    "chains": null,
+    "commitedChains": {
+      "bybit_spot": "SOL",
+      "okex": "GMT-Solana",
+      "mxc": "SOL",
+      "bitget": "SOL",
+      "huobi": "SOLANA",
+      "bitmart": "SOL",
+      "gate": "GMT",
+      "xt": "SOL-SOL",
+      "poloniex": "SOL"
+    },
+    "parsedChains": {
+      "bybit_spot": "SOL",
+      "okex": "SOL",
+      "mxc": "SOL",
+      "bitget": "SOL",
+      "huobi": "SOL",
+      "bitmart": "SOL",
+      "gate": "SOL",
+      "xt": "SOL",
+      "poloniex": "SOL"
+    },
+    "prices": {
+      "bybit_spot": 0.0406,
+      "okex": 0.04108
+    },
+    "spreads": {
+      "bybit_spot": 0,
+      "okex": 1.1822660098522167487684729064
+    },
+    "liquidity": null,
+    "fdv": null,
+    "capitalization": null,
+    "isDepositAllowed": {
+      "bybit_spot": true,
+      "okex": true,
+      "mxc": true,
+      "bitget": true,
+      "huobi": true,
+      "bitmart": true,
+      "gate": true,
+      "xt": true,
+      "poloniex": true
+    },
+    "isWithdrawAllowed": {
+      "bybit_spot": false,
+      "okex": true,
+      "mxc": false,
+      "bitget": true,
+      "huobi": true,
+      "bitmart": true,
+      "gate": true,
+      "xt": true,
+      "poloniex": true
+    }
+  },
+  {
+    "baseContract": "ukHH6c7mMyiWCf1b9pnWe25TSpkDDt3H5pQZgZ74J82",
+    "targetContract": "Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB",
+    "chain": "SOL",
+    "targetCoin": "USDT",
+    "isChainsConflict": false,
+    "symbol": {
+      "bybit_spot": "BOMEUSDT",
+      "okex": "BOME-USDT",
+      "mxc": "BOMEUSDT",
+      "bitget": "BOMEUSDT",
+      "huobi": "bomeusdt",
+      "bitmart": "BOME_USDT",
+      "gate": "BOME_USDT",
+      "xt": "bome_USDT",
+      "poloniex": "BOME_USDT"
+    },
+    "baseCoin": {
+      "bybit_spot": "BOME",
+      "okex": "BOME",
+      "mxc": "BOME",
+      "bitget": "BOME",
+      "huobi": "bome",
+      "bitmart": "BOME",
+      "gate": "BOME",
+      "xt": "bome",
+      "poloniex": "BOME"
+    },
+    "chains": null,
+    "commitedChains": {
+      "bybit_spot": "SOL",
+      "okex": "BOME-Solana",
+      "mxc": "SOL",
+      "bitget": "SOL",
+      "huobi": "SOLANA",
+      "bitmart": "SOL",
+      "gate": "BOME",
+      "xt": "SOL-SOL",
+      "poloniex": "SOL"
+    },
+    "parsedChains": {
+      "bybit_spot": "SOL",
+      "okex": "SOL",
+      "mxc": "SOL",
+      "bitget": "SOL",
+      "huobi": "SOL",
+      "bitmart": "SOL",
+      "gate": "SOL",
+      "xt": "SOL",
+      "poloniex": "SOL"
+    },
+    "prices": {
+      "bybit_spot": 0.00104,
+      "okex": 0.00104,
+      "mxc": 0.001043,
+      "bitget": 0.001042,
+      "gate": 0.0010423,
+      "huobi": 0.001031,
+      "bitmart": 0.001040,
+      "xt": 0.001041,
+      "poloniex": 0.0010368
+    },
+    "spreads": {
+      "bybit_spot": 0.8729388942774005819592628516,
+      "okex": 0.8729388942774005819592628516,
+      "mxc": 1.1639185257032007759456838021,
+      "bitget": 1.0669253152279340446168768186,
+      "gate": 1.0960232783705140640155189137,
+      "huobi": 0,
+      "bitmart": 0.8729388942774005819592628516,
+      "xt": 0.9699321047526673132880698351,
+      "poloniex": 0.5625606207565470417070805044
+    },
+    "liquidity": null,
+    "fdv": null,
+    "capitalization": null,
+    "isDepositAllowed": {
+      "bybit_spot": true,
+      "okex": true,
+      "mxc": true,
+      "bitget": true,
+      "huobi": true,
+      "bitmart": true,
+      "gate": true,
+      "xt": true,
+      "poloniex": true
+    },
+    "isWithdrawAllowed": {
+      "bybit_spot": true,
+      "okex": true,
+      "mxc": true,
+      "bitget": true,
+      "huobi": true,
+      "bitmart": true,
+      "gate": true,
+      "xt": true,
+      "poloniex": true
+    }
+  },
+  {
+    "baseContract": "jtojtomepa8beP8AuQc6eXt5FriJwfFMwQx2v2f9mCL",
+    "targetContract": "Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB",
+    "chain": "SOL",
+    "targetCoin": "USDT",
+    "isChainsConflict": false,
+    "symbol": {
+      "bybit_spot": "JTOUSDT",
+      "okex": "JTO-USDT",
+      "mxc": "JTOUSDT",
+      "bitget": "JTOUSDT",
+      "huobi": "jtousdt",
+      "bitmart": "JTO_USDT",
+      "gate": "JTO_USDT",
+      "xt": "jto_USDT",
+      "poloniex": "JTO_USDT"
+    },
+    "baseCoin": {
+      "bybit_spot": "JTO",
+      "okex": "JTO",
+      "mxc": "JTO",
+      "bitget": "JTO",
+      "huobi": "jto",
+      "bitmart": "JTO",
+      "gate": "JTO",
+      "xt": "jto",
+      "poloniex": "JTO"
+    },
+    "chains": null,
+    "commitedChains": {
+      "bybit_spot": "SOL",
+      "okex": "JTO-Solana",
+      "mxc": "SOL",
+      "bitget": "SOL",
+      "huobi": "SOLANA",
+      "bitmart": "SOL",
+      "gate": "JTO",
+      "xt": "SOL-SOL",
+      "poloniex": "SOL"
+    },
+    "parsedChains": {
+      "bybit_spot": "SOL",
+      "okex": "SOL",
+      "mxc": "SOL",
+      "bitget": "SOL",
+      "huobi": "SOL",
+      "bitmart": "SOL",
+      "gate": "SOL",
+      "xt": "SOL",
+      "poloniex": "SOL"
+    },
+    "prices": {
+      "bybit_spot": 1.593,
+      "okex": 1.597,
+      "mxc": 1.595,
+      "bitget": 1.585,
+      "gate": 1.595,
+      "huobi": 1.5954,
+      "bitmart": 1.5910,
+      "xt": 1.593,
+      "poloniex": 1.579
+    },
+    "spreads": {
+      "bybit_spot": 0.8866371120962634578847371754,
+      "okex": 1.1399620012666244458518049398,
+      "mxc": 1.0132995566814439518682710576,
+      "bitget": 0.3799873337555414819506016466,
+      "gate": 1.0132995566814439518682710576,
+      "huobi": 1.0386320455984800506649778341,
+      "bitmart": 0.7599746675110829639012032932,
+      "xt": 0.8866371120962634578847371754,
+      "poloniex": 0
+    },
+    "liquidity": null,
+    "fdv": null,
+    "capitalization": null,
+    "isDepositAllowed": {
+      "bybit_spot": true,
+      "okex": true,
+      "mxc": true,
+      "bitget": true,
+      "huobi": true,
+      "bitmart": true,
+      "gate": true,
+      "xt": true,
+      "poloniex": true
+    },
+    "isWithdrawAllowed": {
+      "bybit_spot": true,
+      "okex": true,
+      "mxc": true,
+      "bitget": true,
+      "huobi": true,
+      "bitmart": true,
+      "gate": true,
+      "xt": true,
+      "poloniex": true
+    }
+  },
+  {
+    "baseContract": "HHjoYwUp5aU6pnrvN4s2pwEErwXNZKhxKGYjRJMoBjLw",
+    "targetContract": "Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB",
+    "chain": "SOL",
+    "targetCoin": "USDT",
+    "isChainsConflict": false,
+    "symbol": {
+      "bybit_spot": "PIPUSDT",
+      "mxc": "PIPUSDT",
+      "bitget": "PIPUSDT",
+      "gate": "PIP_USDT"
+    },
+    "baseCoin": {
+      "bybit_spot": "PIP",
+      "mxc": "PIP",
+      "bitget": "PIP",
+      "gate": "PIP"
+    },
+    "chains": null,
+    "commitedChains": {
+      "bybit_spot": "SOL",
+      "mxc": "SOL",
+      "bitget": "SOL",
+      "gate": "PIP"
+    },
+    "parsedChains": {
+      "bybit_spot": "SOL",
+      "mxc": "SOL",
+      "bitget": "SOL",
+      "gate": "SOL"
+    },
+    "prices": {
+      "bybit_spot": 0.00354,
+      "mxc": 0.00356,
+      "gate": 0.00352
+    },
+    "spreads": {
+      "bybit_spot": 0.5681818181818181818181818182,
+      "mxc": 1.1363636363636363636363636364,
+      "gate": 0
+    },
+    "liquidity": null,
+    "fdv": null,
+    "capitalization": null,
+    "isDepositAllowed": {
+      "bybit_spot": true,
+      "mxc": true,
+      "bitget": false,
+      "gate": true
+    },
+    "isWithdrawAllowed": {
+      "bybit_spot": true,
+      "mxc": true,
+      "bitget": true,
+      "gate": true
+    }
+  },
+  {
+    "baseContract": "BZLbGTNCSFfoth2GYDtwr7e4imWzpR5jqcUuGEwr646K",
+    "targetContract": "Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB",
+    "chain": "SOL",
+    "targetCoin": "USDT",
+    "isChainsConflict": false,
+    "symbol": {
+      "bybit_spot": "IOUSDT",
+      "mxc": "IOUSDT",
+      "bitget": "IOUSDT",
+      "huobi": "iousdt",
+      "bitmart": "IO_USDT",
+      "gate": "IO_USDT",
+      "xt": "io_USDT"
+    },
+    "baseCoin": {
+      "bybit_spot": "IO",
+      "mxc": "IO",
+      "bitget": "IO",
+      "huobi": "io",
+      "bitmart": "IO",
+      "gate": "IO",
+      "xt": "io"
+    },
+    "chains": null,
+    "commitedChains": {
+      "bybit_spot": "SOL",
+      "mxc": "SOL",
+      "bitget": "SOL",
+      "huobi": "SOLANA",
+      "bitmart": "SOL",
+      "gate": "IO",
+      "xt": "SOL-SOL"
+    },
+    "parsedChains": {
+      "bybit_spot": "SOL",
+      "mxc": "SOL",
+      "bitget": "SOL",
+      "huobi": "SOL",
+      "bitmart": "SOL",
+      "gate": "SOL",
+      "xt": "SOL"
+    },
+    "prices": {
+      "bybit_spot": 0.583,
+      "mxc": 0.585,
+      "bitget": 0.584,
+      "gate": 0.584,
+      "huobi": 0.5845,
+      "bitmart": 0.579,
+      "xt": 0.584
+    },
+    "spreads": {
+      "bybit_spot": 0.6908462867012089810017271157,
+      "mxc": 1.0362694300518134715025906736,
+      "bitget": 0.8635578583765112262521588946,
+      "gate": 0.8635578583765112262521588946,
+      "huobi": 0.9499136442141623488773747841,
+      "bitmart": 0,
+      "xt": 0.8635578583765112262521588946
+    },
+    "liquidity": null,
+    "fdv": null,
+    "capitalization": null,
+    "isDepositAllowed": {
+      "bybit_spot": true,
+      "mxc": true,
+      "bitget": true,
+      "huobi": true,
+      "bitmart": true,
+      "gate": true,
+      "xt": true
+    },
+    "isWithdrawAllowed": {
+      "bybit_spot": true,
+      "mxc": true,
+      "bitget": true,
+      "huobi": true,
+      "bitmart": true,
+      "gate": true,
+      "xt": true
+    }
+  },
+  {
+    "baseContract": "2zMMhcVQEXDtdE6vsFS7S7D5oUodfJHE8vd1gnBouauv",
+    "targetContract": "Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB",
+    "chain": "SOL",
+    "targetCoin": "USDT",
+    "isChainsConflict": false,
+    "symbol": {
+      "bybit_spot": "PENGUUSDT",
+      "okex": "PENGU-USDT",
+      "mxc": "PENGUUSDT",
+      "bitget": "PENGUUSDT",
+      "huobi": "penguusdt",
+      "bitmart": "PENGU-SOL_USDT",
+      "gate": "PENGU_USDT",
+      "xt": "pengu_USDT"
+    },
+    "baseCoin": {
+      "bybit_spot": "PENGU",
+      "okex": "PENGU",
+      "mxc": "PENGU",
+      "bitget": "PENGU",
+      "huobi": "pengu",
+      "bitmart": "PENGU-SOL",
+      "gate": "PENGU",
+      "xt": "pengu"
+    },
+    "chains": null,
+    "commitedChains": {
+      "bybit_spot": "SOL",
+      "okex": "PENGU-Solana",
+      "mxc": "SOL",
+      "bitget": "SOL",
+      "huobi": "SOLANA",
+      "bitmart": "SOL",
+      "gate": "PENGU",
+      "xt": "SOL-SOL"
+    },
+    "parsedChains": {
+      "bybit_spot": "SOL",
+      "okex": "SOL",
+      "mxc": "SOL",
+      "bitget": "SOL",
+      "huobi": "SOL",
+      "bitmart": "SOL",
+      "gate": "SOL",
+      "xt": "SOL"
+    },
+    "prices": {
+      "bybit_spot": 0.00422,
+      "okex": 0.00422,
+      "mxc": 0.004217,
+      "bitget": 0.004177,
+      "gate": 0.004218,
+      "huobi": 0.00421,
+      "xt": 0.004219
+    },
+    "spreads": {
+      "bybit_spot": 1.0294469715106535791237730429,
+      "okex": 1.0294469715106535791237730429,
+      "mxc": 0.9576250897773521666267656213,
+      "bitget": 0,
+      "gate": 0.9815657170217859707924347618,
+      "huobi": 0.7900406990663155374670816375,
+      "xt": 1.0055063442662197749581039023
+    },
+    "liquidity": null,
+    "fdv": null,
+    "capitalization": null,
+    "isDepositAllowed": {
+      "bybit_spot": true,
+      "okex": true,
+      "mxc": true,
+      "bitget": true,
+      "huobi": true,
+      "bitmart": true,
+      "gate": true,
+      "xt": true
+    },
+    "isWithdrawAllowed": {
+      "bybit_spot": true,
+      "okex": true,
+      "mxc": true,
+      "bitget": true,
+      "huobi": true,
+      "bitmart": true,
+      "gate": true,
+      "xt": true
+    }
+  },
+  {
+    "baseContract": "MEFNBXixkEbait3xn9bkm8WsJzXtVsaJEn4c8Sam21u",
+    "targetContract": "Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB",
+    "chain": "SOL",
+    "targetCoin": "USDT",
+    "isChainsConflict": false,
+    "symbol": {
+      "bybit_spot": "MEUSDT",
+      "okex": "ME-USDT",
+      "mxc": "MEUSDT",
+      "bitget": "MEUSDT",
+      "huobi": "meusdt",
+      "bitmart": "ME-SOL_USDT",
+      "gate": "ME_USDT",
+      "xt": "me_USDT"
+    },
+    "baseCoin": {
+      "bybit_spot": "ME",
+      "okex": "ME",
+      "mxc": "ME",
+      "bitget": "ME",
+      "huobi": "me",
+      "bitmart": "ME-SOL",
+      "gate": "ME",
+      "xt": "me"
+    },
+    "chains": null,
+    "commitedChains": {
+      "bybit_spot": "SOL",
+      "okex": "ME-Solana",
+      "mxc": "SOL",
+      "bitget": "SOL",
+      "huobi": "SOLANA",
+      "bitmart": "SOL",
+      "gate": "ME",
+      "xt": "SOL-SOL"
+    },
+    "parsedChains": {
+      "bybit_spot": "SOL",
+      "okex": "SOL",
+      "mxc": "SOL",
+      "bitget": "SOL",
+      "huobi": "SOL",
+      "bitmart": "SOL",
+      "gate": "SOL",
+      "xt": "SOL"
+    },
+    "prices": {
+      "bybit_spot": 0.821,
+      "okex": 0.821,
+      "mxc": 0.8208,
+      "bitget": 0.8228,
+      "gate": 0.8212,
+      "huobi": 0.8147,
+      "xt": 0.821
+    },
+    "spreads": {
+      "bybit_spot": 0.7732907818829016816005891739,
+      "okex": 0.7732907818829016816005891739,
+      "mxc": 0.7487418681723333742481895176,
+      "bitget": 0.9942310052780164477721860808,
+      "gate": 0.7978396955934699889529888302,
+      "huobi": 0,
+      "xt": 0.7732907818829016816005891739
+    },
+    "liquidity": null,
+    "fdv": null,
+    "capitalization": null,
+    "isDepositAllowed": {
+      "bybit_spot": true,
+      "okex": true,
+      "mxc": true,
+      "bitget": true,
+      "huobi": true,
+      "bitmart": true,
+      "gate": true,
+      "xt": true
+    },
+    "isWithdrawAllowed": {
+      "bybit_spot": true,
+      "okex": true,
+      "mxc": true,
+      "bitget": true,
+      "huobi": true,
+      "bitmart": true,
+      "gate": true,
+      "xt": true
+    }
+  },
+  {
+    "baseContract": "DezXAZ8z7PnrnRJjz3wXBoRgixCa6xjnB7YaB1pPB263",
+    "targetContract": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+    "chain": "SOL",
+    "targetCoin": "USDC",
+    "isChainsConflict": false,
+    "symbol": {
+      "bybit_spot": "BONKUSDC",
+      "okex": "BONK-USDC",
+      "mxc": "BONKUSDC",
+      "bitget": "BONKUSDC",
+      "huobi": "bonkusdc",
+      "bitmart": "BONK_USDC",
+      "gate": "BONK_USDC",
+      "xt": "bonk_USDC",
+      "poloniex": "BONK_USDC"
+    },
+    "baseCoin": {
+      "bybit_spot": "BONK",
+      "okex": "BONK",
+      "mxc": "BONK",
+      "bitget": "BONK",
+      "huobi": "bonk",
+      "bitmart": "BONK",
+      "gate": "BONK",
+      "xt": "bonk",
+      "poloniex": "BONK"
+    },
+    "chains": null,
+    "commitedChains": {
+      "bybit_spot": "SOL",
+      "okex": "BONK-Solana",
+      "mxc": "SOL",
+      "bitget": "SOL",
+      "huobi": "SOLANA",
+      "bitmart": "SOL",
+      "gate": "BONK",
+      "xt": "SOL-SOL",
+      "poloniex": "SOL"
+    },
+    "parsedChains": {
+      "bybit_spot": "SOL",
+      "okex": "SOL",
+      "mxc": "SOL",
+      "bitget": "SOL",
+      "huobi": "SOL",
+      "bitmart": "SOL",
+      "gate": "SOL",
+      "xt": "SOL",
+      "poloniex": "SOL"
+    },
+    "prices": {
+      "bybit_spot": 0.00001019,
+      "okex": 0.000010152,
+      "gate": 0.00001012
+    },
+    "spreads": {
+      "bybit_spot": 0.69169960474308300395256917,
+      "okex": 0.3162055335968379446640316206,
+      "gate": 0
+    },
+    "liquidity": null,
+    "fdv": null,
+    "capitalization": null,
+    "isDepositAllowed": {
+      "bybit_spot": true,
+      "okex": true,
+      "mxc": true,
+      "bitget": true,
+      "huobi": true,
+      "bitmart": true,
+      "gate": true,
+      "xt": true,
+      "poloniex": true
+    },
+    "isWithdrawAllowed": {
+      "bybit_spot": true,
+      "okex": true,
+      "mxc": true,
+      "bitget": true,
+      "huobi": true,
+      "bitmart": true,
+      "gate": true,
+      "xt": true,
+      "poloniex": true
+    }
+  },
+  {
+    "baseContract": "6p6xgHyF7AeE6TZkSmFsko444wqoP15icUSqi2jfGiPN",
+    "targetContract": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+    "chain": "SOL",
+    "targetCoin": "USDC",
+    "isChainsConflict": false,
+    "symbol": {
+      "bybit_spot": "TRUMPUSDC",
+      "okex": "TRUMP-USDC",
+      "mxc": "TRUMPUSDC",
+      "bitget": "TRUMPUSDC",
+      "huobi": "trumpusdc",
+      "bitmart": "TRUMP-SOL_USDC",
+      "gate": "TRUMP_USDC",
+      "xt": "trump_USDC",
+      "poloniex": "TRUMPSOL_USDC"
+    },
+    "baseCoin": {
+      "bybit_spot": "TRUMP",
+      "okex": "TRUMP",
+      "mxc": "TRUMP",
+      "bitget": "TRUMP",
+      "huobi": "trump",
+      "bitmart": "TRUMP-SOL",
+      "gate": "TRUMP",
+      "xt": "trump",
+      "poloniex": "TRUMPSOL"
+    },
+    "chains": null,
+    "commitedChains": {
+      "bybit_spot": "SOL",
+      "okex": "TRUMP-Solana",
+      "mxc": "SOL",
+      "bitget": "SOL",
+      "huobi": "SOLANA",
+      "bitmart": "SOL",
+      "gate": "TRUMP",
+      "xt": "SOL-SOL",
+      "poloniex": "SOL"
+    },
+    "parsedChains": {
+      "bybit_spot": "SOL",
+      "okex": "SOL",
+      "mxc": "SOL",
+      "bitget": "SOL",
+      "huobi": "SOL",
+      "bitmart": "SOL",
+      "gate": "SOL",
+      "xt": "SOL",
+      "poloniex": "SOL"
+    },
+    "prices": {
+      "bybit_spot": 7.88,
+      "mxc": 7.93,
+      "bitget": 7.912
+    },
+    "spreads": {
+      "bybit_spot": 0,
+      "mxc": 0.6345177664974619289340101523,
+      "bitget": 0.4060913705583756345177664975
+    },
+    "liquidity": null,
+    "fdv": null,
+    "capitalization": null,
+    "isDepositAllowed": {
+      "bybit_spot": true,
+      "okex": true,
+      "mxc": true,
+      "bitget": true,
+      "huobi": true,
+      "bitmart": true,
+      "gate": true,
+      "xt": true,
+      "poloniex": true
+    },
+    "isWithdrawAllowed": {
+      "bybit_spot": true,
+      "okex": true,
+      "mxc": true,
+      "bitget": true,
+      "huobi": true,
+      "bitmart": true,
+      "gate": true,
+      "xt": true,
+      "poloniex": true
+    }
+  },
+  {
+    "baseContract": "4LLbsb5ReP3yEtYzmXewyGjcir5uXtKFURtaEUVC2AHs",
+    "targetContract": "Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB",
+    "chain": "SOL",
+    "targetCoin": "USDT",
+    "isChainsConflict": false,
+    "symbol": {
+      "bybit_spot": "PRCLUSDT",
+      "okex": "PRCL-USDT",
+      "mxc": "PRCLUSDT",
+      "bitget": "PRCLUSDT",
+      "huobi": "prclusdt",
+      "bitmart": "PRCL_USDT",
+      "gate": "PRCL_USDT",
+      "xt": "prcl_USDT"
+    },
+    "baseCoin": {
+      "bybit_spot": "PRCL",
+      "okex": "PRCL",
+      "mxc": "PRCL",
+      "bitget": "PRCL",
+      "huobi": "prcl",
+      "bitmart": "PRCL",
+      "gate": "PRCL",
+      "xt": "prcl"
+    },
+    "chains": null,
+    "commitedChains": {
+      "bybit_spot": "SOL",
+      "okex": "PRCL-Solana",
+      "mxc": "SOL",
+      "bitget": "SOL",
+      "huobi": "SOLANA",
+      "bitmart": "SOL",
+      "gate": "PRCL",
+      "xt": "SOL-SOL"
+    },
+    "parsedChains": {
+      "bybit_spot": "SOL",
+      "okex": "SOL",
+      "mxc": "SOL",
+      "bitget": "SOL",
+      "huobi": "SOL",
+      "bitmart": "SOL",
+      "gate": "SOL",
+      "xt": "SOL"
+    },
+    "prices": {
+      "bybit_spot": 0.0592,
+      "okex": 0.05918,
+      "mxc": 0.05908,
+      "bitget": 0.0593,
+      "gate": 0.0592,
+      "huobi": 0.0591,
+      "bitmart": 0.059,
+      "xt": 0.0592
+    },
+    "spreads": {
+      "bybit_spot": 0.3389830508474576271186440678,
+      "okex": 0.305084745762711864406779661,
+      "mxc": 0.1355932203389830508474576271,
+      "bitget": 0.5084745762711864406779661017,
+      "gate": 0.3389830508474576271186440678,
+      "huobi": 0.1694915254237288135593220339,
+      "bitmart": 0,
+      "xt": 0.3389830508474576271186440678
+    },
+    "liquidity": null,
+    "fdv": null,
+    "capitalization": null,
+    "isDepositAllowed": {
+      "bybit_spot": true,
+      "okex": true,
+      "mxc": true,
+      "bitget": true,
+      "huobi": true,
+      "bitmart": true,
+      "gate": true,
+      "xt": true
+    },
+    "isWithdrawAllowed": {
+      "bybit_spot": true,
+      "okex": true,
+      "mxc": true,
+      "bitget": true,
+      "huobi": true,
+      "bitmart": true,
+      "gate": true,
+      "xt": true
+    }
+  },
+  {
+    "baseContract": "SarosY6Vscao718M4A778z4CGtvcwcGef5M9MEH1LGL",
+    "targetContract": "Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB",
+    "chain": "SOL",
+    "targetCoin": "USDT",
+    "isChainsConflict": false,
+    "symbol": {
+      "bybit_spot": "SAROSUSDT",
+      "mxc": "SAROSUSDT",
+      "bitget": "SAROSUSDT",
+      "huobi": "sarosusdt",
+      "gate": "SAROS_USDT"
+    },
+    "baseCoin": {
+      "bybit_spot": "SAROS",
+      "mxc": "SAROS",
+      "bitget": "SAROS",
+      "huobi": "saros",
+      "gate": "SAROS"
+    },
+    "chains": null,
+    "commitedChains": {
+      "bybit_spot": "SOL",
+      "mxc": "SOL",
+      "bitget": "SOL",
+      "huobi": "SOLANA",
+      "gate": "SAROS"
+    },
+    "parsedChains": {
+      "bybit_spot": "SOL",
+      "mxc": "SOL",
+      "bitget": "SOL",
+      "huobi": "SOL",
+      "gate": "SOL"
+    },
+    "prices": {
+      "bybit_spot": 0.155277,
+      "mxc": 0.155174,
+      "bitget": 0.155676,
+      "gate": 0.154906,
+      "huobi": 0.155266
+    },
+    "spreads": {
+      "bybit_spot": 0.2395000839218622906795088634,
+      "mxc": 0.1730081468761700644261681278,
+      "bitget": 0.4970756458755632448065278298,
+      "gate": 0,
+      "huobi": 0.2323990032664971014679870373
+    },
+    "liquidity": null,
+    "fdv": null,
+    "capitalization": null,
+    "isDepositAllowed": {
+      "bybit_spot": true,
+      "mxc": true,
+      "bitget": true,
+      "huobi": true,
+      "gate": true
+    },
+    "isWithdrawAllowed": {
+      "bybit_spot": true,
+      "mxc": true,
+      "bitget": true,
+      "huobi": true,
+      "gate": true
+    }
+  },
+  {
+    "baseContract": "HZ1JovNiVvGrGNiiYvEozEVgZ58xaU3RKwX8eACQBCt3",
+    "targetContract": "Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB",
+    "chain": "SOL",
+    "targetCoin": "USDT",
+    "isChainsConflict": false,
+    "symbol": {
+      "bybit_spot": "PYTHUSDT",
+      "okex": "PYTH-USDT",
+      "mxc": "PYTHUSDT",
+      "bitget": "PYTHUSDT",
+      "huobi": "pythusdt",
+      "bitmart": "PYTH_USDT",
+      "gate": "PYTH_USDT",
+      "xt": "pyth_USDT"
+    },
+    "baseCoin": {
+      "bybit_spot": "PYTH",
+      "okex": "PYTH",
+      "mxc": "PYTH",
+      "bitget": "PYTH",
+      "huobi": "pyth",
+      "bitmart": "PYTH",
+      "gate": "PYTH",
+      "xt": "pyth"
+    },
+    "chains": null,
+    "commitedChains": {
+      "bybit_spot": "SOL",
+      "okex": "PYTH-Solana",
+      "mxc": "SOL",
+      "bitget": "SOL",
+      "huobi": "SOLANA",
+      "bitmart": "SOL",
+      "gate": "PYTH",
+      "xt": "SOL-SOL"
+    },
+    "parsedChains": {
+      "bybit_spot": "SOL",
+      "okex": "SOL",
+      "mxc": "SOL",
+      "bitget": "SOL",
+      "huobi": "SOL",
+      "bitmart": "SOL",
+      "gate": "SOL",
+      "xt": "SOL"
+    },
+    "prices": {
+      "bybit_spot": 0.1215,
+      "okex": 0.1215,
+      "mxc": 0.1214,
+      "bitget": 0.1213,
+      "gate": 0.1214,
+      "huobi": 0.121413,
+      "bitmart": 0.12090,
+      "xt": 0.1215
+    },
+    "spreads": {
+      "bybit_spot": 0.4962779156327543424317617866,
+      "okex": 0.4962779156327543424317617866,
+      "mxc": 0.4135649296939619520264681555,
+      "bitget": 0.3308519437551695616211745244,
+      "gate": 0.4135649296939619520264681555,
+      "huobi": 0.4243176178660049627791563275,
+      "bitmart": 0,
+      "xt": 0.4962779156327543424317617866
+    },
+    "liquidity": null,
+    "fdv": null,
+    "capitalization": null,
+    "isDepositAllowed": {
+      "bybit_spot": true,
+      "okex": true,
+      "mxc": true,
+      "bitget": true,
+      "huobi": true,
+      "bitmart": true,
+      "gate": true,
+      "xt": true
+    },
+    "isWithdrawAllowed": {
+      "bybit_spot": true,
+      "okex": true,
+      "mxc": true,
+      "bitget": true,
+      "huobi": true,
+      "bitmart": true,
+      "gate": true,
+      "xt": true
+    }
+  },
+  {
+    "baseContract": "C7DpniLsJBFEZvt6SnS5Ac8tdwuxCW4T3mS1JrfntDdX",
+    "targetContract": "Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB",
+    "chain": "SOL",
+    "targetCoin": "USDT",
+    "isChainsConflict": false,
+    "symbol": {
+      "bybit_spot": "N3USDT",
+      "mxc": "N3USDT",
+      "gate": "N3_USDT"
+    },
+    "baseCoin": {
+      "bybit_spot": "N3",
+      "mxc": "N3",
+      "gate": "N3"
+    },
+    "chains": null,
+    "commitedChains": {
+      "bybit_spot": "SOL",
+      "mxc": "SOL",
+      "gate": "N3"
+    },
+    "parsedChains": {
+      "bybit_spot": "SOL",
+      "mxc": "SOL",
+      "gate": "SOL"
+    },
+    "prices": {
+      "bybit_spot": 0.00291,
+      "mxc": 0.002904,
+      "gate": 0.002896
+    },
+    "spreads": {
+      "bybit_spot": 0.4834254143646408839779005525,
+      "mxc": 0.2762430939226519337016574586,
+      "gate": 0
+    },
+    "liquidity": null,
+    "fdv": null,
+    "capitalization": null,
+    "isDepositAllowed": {
+      "bybit_spot": true,
+      "mxc": true,
+      "gate": true
+    },
+    "isWithdrawAllowed": {
+      "bybit_spot": true,
+      "mxc": true,
+      "gate": true
+    }
+  },
+  {
+    "baseContract": "Jambjx1oJoZNBZiqbiF9TqgatEZPdyfvYa9WVsKNzUh",
+    "targetContract": "Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB",
+    "chain": "SOL",
+    "targetCoin": "USDT",
+    "isChainsConflict": false,
+    "symbol": {
+      "bybit_spot": "JUSDT",
+      "okex": "J-USDT",
+      "mxc": "JUSDT",
+      "bitget": "JUSDT",
+      "bitmart": "J-SOL_USDT",
+      "gate": "J_USDT",
+      "xt": "j_USDT"
+    },
+    "baseCoin": {
+      "bybit_spot": "J",
+      "okex": "J",
+      "mxc": "J",
+      "bitget": "J",
+      "bitmart": "J-SOL",
+      "gate": "J",
+      "xt": "j"
+    },
+    "chains": null,
+    "commitedChains": {
+      "bybit_spot": "SOL",
+      "okex": "J-Solana",
+      "mxc": "SOL",
+      "bitget": "SOL",
+      "bitmart": "SOL",
+      "gate": "J",
+      "xt": "SOL-SOL"
+    },
+    "parsedChains": {
+      "bybit_spot": "SOL",
+      "okex": "SOL",
+      "mxc": "SOL",
+      "bitget": "SOL",
+      "bitmart": "SOL",
+      "gate": "SOL",
+      "xt": "SOL"
+    },
+    "prices": {
+      "bybit_spot": 0.1964,
+      "okex": 0.196,
+      "mxc": 0.1962,
+      "bitget": 0.1955,
+      "gate": 0.1963,
+      "xt": 0.1960
+    },
+    "spreads": {
+      "bybit_spot": 0.4603580562659846547314578005,
+      "okex": 0.2557544757033248081841432225,
+      "mxc": 0.3580562659846547314578005115,
+      "bitget": 0,
+      "gate": 0.409207161125319693094629156,
+      "xt": 0.2557544757033248081841432225
+    },
+    "liquidity": null,
+    "fdv": null,
+    "capitalization": null,
+    "isDepositAllowed": {
+      "bybit_spot": true,
+      "okex": true,
+      "mxc": true,
+      "bitget": true,
+      "bitmart": true,
+      "gate": true,
+      "xt": true
+    },
+    "isWithdrawAllowed": {
+      "bybit_spot": true,
+      "okex": true,
+      "mxc": true,
+      "bitget": true,
+      "bitmart": true,
+      "gate": true,
+      "xt": true
+    }
+  },
+  {
+    "baseContract": "CLoUDKc4Ane7HeQcPpE3YHnznRxhMimJ4MyaUqyHFzAu",
+    "targetContract": "Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB",
+    "chain": "SOL",
+    "targetCoin": "USDT",
+    "isChainsConflict": false,
+    "symbol": {
+      "bybit_spot": "CLOUDUSDT",
+      "mxc": "CLOUDUSDT",
+      "bitget": "CLOUDUSDT",
+      "bitmart": "CLOUD_USDT",
+      "gate": "CLOUD_USDT",
+      "xt": "cloud_USDT"
+    },
+    "baseCoin": {
+      "bybit_spot": "CLOUD",
+      "mxc": "CLOUD",
+      "bitget": "CLOUD",
+      "bitmart": "CLOUD",
+      "gate": "CLOUD",
+      "xt": "cloud"
+    },
+    "chains": null,
+    "commitedChains": {
+      "bybit_spot": "SOL",
+      "mxc": "SOL",
+      "bitget": "SOL",
+      "bitmart": "SOL",
+      "gate": "CLOUD",
+      "xt": "SOL-SOL"
+    },
+    "parsedChains": {
+      "bybit_spot": "SOL",
+      "mxc": "SOL",
+      "bitget": "SOL",
+      "bitmart": "SOL",
+      "gate": "SOL",
+      "xt": "SOL"
+    },
+    "prices": {
+      "bybit_spot": 0.07399,
+      "mxc": 0.07401,
+      "bitget": 0.0739,
+      "gate": 0.07405,
+      "bitmart": 0.0742,
+      "xt": 0.0741
+    },
+    "spreads": {
+      "bybit_spot": 0.1217861975642760487144790257,
+      "mxc": 0.1488497970230040595399188092,
+      "bitget": 0,
+      "gate": 0.2029769959404600811907983762,
+      "bitmart": 0.4059539918809201623815967524,
+      "xt": 0.2706359945872801082543978349
+    },
+    "liquidity": null,
+    "fdv": null,
+    "capitalization": null,
+    "isDepositAllowed": {
+      "bybit_spot": true,
+      "mxc": true,
+      "bitget": true,
+      "bitmart": true,
+      "gate": true,
+      "xt": true
+    },
+    "isWithdrawAllowed": {
+      "bybit_spot": true,
+      "mxc": true,
+      "bitget": true,
+      "bitmart": true,
+      "gate": true,
+      "xt": true
+    }
+  },
+  {
+    "baseContract": "5cbq1HriesW4zHpFEk9Gc8UT4ccmfHcBTDCa2XcBduTo",
+    "targetContract": "Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB",
+    "chain": "SOL",
+    "targetCoin": "USDT",
+    "isChainsConflict": false,
+    "symbol": {
+      "bybit_spot": "ELIXUSDT",
+      "mxc": "ELIXUSDT",
+      "gate": "ELIX_USDT"
+    },
+    "baseCoin": {
+      "bybit_spot": "ELIX",
+      "mxc": "ELIX",
+      "gate": "ELIX"
+    },
+    "chains": null,
+    "commitedChains": {
+      "bybit_spot": "SOL",
+      "mxc": "SOL",
+      "gate": "ELIX"
+    },
+    "parsedChains": {
+      "bybit_spot": "SOL",
+      "mxc": "SOL",
+      "gate": "SOL"
+    },
+    "prices": {
+      "bybit_spot": 0.004203,
+      "mxc": 0.004196,
+      "gate": 0.00419
+    },
+    "spreads": {
+      "bybit_spot": 0.3102625298329355608591885442,
+      "mxc": 0.1431980906921241050119331742,
+      "gate": 0
+    },
+    "liquidity": null,
+    "fdv": null,
+    "capitalization": null,
+    "isDepositAllowed": {
+      "bybit_spot": true,
+      "mxc": true,
+      "gate": true
+    },
+    "isWithdrawAllowed": {
+      "bybit_spot": true,
+      "mxc": true,
+      "gate": true
+    }
+  },
+  {
+    "baseContract": "STREAMribRwybYpMmSYoCsQUdr6MZNXEqHgm7p1gu9M",
+    "targetContract": "Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB",
+    "chain": "SOL",
+    "targetCoin": "USDT",
+    "isChainsConflict": false,
+    "symbol": {
+      "bybit_spot": "STREAMUSDT",
+      "mxc": "STREAMUSDT",
+      "gate": "STREAM_USDT"
+    },
+    "baseCoin": {
+      "bybit_spot": "STREAM",
+      "mxc": "STREAM",
+      "gate": "STREAM"
+    },
+    "chains": null,
+    "commitedChains": {
+      "bybit_spot": "SOL",
+      "mxc": "SOL",
+      "gate": "STREAM"
+    },
+    "parsedChains": {
+      "bybit_spot": "SOL",
+      "mxc": "SOL",
+      "gate": "SOL"
+    },
+    "prices": {
+      "bybit_spot": 0.05514,
+      "mxc": 0.05511,
+      "gate": 0.05527
+    },
+    "spreads": {
+      "bybit_spot": 0.0544365813826891671203048449,
+      "mxc": 0,
+      "gate": 0.2903284340410088913082925059
+    },
+    "liquidity": null,
+    "fdv": null,
+    "capitalization": null,
+    "isDepositAllowed": {
+      "bybit_spot": true,
+      "mxc": true,
+      "gate": true
+    },
+    "isWithdrawAllowed": {
+      "bybit_spot": true,
+      "mxc": true,
+      "gate": true
+    }
+  },
+  {
+    "baseContract": "FQgtfugBdpFN7PZ6NdPrZpVLDBrPGxXesi4gVu3vErhY",
+    "targetContract": "Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB",
+    "chain": "SOL",
+    "targetCoin": "USDT",
+    "isChainsConflict": false,
+    "symbol": {
+      "bybit_spot": "BMTUSDT",
+      "mxc": "BMTUSDT",
+      "bitget": "BMTUSDT",
+      "bitmart": "BMT-SOL_USDT",
+      "gate": "BMT_USDT",
+      "xt": "bmtsol_USDT"
+    },
+    "baseCoin": {
+      "bybit_spot": "BMT",
+      "mxc": "BMT",
+      "bitget": "BMT",
+      "bitmart": "BMT-SOL",
+      "gate": "BMT",
+      "xt": "bmtsol"
+    },
+    "chains": null,
+    "commitedChains": {
+      "bybit_spot": "SOL",
+      "mxc": "SOL",
+      "bitget": "SOL",
+      "bitmart": "SOL",
+      "gate": "BMT",
+      "xt": "SOL-SOL"
+    },
+    "parsedChains": {
+      "bybit_spot": "SOL",
+      "mxc": "SOL",
+      "bitget": "SOL",
+      "bitmart": "SOL",
+      "gate": "SOL",
+      "xt": "SOL"
+    },
+    "prices": {
+      "bybit_spot": 0.085,
+      "mxc": 0.08514,
+      "bitget": 0.08504,
+      "gate": 0.0849,
+      "xt": 0.0850
+    },
+    "spreads": {
+      "bybit_spot": 0.117785630153121319199057715,
+      "mxc": 0.2826855123674911660777385159,
+      "bitget": 0.1648998822143698468786808009,
+      "gate": 0,
+      "xt": 0.117785630153121319199057715
+    },
+    "liquidity": null,
+    "fdv": null,
+    "capitalization": null,
+    "isDepositAllowed": {
+      "bybit_spot": true,
+      "mxc": true,
+      "bitget": true,
+      "bitmart": true,
+      "gate": true,
+      "xt": true
+    },
+    "isWithdrawAllowed": {
+      "bybit_spot": true,
+      "mxc": true,
+      "bitget": true,
+      "bitmart": true,
+      "gate": true,
+      "xt": true
+    }
+  },
+  {
+    "baseContract": "METAewgxyPbgwsseH8T16a39CQ5VyVxZi9zXiDPY18m",
+    "targetContract": "Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB",
+    "chain": "SOL",
+    "targetCoin": "USDT",
+    "isChainsConflict": false,
+    "symbol": {
+      "bybit_spot": "MPLXUSDT",
+      "mxc": "MPLXUSDT",
+      "huobi": "mplxusdt",
+      "bitmart": "MPLX_USDT",
+      "gate": "MPLX_USDT",
+      "xt": "mplx_USDT"
+    },
+    "baseCoin": {
+      "bybit_spot": "MPLX",
+      "mxc": "MPLX",
+      "huobi": "mplx",
+      "bitmart": "MPLX",
+      "gate": "MPLX",
+      "xt": "mplx"
+    },
+    "chains": null,
+    "commitedChains": {
+      "bybit_spot": "SOL",
+      "mxc": "SOL",
+      "huobi": "SOLANA",
+      "bitmart": "SOL",
+      "gate": "MPLX",
+      "xt": "SOL-SOL"
+    },
+    "parsedChains": {
+      "bybit_spot": "SOL",
+      "mxc": "SOL",
+      "huobi": "SOL",
+      "bitmart": "SOL",
+      "gate": "SOL",
+      "xt": "SOL"
+    },
+    "prices": {
+      "bybit_spot": 0.16067,
+      "mxc": 0.1604,
+      "gate": 0.1608,
+      "huobi": 0.1605,
+      "xt": 0.16080
+    },
+    "spreads": {
+      "bybit_spot": 0.1683291770573566084788029925,
+      "mxc": 0,
+      "gate": 0.2493765586034912718204488778,
+      "huobi": 0.0623441396508728179551122195,
+      "xt": 0.2493765586034912718204488778
+    },
+    "liquidity": null,
+    "fdv": null,
+    "capitalization": null,
+    "isDepositAllowed": {
+      "bybit_spot": true,
+      "mxc": true,
+      "huobi": true,
+      "bitmart": false,
+      "gate": true,
+      "xt": true
+    },
+    "isWithdrawAllowed": {
+      "bybit_spot": true,
+      "mxc": true,
+      "huobi": true,
+      "bitmart": false,
+      "gate": true,
+      "xt": true
+    }
+  },
+  {
+    "baseContract": "ZEXy1pqteRu3n13kdyh4LwPQknkFk3GzmMYMuNadWPo",
+    "targetContract": "Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB",
+    "chain": "SOL",
+    "targetCoin": "USDT",
+    "isChainsConflict": false,
+    "symbol": {
+      "bybit_spot": "ZEXUSDT",
+      "mxc": "ZEXUSDT",
+      "bitmart": "ZEX_USDT",
+      "gate": "ZEX_USDT"
+    },
+    "baseCoin": {
+      "bybit_spot": "ZEX",
+      "mxc": "ZEX",
+      "bitmart": "ZEX",
+      "gate": "ZEX"
+    },
+    "chains": null,
+    "commitedChains": {
+      "bybit_spot": "SOL",
+      "mxc": "SOL",
+      "bitmart": "SOL",
+      "gate": "ZEX"
+    },
+    "parsedChains": {
+      "bybit_spot": "SOL",
+      "mxc": "SOL",
+      "bitmart": "SOL",
+      "gate": "SOL"
+    },
+    "prices": {
+      "bybit_spot": 0.02471,
+      "mxc": 0.0247,
+      "gate": 0.02465,
+      "bitmart": 0.0247
+    },
+    "spreads": {
+      "bybit_spot": 0.2434077079107505070993914807,
+      "mxc": 0.2028397565922920892494929006,
+      "gate": 0,
+      "bitmart": 0.2028397565922920892494929006
+    },
+    "liquidity": null,
+    "fdv": null,
+    "capitalization": null,
+    "isDepositAllowed": {
+      "bybit_spot": true,
+      "mxc": true,
+      "bitmart": true,
+      "gate": true
+    },
+    "isWithdrawAllowed": {
+      "bybit_spot": true,
+      "mxc": true,
+      "bitmart": true,
+      "gate": true
+    }
+  },
+  {
+    "baseContract": "Hax9LTgsQkze1YFychnBLtFH8gYbQKtKfWKKg2SP6gdD",
+    "targetContract": "Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB",
+    "chain": "SOL",
+    "targetCoin": "USDT",
+    "isChainsConflict": false,
+    "symbol": {
+      "bybit_spot": "TAIUSDT",
+      "mxc": "TAIUSDT",
+      "bitmart": "TAI-SOL_USDT",
+      "gate": "TAI_USDT"
+    },
+    "baseCoin": {
+      "bybit_spot": "TAI",
+      "mxc": "TAI",
+      "bitmart": "TAI-SOL",
+      "gate": "TAI"
+    },
+    "chains": null,
+    "commitedChains": {
+      "bybit_spot": "SOL",
+      "mxc": "SOL",
+      "bitmart": "SOL",
+      "gate": "TAI"
+    },
+    "parsedChains": {
+      "bybit_spot": "SOL",
+      "mxc": "SOL",
+      "bitmart": "SOL",
+      "gate": "SOL"
+    },
+    "prices": {
+      "bybit_spot": 0.03525,
+      "mxc": 0.03521,
+      "gate": 0.03529
+    },
+    "spreads": {
+      "bybit_spot": 0.1136040897472309003124112468,
+      "mxc": 0,
+      "gate": 0.2272081794944618006248224936
+    },
+    "liquidity": null,
+    "fdv": null,
+    "capitalization": null,
+    "isDepositAllowed": {
+      "bybit_spot": true,
+      "mxc": true,
+      "bitmart": true,
+      "gate": true
+    },
+    "isWithdrawAllowed": {
+      "bybit_spot": true,
+      "mxc": true,
+      "bitmart": true,
+      "gate": true
+    }
+  },
+  {
+    "baseContract": "5mdBkZ4dTP94SE7PyiuWseTDAd1kYxSk6oYaWB7186s7",
+    "targetContract": "Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB",
+    "chain": "SOL",
+    "targetCoin": "USDT",
+    "isChainsConflict": false,
+    "symbol": {
+      "bybit_spot": "BRAWLUSDT",
+      "mxc": "BRAWLUSDT",
+      "gate": "BRAWL_USDT"
+    },
+    "baseCoin": {
+      "bybit_spot": "BRAWL",
+      "mxc": "BRAWL",
+      "gate": "BRAWL"
+    },
+    "chains": null,
+    "commitedChains": {
+      "bybit_spot": "SOL",
+      "mxc": "SOL",
+      "gate": "BRAWL"
+    },
+    "parsedChains": {
+      "bybit_spot": "SOL",
+      "mxc": "SOL",
+      "gate": "SOL"
+    },
+    "prices": {
+      "bybit_spot": 0.0000897,
+      "mxc": 0.0000896,
+      "gate": 0.0000895
+    },
+    "spreads": {
+      "bybit_spot": 0.2234636871508379888268156425,
+      "mxc": 0.1117318435754189944134078212,
+      "gate": 0
+    },
+    "liquidity": null,
+    "fdv": null,
+    "capitalization": null,
+    "isDepositAllowed": {
+      "bybit_spot": true,
+      "mxc": true,
+      "gate": true
+    },
+    "isWithdrawAllowed": {
+      "bybit_spot": true,
+      "mxc": true,
+      "gate": true
+    }
+  },
+  {
+    "baseContract": "NeonTjSjsuo3rexg9o6vHuMXw62f9V7zvmu8M8Zut44",
+    "targetContract": "Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB",
+    "chain": "SOL",
+    "targetCoin": "USDT",
+    "isChainsConflict": false,
+    "symbol": {
+      "bybit_spot": "NEONUSDT",
+      "mxc": "NEONUSDT",
+      "bitmart": "NEON_USDT",
+      "gate": "NEON_USDT",
+      "xt": "neon_USDT"
+    },
+    "baseCoin": {
+      "bybit_spot": "NEON",
+      "mxc": "NEON",
+      "bitmart": "NEON",
+      "gate": "NEON",
+      "xt": "neon"
+    },
+    "chains": null,
+    "commitedChains": {
+      "bybit_spot": "SOL",
+      "mxc": "SOL",
+      "bitmart": "SOL",
+      "gate": "NEON",
+      "xt": "SOL-SOL"
+    },
+    "parsedChains": {
+      "bybit_spot": "SOL",
+      "mxc": "SOL",
+      "bitmart": "SOL",
+      "gate": "SOL",
+      "xt": "SOL"
+    },
+    "prices": {
+      "bybit_spot": 0.10272,
+      "mxc": 0.1029,
+      "gate": 0.1027,
+      "bitmart": 0.1027,
+      "xt": 0.1027
+    },
+    "spreads": {
+      "bybit_spot": 0.0194741966893865628042843233,
+      "mxc": 0.1947419668938656280428432327,
+      "gate": 0,
+      "bitmart": 0,
+      "xt": 0
+    },
+    "liquidity": null,
+    "fdv": null,
+    "capitalization": null,
+    "isDepositAllowed": {
+      "bybit_spot": true,
+      "mxc": true,
+      "bitmart": true,
+      "gate": true,
+      "xt": true
+    },
+    "isWithdrawAllowed": {
+      "bybit_spot": true,
+      "mxc": true,
+      "bitmart": true,
+      "gate": true,
+      "xt": true
+    }
+  },
+  {
+    "baseContract": "LAYER4xPpTCb3QL8S9u41EAhAX7mhBn8Q6xMTwY2Yzc",
+    "targetContract": "Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB",
+    "chain": "SOL",
+    "targetCoin": "USDT",
+    "isChainsConflict": false,
+    "symbol": {
+      "bybit_spot": "LAYERUSDT",
+      "mxc": "LAYERUSDT",
+      "bitget": "LAYERUSDT",
+      "huobi": "layerusdt",
+      "bitmart": "LAYER-SOL_USDT",
+      "gate": "LAYER_USDT",
+      "xt": "layer_USDT"
+    },
+    "baseCoin": {
+      "bybit_spot": "LAYER",
+      "mxc": "LAYER",
+      "bitget": "LAYER",
+      "huobi": "layer",
+      "bitmart": "LAYER-SOL",
+      "gate": "LAYER",
+      "xt": "layer"
+    },
+    "chains": null,
+    "commitedChains": {
+      "bybit_spot": "SOL",
+      "mxc": "SOL",
+      "bitget": "SOL",
+      "huobi": "SOLANA",
+      "bitmart": "SOL",
+      "gate": "LAYER",
+      "xt": "SOL-SOL"
+    },
+    "parsedChains": {
+      "bybit_spot": "SOL",
+      "mxc": "SOL",
+      "bitget": "SOL",
+      "huobi": "SOL",
+      "bitmart": "SOL",
+      "gate": "SOL",
+      "xt": "SOL"
+    },
+    "prices": {
+      "bybit_spot": 1.512,
+      "mxc": 1.5146,
+      "bitget": 1.513,
+      "gate": 1.5117,
+      "huobi": 1.5128,
+      "xt": 1.5120
+    },
+    "spreads": {
+      "bybit_spot": 0.0198452073824171462591784084,
+      "mxc": 0.1918370046966990805053912813,
+      "bitget": 0.0859958986571409671231064365,
+      "gate": 0,
+      "huobi": 0.0727657604021962029503208309,
+      "xt": 0.0198452073824171462591784084
+    },
+    "liquidity": null,
+    "fdv": null,
+    "capitalization": null,
+    "isDepositAllowed": {
+      "bybit_spot": true,
+      "mxc": true,
+      "bitget": true,
+      "huobi": true,
+      "bitmart": true,
+      "gate": true,
+      "xt": true
+    },
+    "isWithdrawAllowed": {
+      "bybit_spot": true,
+      "mxc": true,
+      "bitget": true,
+      "huobi": true,
+      "bitmart": true,
+      "gate": true,
+      "xt": true
+    }
+  },
+  {
+    "baseContract": "RoamA1USA8xjvpTJZ6RvvxyDRzNh6GCA1zVGKSiMVkn",
+    "targetContract": "Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB",
+    "chain": "SOL",
+    "targetCoin": "USDT",
+    "isChainsConflict": false,
+    "symbol": {
+      "bybit_spot": "ROAMUSDT",
+      "mxc": "ROAMUSDT",
+      "bitget": "ROAMUSDT",
+      "bitmart": "ROAM-SOL_USDT",
+      "gate": "ROAM_USDT"
+    },
+    "baseCoin": {
+      "bybit_spot": "ROAM",
+      "mxc": "ROAM",
+      "bitget": "ROAM",
+      "bitmart": "ROAM-SOL",
+      "gate": "ROAM"
+    },
+    "chains": null,
+    "commitedChains": {
+      "bybit_spot": "SOL",
+      "mxc": "SOL",
+      "bitget": "SOL",
+      "bitmart": "SOL",
+      "gate": "ROAM"
+    },
+    "parsedChains": {
+      "bybit_spot": "SOL",
+      "mxc": "SOL",
+      "bitget": "SOL",
+      "bitmart": "SOL",
+      "gate": "SOL"
+    },
+    "prices": {
+      "bybit_spot": 0.2057,
+      "mxc": 0.2055,
+      "bitget": 0.2058,
+      "gate": 0.2058
+    },
+    "spreads": {
+      "bybit_spot": 0.0973236009732360097323600973,
+      "mxc": 0,
+      "bitget": 0.145985401459854014598540146,
+      "gate": 0.145985401459854014598540146
+    },
+    "liquidity": null,
+    "fdv": null,
+    "capitalization": null,
+    "isDepositAllowed": {
+      "bybit_spot": true,
+      "mxc": true,
+      "bitget": true,
+      "bitmart": true,
+      "gate": true
+    },
+    "isWithdrawAllowed": {
+      "bybit_spot": true,
+      "mxc": true,
+      "bitget": true,
+      "bitmart": true,
+      "gate": true
+    }
+  },
+  {
+    "baseContract": "DBRiDgJAMsM95moTzJs7M9LnkGErpbv9v6CUR1DXnUu5",
+    "targetContract": "Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB",
+    "chain": "SOL",
+    "targetCoin": "USDT",
+    "isChainsConflict": false,
+    "symbol": {
+      "bybit_spot": "DBRUSDT",
+      "mxc": "DBRUSDT",
+      "bitget": "DBRUSDT",
+      "huobi": "dbrusdt",
+      "bitmart": "DBR-SOL_USDT",
+      "gate": "DBR_USDT"
+    },
+    "baseCoin": {
+      "bybit_spot": "DBR",
+      "mxc": "DBR",
+      "bitget": "DBR",
+      "huobi": "dbr",
+      "bitmart": "DBR-SOL",
+      "gate": "DBR"
+    },
+    "chains": null,
+    "commitedChains": {
+      "bybit_spot": "SOL",
+      "mxc": "SOL",
+      "bitget": "SOL",
+      "huobi": "SOLANA",
+      "bitmart": "SOL",
+      "gate": "DBR"
+    },
+    "parsedChains": {
+      "bybit_spot": "SOL",
+      "mxc": "SOL",
+      "bitget": "SOL",
+      "huobi": "SOL",
+      "bitmart": "SOL",
+      "gate": "SOL"
+    },
+    "prices": {
+      "bybit_spot": 0.02124,
+      "mxc": 0.02123,
+      "bitget": 0.02122,
+      "gate": 0.02123,
+      "huobi": 0.02121
+    },
+    "spreads": {
+      "bybit_spot": 0.1414427157001414427157001414,
+      "mxc": 0.0942951438000942951438000943,
+      "bitget": 0.0471475719000471475719000471,
+      "gate": 0.0942951438000942951438000943,
+      "huobi": 0
+    },
+    "liquidity": null,
+    "fdv": null,
+    "capitalization": null,
+    "isDepositAllowed": {
+      "bybit_spot": true,
+      "mxc": true,
+      "bitget": true,
+      "huobi": true,
+      "bitmart": true,
+      "gate": true
+    },
+    "isWithdrawAllowed": {
+      "bybit_spot": true,
+      "mxc": true,
+      "bitget": true,
+      "huobi": true,
+      "bitmart": true,
+      "gate": true
+    }
+  },
+  {
+    "baseContract": "85VBFQZC9TZkfaptBWjvUw7YbZjy52A6mjtPGjstQAmQ",
+    "targetContract": "Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB",
+    "chain": "SOL",
+    "targetCoin": "USDT",
+    "isChainsConflict": false,
+    "symbol": {
+      "bybit_spot": "WUSDT",
+      "okex": "W-USDT",
+      "mxc": "WUSDT",
+      "bitget": "WUSDT",
+      "huobi": "wusdt",
+      "bitmart": "W_USDT",
+      "gate": "W_USDT",
+      "xt": "w_USDT"
+    },
+    "baseCoin": {
+      "bybit_spot": "W",
+      "okex": "W",
+      "mxc": "W",
+      "bitget": "W",
+      "huobi": "w",
+      "bitmart": "W",
+      "gate": "W",
+      "xt": "w"
+    },
+    "chains": null,
+    "commitedChains": {
+      "bybit_spot": "SOL",
+      "okex": "W-Solana",
+      "mxc": "SOL",
+      "bitget": "SOL",
+      "huobi": "SOLANA",
+      "bitmart": "SOL",
+      "gate": "W",
+      "xt": "SOL-SOL"
+    },
+    "parsedChains": {
+      "bybit_spot": "SOL",
+      "okex": "SOL",
+      "mxc": "SOL",
+      "bitget": "SOL",
+      "huobi": "SOL",
+      "bitmart": "SOL",
+      "gate": "SOL",
+      "xt": "SOL"
+    },
+    "prices": {
+      "bybit_spot": 0.0745,
+      "okex": 0.07457,
+      "mxc": 0.0745,
+      "bitget": 0.0745,
+      "gate": 0.0745,
+      "huobi": 0.0745,
+      "bitmart": 0.0745,
+      "xt": 0.0746
+    },
+    "spreads": {
+      "bybit_spot": 0,
+      "okex": 0.0939597315436241610738255034,
+      "mxc": 0,
+      "bitget": 0,
+      "gate": 0,
+      "huobi": 0,
+      "bitmart": 0,
+      "xt": 0.1342281879194630872483221477
+    },
+    "liquidity": null,
+    "fdv": null,
+    "capitalization": null,
+    "isDepositAllowed": {
+      "bybit_spot": true,
+      "okex": true,
+      "mxc": true,
+      "bitget": true,
+      "huobi": true,
+      "bitmart": true,
+      "gate": true,
+      "xt": true
+    },
+    "isWithdrawAllowed": {
+      "bybit_spot": true,
+      "okex": true,
+      "mxc": true,
+      "bitget": true,
+      "huobi": true,
+      "bitmart": true,
+      "gate": true,
+      "xt": true
+    }
+  },
+  {
+    "baseContract": "HeLp6NuQkmYB4pYWo2zYs22mESHXPQYzXbB8n4V98jwC",
+    "targetContract": "Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB",
+    "chain": "SOL",
+    "targetCoin": "USDT",
+    "isChainsConflict": false,
+    "symbol": {
+      "bybit_spot": "AI16ZUSDT",
+      "mxc": "AI16ZUSDT",
+      "bitget": "AI16ZUSDT",
+      "huobi": "ai16zusdt",
+      "bitmart": "AI16Z-SOL_USDT",
+      "gate": "AI16Z_USDT",
+      "xt": "ai16z_USDT"
+    },
+    "baseCoin": {
+      "bybit_spot": "AI16Z",
+      "mxc": "AI16Z",
+      "bitget": "AI16Z",
+      "huobi": "ai16z",
+      "bitmart": "AI16Z-SOL",
+      "gate": "AI16Z",
+      "xt": "ai16z"
+    },
+    "chains": null,
+    "commitedChains": {
+      "bybit_spot": "SOL",
+      "mxc": "SOL",
+      "bitget": "SOL",
+      "huobi": "SOLANA",
+      "bitmart": "SOL",
+      "gate": "AI16Z",
+      "xt": "SOL-SOL"
+    },
+    "parsedChains": {
+      "bybit_spot": "SOL",
+      "mxc": "SOL",
+      "bitget": "SOL",
+      "huobi": "SOL",
+      "bitmart": "SOL",
+      "gate": "SOL",
+      "xt": "SOL"
+    },
+    "prices": {
+      "bybit_spot": 0.1141,
+      "mxc": 0.114,
+      "bitget": 0.1141,
+      "gate": 0.11415,
+      "huobi": 0.1141,
+      "xt": 0.11415
+    },
+    "spreads": {
+      "bybit_spot": 0.0877192982456140350877192982,
+      "mxc": 0,
+      "bitget": 0.0877192982456140350877192982,
+      "gate": 0.1315789473684210526315789474,
+      "huobi": 0.0877192982456140350877192982,
+      "xt": 0.1315789473684210526315789474
+    },
+    "liquidity": null,
+    "fdv": null,
+    "capitalization": null,
+    "isDepositAllowed": {
+      "bybit_spot": true,
+      "mxc": true,
+      "bitget": true,
+      "huobi": true,
+      "bitmart": true,
+      "gate": true,
+      "xt": true
+    },
+    "isWithdrawAllowed": {
+      "bybit_spot": true,
+      "mxc": true,
+      "bitget": true,
+      "huobi": true,
+      "bitmart": true,
+      "gate": true,
+      "xt": true
+    }
+  },
+  {
+    "baseContract": "SonicxvLud67EceaEzCLRnMTBqzYUUYNr93DBkBdDES",
+    "targetContract": "Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB",
+    "chain": "SOL",
+    "targetCoin": "USDT",
+    "isChainsConflict": false,
+    "symbol": {
+      "bybit_spot": "SONICUSDT",
+      "okex": "SONIC-USDT",
+      "mxc": "SONICUSDT",
+      "bitget": "SONICUSDT",
+      "bitmart": "$SONIC-SOL_USDT",
+      "gate": "SONIC_USDT",
+      "xt": "sonic_USDT"
+    },
+    "baseCoin": {
+      "bybit_spot": "SONIC",
+      "okex": "SONIC",
+      "mxc": "SONIC",
+      "bitget": "SONIC",
+      "bitmart": "$SONIC-SOL",
+      "gate": "SONIC",
+      "xt": "sonic"
+    },
+    "chains": null,
+    "commitedChains": {
+      "bybit_spot": "SOL",
+      "okex": "SONIC-Solana",
+      "mxc": "SOL",
+      "bitget": "SOL",
+      "bitmart": "SOL",
+      "gate": "SONIC",
+      "xt": "SOL-SOL"
+    },
+    "parsedChains": {
+      "bybit_spot": "SOL",
+      "okex": "SOL",
+      "mxc": "SOL",
+      "bitget": "SOL",
+      "bitmart": "SOL",
+      "gate": "SOL",
+      "xt": "SOL"
+    },
+    "prices": {
+      "bybit_spot": 0.19541,
+      "okex": 0.19547,
+      "mxc": 0.19533,
+      "bitget": 0.19529,
+      "gate": 0.19531,
+      "xt": 0.1955
+    },
+    "spreads": {
+      "bybit_spot": 0.0614470787034666393568539096,
+      "okex": 0.0921706180551999590352808644,
+      "mxc": 0.0204823595678222131189513032,
+      "bitget": 0,
+      "gate": 0.0102411797839111065594756516,
+      "xt": 0.1075323877310666188744943417
+    },
+    "liquidity": null,
+    "fdv": null,
+    "capitalization": null,
+    "isDepositAllowed": {
+      "bybit_spot": true,
+      "okex": true,
+      "mxc": true,
+      "bitget": true,
+      "bitmart": true,
+      "gate": true,
+      "xt": true
+    },
+    "isWithdrawAllowed": {
+      "bybit_spot": true,
+      "okex": true,
+      "mxc": true,
+      "bitget": true,
+      "bitmart": true,
+      "gate": true,
+      "xt": true
+    }
+  },
+  {
+    "baseContract": "KMNo3nJsBXfcpJTVhZcXLW7RmTwTt4GVFE7suUBo9sS",
+    "targetContract": "Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB",
+    "chain": "SOL",
+    "targetCoin": "USDT",
+    "isChainsConflict": false,
+    "symbol": {
+      "bybit_spot": "KMNOUSDT",
+      "mxc": "KMNOUSDT",
+      "bitget": "KMNOUSDT",
+      "gate": "KMNO_USDT",
+      "xt": "kmno_USDT"
+    },
+    "baseCoin": {
+      "bybit_spot": "KMNO",
+      "mxc": "KMNO",
+      "bitget": "KMNO",
+      "gate": "KMNO",
+      "xt": "kmno"
+    },
+    "chains": null,
+    "commitedChains": {
+      "bybit_spot": "SOL",
+      "mxc": "SOL",
+      "bitget": "SOL",
+      "gate": "KMNO",
+      "xt": "SOL-SOL"
+    },
+    "parsedChains": {
+      "bybit_spot": "SOL",
+      "mxc": "SOL",
+      "bitget": "SOL",
+      "gate": "SOL",
+      "xt": "SOL"
+    },
+    "prices": {
+      "bybit_spot": 0.04282,
+      "mxc": 0.04279,
+      "bitget": 0.04279,
+      "gate": 0.04281,
+      "xt": 0.04281
+    },
+    "spreads": {
+      "bybit_spot": 0.070109838747370881046973592,
+      "mxc": 0,
+      "bitget": 0,
+      "gate": 0.046739892498247254031315728,
+      "xt": 0.046739892498247254031315728
+    },
+    "liquidity": null,
+    "fdv": null,
+    "capitalization": null,
+    "isDepositAllowed": {
+      "bybit_spot": true,
+      "mxc": true,
+      "bitget": true,
+      "gate": true,
+      "xt": true
+    },
+    "isWithdrawAllowed": {
+      "bybit_spot": true,
+      "mxc": true,
+      "bitget": true,
+      "gate": true,
+      "xt": true
+    }
+  },
+  {
+    "baseContract": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+    "targetContract": "Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB",
+    "chain": "SOL",
+    "targetCoin": "USDT",
+    "isChainsConflict": false,
+    "symbol": {
+      "bybit_spot": "USDCUSDT",
+      "okex": "USDC-USDT",
+      "mxc": "USDCUSDT",
+      "bitget": "USDCUSDT",
+      "huobi": "usdcusdt",
+      "bitmart": "USDC-SPL_USDT",
+      "gate": "USDC_USDT",
+      "xt": "usdc_USDT"
+    },
+    "baseCoin": {
+      "bybit_spot": "USDC",
+      "okex": "USDC",
+      "mxc": "USDC",
+      "bitget": "USDC",
+      "huobi": "usdc",
+      "bitmart": "USDC-SPL",
+      "gate": "USDC",
+      "xt": "usdc"
+    },
+    "chains": null,
+    "commitedChains": {
+      "bybit_spot": "SOL",
+      "okex": "USDC-Solana",
+      "mxc": "SOL",
+      "bitget": "SOL",
+      "huobi": "SOLUSDC",
+      "bitmart": "SOL",
+      "gate": "USDC",
+      "xt": "SOL-SOL"
+    },
+    "parsedChains": {
+      "bybit_spot": "SOL",
+      "okex": "SOL",
+      "mxc": "SOL",
+      "bitget": "SOL",
+      "huobi": "SOL",
+      "bitmart": "SOL",
+      "gate": "SOL",
+      "xt": "SOL"
+    },
+    "prices": {
+      "bybit_spot": 1.0005,
+      "okex": 1.0005,
+      "mxc": 1.0004,
+      "bitget": 1.0004,
+      "gate": 1.0004,
+      "huobi": 1.0005,
+      "xt": 1.0003
+    },
+    "spreads": {
+      "bybit_spot": 0.0199940017994601619514145756,
+      "okex": 0.0199940017994601619514145756,
+      "mxc": 0.0099970008997300809757072878,
+      "bitget": 0.0099970008997300809757072878,
+      "gate": 0.0099970008997300809757072878,
+      "huobi": 0.0199940017994601619514145756,
+      "xt": 0
+    },
+    "liquidity": null,
+    "fdv": null,
+    "capitalization": null,
+    "isDepositAllowed": {
+      "bybit_spot": true,
+      "okex": true,
+      "mxc": true,
+      "bitget": true,
+      "huobi": true,
+      "bitmart": true,
+      "gate": true,
+      "xt": true
+    },
+    "isWithdrawAllowed": {
+      "bybit_spot": true,
+      "okex": true,
+      "mxc": true,
+      "bitget": true,
+      "huobi": false,
+      "bitmart": true,
+      "gate": true,
+      "xt": true
+    }
+  },
+  {
+    "baseContract": "GENEtH5amGSi8kHAtQoezp1XEXwZJ8vcuePYnXdKrMYz",
+    "targetContract": "Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB",
+    "chain": "SOL",
+    "targetCoin": "USDT",
+    "isChainsConflict": false,
+    "symbol": {
+      "bybit_spot": "GENEUSDT",
+      "mxc": "GENEUSDT"
+    },
+    "baseCoin": {
+      "bybit_spot": "GENE",
+      "mxc": "GENE"
+    },
+    "chains": null,
+    "commitedChains": {
+      "bybit_spot": "SOL",
+      "mxc": "SOL"
+    },
+    "parsedChains": {
+      "bybit_spot": "SOL",
+      "mxc": "SOL"
+    },
+    "prices": {
+      "bybit_spot": 0.05994,
+      "mxc": 0.05995
+    },
+    "spreads": {
+      "bybit_spot": 0,
+      "mxc": 0.01668335001668335001668335
+    },
+    "liquidity": null,
+    "fdv": null,
+    "capitalization": null,
+    "isDepositAllowed": {
+      "bybit_spot": true,
+      "mxc": true
+    },
+    "isWithdrawAllowed": {
+      "bybit_spot": true,
+      "mxc": true
+    }
+  },
+  {
+    "baseContract": "2b1kV6DkPAnxd5ixfnxCpjxmKwqjjaYmCZfHsFu24GXo",
+    "targetContract": "Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB",
+    "chain": "SOL",
+    "targetCoin": "USDT",
+    "isChainsConflict": false,
+    "symbol": {
+      "bybit_spot": "PYUSDUSDT",
+      "okex": "PYUSD-USDT",
+      "bitget": "PYUSDUSDT"
+    },
+    "baseCoin": {
+      "bybit_spot": "PYUSD",
+      "okex": "PYUSD",
+      "bitget": "PYUSD"
+    },
+    "chains": null,
+    "commitedChains": {
+      "bybit_spot": "SOL",
+      "okex": "PYUSD-Solana",
+      "bitget": "SOL"
+    },
+    "parsedChains": {
+      "bybit_spot": "SOL",
+      "okex": "SOL",
+      "bitget": "SOL"
+    },
+    "prices": {
+      "bybit_spot": 0.9999,
+      "okex": 0.9998,
+      "bitget": 0.9999
+    },
+    "spreads": {
+      "bybit_spot": 0.0100020004000800160032006401,
+      "okex": 0,
+      "bitget": 0.0100020004000800160032006401
+    },
+    "liquidity": null,
+    "fdv": null,
+    "capitalization": null,
+    "isDepositAllowed": {
+      "bybit_spot": true,
+      "okex": true,
+      "bitget": true
+    },
+    "isWithdrawAllowed": {
+      "bybit_spot": true,
+      "okex": true,
+      "bitget": true
+    }
+  },
+  {
+    "baseContract": "4ThReWAbAVZjNVgs5Ui9Pk3cZ5TYaD9u6Y89fp6EFzoF",
+    "targetContract": "Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB",
+    "chain": "SOL",
+    "targetCoin": "USDT",
+    "isChainsConflict": false,
+    "symbol": {
+      "bybit_spot": "1SOLUSDT"
+    },
+    "baseCoin": {
+      "bybit_spot": "1SOL"
+    },
+    "chains": null,
+    "commitedChains": {
+      "bybit_spot": "SOL"
+    },
+    "parsedChains": {
+      "bybit_spot": "SOL"
+    },
+    "prices": {
+      "bybit_spot": 0.005172
+    },
+    "spreads": {
+      "bybit_spot": 0
+    },
+    "liquidity": null,
+    "fdv": null,
+    "capitalization": null,
+    "isDepositAllowed": {
+      "bybit_spot": true
+    },
+    "isWithdrawAllowed": {
+      "bybit_spot": true
+    }
+  },
+  {
+    "baseContract": "3Dk2k4FZgKNe2yGXSfJYKkYD7ApLAf15nCbmSvEy8iQM",
+    "targetContract": "Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB",
+    "chain": "SOL",
+    "targetCoin": "USDT",
+    "isChainsConflict": false,
+    "symbol": {
+      "bybit_spot": "3PUSDT"
+    },
+    "baseCoin": {
+      "bybit_spot": "3P"
+    },
+    "chains": null,
+    "commitedChains": {
+      "bybit_spot": "SOL"
+    },
+    "parsedChains": {
+      "bybit_spot": "SOL"
+    },
+    "prices": {
+      "bybit_spot": 0.000000004308
+    },
+    "spreads": {
+      "bybit_spot": 0
+    },
+    "liquidity": null,
+    "fdv": null,
+    "capitalization": null,
+    "isDepositAllowed": {
+      "bybit_spot": true
+    },
+    "isWithdrawAllowed": {
+      "bybit_spot": true
+    }
+  },
+  {
+    "baseContract": "7peCSYC8skZiUAuETEwQfEEzoF2HmwdWBJfvGXN9VwvX",
+    "targetContract": "Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB",
+    "chain": "SOL",
+    "targetCoin": "USDT",
+    "isChainsConflict": false,
+    "symbol": {
+      "bybit_spot": "AGLAUSDT"
+    },
+    "baseCoin": {
+      "bybit_spot": "AGLA"
+    },
+    "chains": null,
+    "commitedChains": {
+      "bybit_spot": "SOL"
+    },
+    "parsedChains": {
+      "bybit_spot": "SOL"
+    },
+    "prices": {
+      "bybit_spot": 0.001049
+    },
+    "spreads": {
+      "bybit_spot": 0
+    },
+    "liquidity": null,
+    "fdv": null,
+    "capitalization": null,
+    "isDepositAllowed": {
+      "bybit_spot": true
+    },
+    "isWithdrawAllowed": {
+      "bybit_spot": false
+    }
+  },
+  {
+    "baseContract": "Bybit2vBJGhPF52GBdNaQfUJ6ZpThSgHBobjWZpLPb4B",
+    "targetContract": "Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB",
+    "chain": "SOL",
+    "targetCoin": "USDT",
+    "isChainsConflict": false,
+    "symbol": {
+      "bybit_spot": "BBSOLUSDT"
+    },
+    "baseCoin": {
+      "bybit_spot": "BBSOL"
+    },
+    "chains": null,
+    "commitedChains": {
+      "bybit_spot": "SOL"
+    },
+    "parsedChains": {
+      "bybit_spot": "SOL"
+    },
+    "prices": {
+      "bybit_spot": 116.33
+    },
+    "spreads": {
+      "bybit_spot": 0
+    },
+    "liquidity": null,
+    "fdv": null,
+    "capitalization": null,
+    "isDepositAllowed": {
+      "bybit_spot": true
+    },
+    "isWithdrawAllowed": {
+      "bybit_spot": true
+    }
+  },
+  {
+    "baseContract": "Bybit2vBJGhPF52GBdNaQfUJ6ZpThSgHBobjWZpLPb4B",
+    "targetContract": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+    "chain": "SOL",
+    "targetCoin": "USDC",
+    "isChainsConflict": false,
+    "symbol": {
+      "bybit_spot": "BBSOLUSDC"
+    },
+    "baseCoin": {
+      "bybit_spot": "BBSOL"
+    },
+    "chains": null,
+    "commitedChains": {
+      "bybit_spot": "SOL"
+    },
+    "parsedChains": {
+      "bybit_spot": "SOL"
+    },
+    "prices": {
+      "bybit_spot": 114.38
+    },
+    "spreads": {
+      "bybit_spot": 0
+    },
+    "liquidity": null,
+    "fdv": null,
+    "capitalization": null,
+    "isDepositAllowed": {
+      "bybit_spot": true
+    },
+    "isWithdrawAllowed": {
+      "bybit_spot": true
+    }
+  },
+  {
+    "baseContract": "Bybit2vBJGhPF52GBdNaQfUJ6ZpThSgHBobjWZpLPb4B",
+    "targetContract": "So11111111111111111111111111111111111111112",
+    "chain": "SOL",
+    "targetCoin": "SOL",
+    "isChainsConflict": false,
+    "symbol": {
+      "bybit_spot": "BBSOLSOL"
+    },
+    "baseCoin": {
+      "bybit_spot": "BBSOL"
+    },
+    "chains": null,
+    "commitedChains": {
+      "bybit_spot": "SOL"
+    },
+    "parsedChains": {
+      "bybit_spot": "SOL"
+    },
+    "prices": {
+      "bybit_spot": 1.0734
+    },
+    "spreads": {
+      "bybit_spot": 0
+    },
+    "liquidity": null,
+    "fdv": null,
+    "capitalization": null,
+    "isDepositAllowed": {
+      "bybit_spot": true
+    },
+    "isWithdrawAllowed": {
+      "bybit_spot": true
+    }
+  },
+  {
+    "baseContract": "Fm9rHUTF5v3hwMLbStjZXqNBBoZyGriQaFM6sTFz3K8A",
+    "targetContract": "Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB",
+    "chain": "SOL",
+    "targetCoin": "USDT",
+    "isChainsConflict": false,
+    "symbol": {
+      "bybit_spot": "MBSUSDT",
+      "mxc": "MBSUSDT",
+      "gate": "MBS_USDT"
+    },
+    "baseCoin": {
+      "bybit_spot": "MBS",
+      "mxc": "MBS",
+      "gate": "MBS"
+    },
+    "chains": null,
+    "commitedChains": {
+      "bybit_spot": "SOL",
+      "mxc": "SOL",
+      "gate": "MBS"
+    },
+    "parsedChains": {
+      "bybit_spot": "SOL",
+      "mxc": "SOL",
+      "gate": "SOL"
+    },
+    "prices": {
+      "bybit_spot": 0.004102,
+      "gate": 0.004102
+    },
+    "spreads": {
+      "bybit_spot": 0,
+      "gate": 0
+    },
+    "liquidity": null,
+    "fdv": null,
+    "capitalization": null,
+    "isDepositAllowed": {
+      "bybit_spot": true,
+      "mxc": false,
+      "gate": true
+    },
+    "isWithdrawAllowed": {
+      "bybit_spot": true,
+      "mxc": true,
+      "gate": true
+    }
+  },
+  {
+    "baseContract": "MEW1gQWJ3nEXg2qgERiKu7FAFj79PHvQVREQUzScPP5",
+    "targetContract": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+    "chain": "SOL",
+    "targetCoin": "USDC",
+    "isChainsConflict": false,
+    "symbol": {
+      "bybit_spot": "MEWUSDC",
+      "okex": "MEW-USDC",
+      "mxc": "MEWUSDC",
+      "bitget": "MEWUSDC",
+      "huobi": "mewusdc",
+      "bitmart": "MEW_USDC",
+      "gate": "MEW_USDC",
+      "xt": "mew_USDC",
+      "poloniex": "MEW_USDC"
+    },
+    "baseCoin": {
+      "bybit_spot": "MEW",
+      "okex": "MEW",
+      "mxc": "MEW",
+      "bitget": "MEW",
+      "huobi": "mew",
+      "bitmart": "MEW",
+      "gate": "MEW",
+      "xt": "mew",
+      "poloniex": "MEW"
+    },
+    "chains": null,
+    "commitedChains": {
+      "bybit_spot": "SOL",
+      "okex": "MEW-Solana",
+      "mxc": "SOL",
+      "bitget": "SOL",
+      "huobi": "SOLANA",
+      "bitmart": "SOL",
+      "gate": "MEW",
+      "xt": "SOL-SOL",
+      "poloniex": "SOL"
+    },
+    "parsedChains": {
+      "bybit_spot": "SOL",
+      "okex": "SOL",
+      "mxc": "SOL",
+      "bitget": "SOL",
+      "huobi": "SOL",
+      "bitmart": "SOL",
+      "gate": "SOL",
+      "xt": "SOL",
+      "poloniex": "SOL"
+    },
+    "prices": {
+      "bybit_spot": 0.002116
+    },
+    "spreads": {
+      "bybit_spot": 0
+    },
+    "liquidity": null,
+    "fdv": null,
+    "capitalization": null,
+    "isDepositAllowed": {
+      "bybit_spot": true,
+      "okex": true,
+      "mxc": true,
+      "bitget": true,
+      "huobi": true,
+      "bitmart": true,
+      "gate": true,
+      "xt": true,
+      "poloniex": true
+    },
+    "isWithdrawAllowed": {
+      "bybit_spot": true,
+      "okex": true,
+      "mxc": true,
+      "bitget": true,
+      "huobi": true,
+      "bitmart": true,
+      "gate": true,
+      "xt": true,
+      "poloniex": true
+    }
+  },
+  {
+    "baseContract": "AD27ov5fVU2XzwsbvnFvb1JpCBaCB5dRXrczV9CqSVGb",
+    "targetContract": "Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB",
+    "chain": "SOL",
+    "targetCoin": "USDT",
+    "isChainsConflict": false,
+    "symbol": {
+      "bybit_spot": "REALUSDT",
+      "mxc": "REALUSDT",
+      "bitget": "REALUSDT"
+    },
+    "baseCoin": {
+      "bybit_spot": "REAL",
+      "mxc": "REAL",
+      "bitget": "REAL"
+    },
+    "chains": null,
+    "commitedChains": {
+      "bybit_spot": "SOL",
+      "mxc": "SOL",
+      "bitget": "SOL"
+    },
+    "parsedChains": {
+      "bybit_spot": "SOL",
+      "mxc": "SOL",
+      "bitget": "SOL"
+    },
+    "prices": {
+      "bybit_spot": 0.01054,
+      "mxc": 0.01054
+    },
+    "spreads": {
+      "bybit_spot": 0,
+      "mxc": 0
+    },
+    "liquidity": null,
+    "fdv": null,
+    "capitalization": null,
+    "isDepositAllowed": {
+      "bybit_spot": true,
+      "mxc": true,
+      "bitget": false
+    },
+    "isWithdrawAllowed": {
+      "bybit_spot": true,
+      "mxc": true,
+      "bitget": false
+    }
+  },
+  {
+    "baseContract": "W2bAuFf2Xeb7ZNpJTywFSaCs5jYkaLYtBMR53SzVXUo",
+    "targetContract": "Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB",
+    "chain": "SOL",
+    "targetCoin": "USDT",
+    "isChainsConflict": false,
+    "symbol": {
+      "bybit_spot": "STOPUSDT"
+    },
+    "baseCoin": {
+      "bybit_spot": "STOP"
+    },
+    "chains": null,
+    "commitedChains": {
+      "bybit_spot": "SOL"
+    },
+    "parsedChains": {
+      "bybit_spot": "SOL"
+    },
+    "prices": {
+      "bybit_spot": 0.07594
+    },
+    "spreads": {
+      "bybit_spot": 0
+    },
+    "liquidity": null,
+    "fdv": null,
+    "capitalization": null,
+    "isDepositAllowed": {
+      "bybit_spot": true
+    },
+    "isWithdrawAllowed": {
+      "bybit_spot": true
+    }
+  }
+]

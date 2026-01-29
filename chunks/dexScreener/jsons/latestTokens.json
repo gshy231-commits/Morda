@@ -1,0 +1,633 @@
+[
+  {
+    "url": "https://dexscreener.com/solana/gockpadmranglgqre5fwwkebxfqssmrcbierrjqcpump",
+    "chainId": "solana",
+    "tokenAddress": "GockpADmRanGLgQRE5fWwKEbXfqssmRcbierrJqCpump",
+    "icon": "https://dd.dexscreener.com/ds-data/tokens/solana/GockpADmRanGLgQRE5fWwKEbXfqssmRcbierrJqCpump.png",
+    "header": "https://dd.dexscreener.com/ds-data/tokens/solana/GockpADmRanGLgQRE5fWwKEbXfqssmRcbierrJqCpump/header.png",
+    "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/GockpADmRanGLgQRE5fWwKEbXfqssmRcbierrJqCpump?timestamp=1740048600000",
+    "description": "The first memecoin on Solana with its own game platform",
+    "links": [
+      {
+        "label": "Website",
+        "url": "https://monsta.wtf/"
+      },
+      {
+        "type": "twitter",
+        "url": "https://x.com/MonstaGame"
+      },
+      {
+        "type": "telegram",
+        "url": "https://t.me/monstagamechat"
+      }
+    ],
+    "totalAmount": 100,
+    "amount": 100
+  },
+  {
+    "url": "https://dexscreener.com/solana/dmzvmp3ebvmxs45hwsn3vsklm8cxp5ge8erpjz8cpump",
+    "chainId": "solana",
+    "tokenAddress": "DMzVMP3eBvmXS45HWsn3VSKLm8CxP5ge8erpJZ8Cpump",
+    "icon": "https://dd.dexscreener.com/ds-data/tokens/solana/DMzVMP3eBvmXS45HWsn3VSKLm8CxP5ge8erpJZ8Cpump.png",
+    "header": "https://dd.dexscreener.com/ds-data/tokens/solana/DMzVMP3eBvmXS45HWsn3VSKLm8CxP5ge8erpJZ8Cpump/header.png",
+    "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/DMzVMP3eBvmXS45HWsn3VSKLm8CxP5ge8erpJZ8Cpump?timestamp=1740048600000",
+    "description": "Motoko Robotics is a mobile gaming and robotics company featuring in-app customizable virtual AI avatars and pet companions, Augmented Reality (AR) integrations, and 3d printed physical robots.",
+    "links": [
+      {
+        "label": "Nft Pass",
+        "url": "https://launchmynft.io/sol/14513"
+      },
+      {
+        "type": "twitter",
+        "url": "https://x.com/motokorobotics_?t=r_r8TZnIiOs2j_crrhs7WA&s=09"
+      },
+      {
+        "type": "telegram",
+        "url": "https://t.me/motokorobotics"
+      }
+    ],
+    "totalAmount": 10,
+    "amount": 10
+  },
+  {
+    "url": "https://dexscreener.com/solana/6mzud3gmcnwkecdc3mtqer4fbss3e13phsrchoocpump",
+    "chainId": "solana",
+    "tokenAddress": "6Mzud3GMCNwkEcDc3MTqER4fBss3E13PHSrCHooCpump",
+    "icon": "https://dd.dexscreener.com/ds-data/tokens/solana/6Mzud3GMCNwkEcDc3MTqER4fBss3E13PHSrCHooCpump.png",
+    "header": "https://dd.dexscreener.com/ds-data/tokens/solana/6Mzud3GMCNwkEcDc3MTqER4fBss3E13PHSrCHooCpump/header.png",
+    "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/6Mzud3GMCNwkEcDc3MTqER4fBss3E13PHSrCHooCpump?timestamp=1740048600000",
+    "description": "I is Yeeb, Yeeb is me, join my crypto family.",
+    "links": [
+      {
+        "label": "Website",
+        "url": "https://pump.fun/coin/6Mzud3GMCNwkEcDc3MTqER4fBss3E13PHSrCHooCpump"
+      },
+      {
+        "type": "twitter",
+        "url": "https://x.com/YEEB_SOL"
+      },
+      {
+        "type": "telegram",
+        "url": "https://t.me/YeebCTO"
+      }
+    ],
+    "totalAmount": 60,
+    "amount": 30
+  },
+  {
+    "url": "https://dexscreener.com/solana/b6sq1kwndppofx1jvazdfrhq7xrju7snlvuotamypump",
+    "chainId": "solana",
+    "tokenAddress": "B6Sq1kwndPPofx1JvazDFrhq7XRjU7SnLvUotamypump",
+    "icon": "https://dd.dexscreener.com/ds-data/tokens/solana/B6Sq1kwndPPofx1JvazDFrhq7XRjU7SnLvUotamypump.png",
+    "header": "https://dd.dexscreener.com/ds-data/tokens/solana/B6Sq1kwndPPofx1JvazDFrhq7XRjU7SnLvUotamypump/header.png",
+    "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/B6Sq1kwndPPofx1JvazDFrhq7XRjU7SnLvUotamypump?timestamp=1740048600000",
+    "description": "Animated Cartoon Series",
+    "links": [
+      {
+        "label": "Website",
+        "url": "https://cartoon-network.xyz/"
+      },
+      {
+        "type": "twitter",
+        "url": "https://x.com/CNonsol_"
+      },
+      {
+        "type": "telegram",
+        "url": "https://t.me/cncoinportal"
+      }
+    ],
+    "totalAmount": 1200,
+    "amount": 500
+  },
+  {
+    "url": "https://dexscreener.com/solana/gek7uvjznursxrf7bewtkbsvxr6uwmrt6tuxnmxtdarc",
+    "chainId": "solana",
+    "tokenAddress": "GEK7UvjzNURSXRF7BEWTkbSVxR6uWmRt6tUXNMxtDaRc",
+    "icon": "https://dd.dexscreener.com/ds-data/tokens/solana/GEK7UvjzNURSXRF7BEWTkbSVxR6uWmRt6tUXNMxtDaRc.png",
+    "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/GEK7UvjzNURSXRF7BEWTkbSVxR6uWmRt6tUXNMxtDaRc?timestamp=1740048600000",
+    "description": "In an era where artificial intelligence is rapidly redefining the boundaries of technology, VolkAI, India's first AI competitor to ChatGPT",
+    "links": [
+      {
+        "label": "Website",
+        "url": "https://www.volkai.io"
+      },
+      {
+        "type": "twitter",
+        "url": "https://x.com/volkai_sol?s=21"
+      }
+    ],
+    "totalAmount": 100,
+    "amount": 50
+  },
+  {
+    "url": "https://dexscreener.com/solana/a7m5ua4hwhtq1iy1e4dsk6aux8uz2j8euriagh2moon",
+    "chainId": "solana",
+    "tokenAddress": "a7M5ua4hWhtq1iY1E4dSk6auX8UZ2j8eUriaGH2moon",
+    "description": "Google AI is focused on bringing the benefits of AI to everyone. In conducting and applying our research, we advance the state-of-the-art in many domains.\r\n",
+    "icon": "4GtmZ1vQB1ushkzs",
+    "header": "https://cdn.dexscreener.com/cms/images/UkoV44Xkr9qXr5jd?width=900&height=300&fit=crop&quality=95&format=auto",
+    "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/a7M5ua4hWhtq1iY1E4dSk6auX8UZ2j8eUriaGH2moon?timestamp=1740048600000",
+    "links": [
+      {
+        "url": "https://research.google/"
+      },
+      {
+        "type": "twitter",
+        "url": "https://x.com/GoogleAI"
+      }
+    ],
+    "totalAmount": 110,
+    "amount": 100
+  },
+  {
+    "url": "https://dexscreener.com/solana/29jkoihqlgjfhdvnmznbjavcyd2bqgquqzpf2rtlpump",
+    "chainId": "solana",
+    "tokenAddress": "29JKoiHQLgjfhdVnMZnBjavCYD2BqGQUQZpf2rtLpump",
+    "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/29JKoiHQLgjfhdVnMZnBjavCYD2BqGQUQZpf2rtLpump?timestamp=1740048600000",
+    "totalAmount": 10,
+    "amount": 10
+  },
+  {
+    "url": "https://dexscreener.com/base/0x8ae2b574d1c0a5e41d379fb0d86b1658070b9a40",
+    "chainId": "base",
+    "tokenAddress": "0x8ae2b574d1c0a5e41d379fb0d86b1658070b9a40",
+    "icon": "https://dd.dexscreener.com/ds-data/tokens/base/0x8ae2b574d1c0a5e41d379fb0d86b1658070b9a40.png",
+    "header": "https://dd.dexscreener.com/ds-data/tokens/base/0x8ae2b574d1c0a5e41d379fb0d86b1658070b9a40/header.png",
+    "openGraph": "https://cdn.dexscreener.com/token-images/og/base/0x8ae2b574d1c0a5e41d379fb0d86b1658070b9a40?timestamp=1740048600000",
+    "description": "The smartest AI on Earth.",
+    "links": [
+      {
+        "type": "twitter",
+        "url": "https://x.com/wcgof73928937"
+      }
+    ],
+    "totalAmount": 10,
+    "amount": 10
+  },
+  {
+    "url": "https://dexscreener.com/bsc/0x8c4c8514dbe8f3890f08b7b326efcfdde1534ff3",
+    "chainId": "bsc",
+    "tokenAddress": "0x8C4c8514DBE8f3890F08b7B326EFcFDDe1534fF3",
+    "icon": "https://dd.dexscreener.com/ds-data/tokens/bsc/0x8c4c8514dbe8f3890f08b7b326efcfdde1534ff3.png",
+    "header": "https://dd.dexscreener.com/ds-data/tokens/bsc/0x8c4c8514dbe8f3890f08b7b326efcfdde1534ff3/header.png",
+    "openGraph": "https://cdn.dexscreener.com/token-images/og/bsc/0x8c4c8514dbe8f3890f08b7b326efcfdde1534ff3?timestamp=1740048600000",
+    "description": "CZ bought a $200 bike on Amazon to make his dog, Broccoli, happy. The bike wasn't for CZ, but for Broccoli to enjoy their walks together in style",
+    "links": [
+      {
+        "label": "Website",
+        "url": "https://czbike.xyz/"
+      },
+      {
+        "type": "twitter",
+        "url": "https://x.com/czbikeofficial"
+      },
+      {
+        "type": "telegram",
+        "url": "https://t.me/Cz_bike"
+      }
+    ],
+    "totalAmount": 10,
+    "amount": 10
+  },
+  {
+    "url": "https://dexscreener.com/solana/bbnrhezdddvenngaayhfwtapfghm7czeqgyh1ecpump",
+    "chainId": "solana",
+    "tokenAddress": "bBnRHEzDddveNnGaaYHFWTapFghm7czeQgYh1Ecpump",
+    "icon": "https://dd.dexscreener.com/ds-data/tokens/solana/bBnRHEzDddveNnGaaYHFWTapFghm7czeQgYh1Ecpump.png",
+    "header": "https://dd.dexscreener.com/ds-data/tokens/solana/bBnRHEzDddveNnGaaYHFWTapFghm7czeQgYh1Ecpump/header.png",
+    "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/bBnRHEzDddveNnGaaYHFWTapFghm7czeQgYh1Ecpump?timestamp=1740048600000",
+    "description": "Your Virtual Kawaii Girlfriend 🥰👧",
+    "links": [
+      {
+        "label": "Website",
+        "url": "https://kawaiionsol.pro/"
+      },
+      {
+        "type": "twitter",
+        "url": "https://x.com/kavaii_ai_girl"
+      },
+      {
+        "type": "telegram",
+        "url": "https://t.me/kavaii_ai_girl"
+      }
+    ],
+    "totalAmount": 50,
+    "amount": 50
+  },
+  {
+    "url": "https://dexscreener.com/solana/gek7uvjznursxrf7bewtkbsvxr6uwmrt6tuxnmxtdarc",
+    "chainId": "solana",
+    "tokenAddress": "GEK7UvjzNURSXRF7BEWTkbSVxR6uWmRt6tUXNMxtDaRc",
+    "icon": "https://dd.dexscreener.com/ds-data/tokens/solana/GEK7UvjzNURSXRF7BEWTkbSVxR6uWmRt6tUXNMxtDaRc.png",
+    "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/GEK7UvjzNURSXRF7BEWTkbSVxR6uWmRt6tUXNMxtDaRc?timestamp=1740048600000",
+    "description": "In an era where artificial intelligence is rapidly redefining the boundaries of technology, VolkAI, India's first AI competitor to ChatGPT",
+    "links": [
+      {
+        "label": "Website",
+        "url": "https://www.volkai.io"
+      },
+      {
+        "type": "twitter",
+        "url": "https://x.com/volkai_sol?s=21"
+      }
+    ],
+    "totalAmount": 100,
+    "amount": 50
+  },
+  {
+    "url": "https://dexscreener.com/solana/dfp6bjxtryvtwvt3f8cjtqpnwybjshkrnpdubx4fpump",
+    "chainId": "solana",
+    "tokenAddress": "DFp6bjxtRyvtWvT3f8cjTQPNwYBjSHkRNPdubx4fpump",
+    "icon": "https://dd.dexscreener.com/ds-data/tokens/solana/DFp6bjxtRyvtWvT3f8cjTQPNwYBjSHkRNPdubx4fpump.png",
+    "header": "https://dd.dexscreener.com/ds-data/tokens/solana/DFp6bjxtRyvtWvT3f8cjTQPNwYBjSHkRNPdubx4fpump/header.png",
+    "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/DFp6bjxtRyvtWvT3f8cjTQPNwYBjSHkRNPdubx4fpump?timestamp=1740048600000",
+    "description": "William Jones, FRS (1675 – 1 July 1749) was a Welsh mathematician best known for his use of the symbol π (the Greek letter Pi) to represent the ratio of the circumference of a circle to its diameter. He was a close friend of Sir Isaac Newton and Sir Edmund Halley. In November 1711, Jones became a fellow of the Royal Society, and later served as the Royal Society's vice-president.",
+    "links": [
+      {
+        "label": "Website",
+        "url": "https://en.wikipedia.org/wiki/William_Jones_(mathematician)"
+      }
+    ],
+    "totalAmount": 10,
+    "amount": 10
+  },
+  {
+    "url": "https://dexscreener.com/solana/2e4gqabtf9wsgr3nowffaz4jdbhngndyhpzxdkgbpump",
+    "chainId": "solana",
+    "tokenAddress": "2E4GQAbtf9WsGR3NoWFFaZ4JdBhNgNDyhPzxDKgbpump",
+    "icon": "https://dd.dexscreener.com/ds-data/tokens/solana/2E4GQAbtf9WsGR3NoWFFaZ4JdBhNgNDyhPzxDKgbpump.png",
+    "header": "https://dd.dexscreener.com/ds-data/tokens/solana/2E4GQAbtf9WsGR3NoWFFaZ4JdBhNgNDyhPzxDKgbpump/header.png",
+    "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/2E4GQAbtf9WsGR3NoWFFaZ4JdBhNgNDyhPzxDKgbpump?timestamp=1740048600000",
+    "description": "One mission. One movement. One unstoppable collective. $COLL",
+    "links": [
+      {
+        "label": "Website",
+        "url": "https://oncyber.io/spaces/kThwjqpbepvcJGZYBOBT"
+      },
+      {
+        "type": "twitter",
+        "url": "https://x.com/Collective68894"
+      }
+    ],
+    "totalAmount": 10,
+    "amount": 10
+  },
+  {
+    "url": "https://dexscreener.com/solana/8ergixmk3qlcs1uewjab4bxh5z4gcugcszk6dbvtdx8b",
+    "chainId": "solana",
+    "tokenAddress": "8ergixmK3qLCS1UeWjAb4bXh5Z4gCugCSzK6DbVtDX8B",
+    "icon": "https://dd.dexscreener.com/ds-data/tokens/solana/8ergixmK3qLCS1UeWjAb4bXh5Z4gCugCSzK6DbVtDX8B.png?claimId=8DmFgws3noR_k57I",
+    "header": "https://dd.dexscreener.com/ds-data/tokens/solana/8ergixmK3qLCS1UeWjAb4bXh5Z4gCugCSzK6DbVtDX8B/header.png?claimId=8DmFgws3noR_k57I",
+    "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/8ergixmK3qLCS1UeWjAb4bXh5Z4gCugCSzK6DbVtDX8B?timestamp=1740048600000",
+    "description": "",
+    "links": [
+      {
+        "label": "Website",
+        "url": "https://eidpepesol.xyz/"
+      },
+      {
+        "type": "twitter",
+        "url": "https://x.com/EidPepeOnSol"
+      },
+      {
+        "type": "telegram",
+        "url": "https://t.me/EidPepeSolCTO"
+      }
+    ],
+    "totalAmount": 10,
+    "amount": 10
+  },
+  {
+    "url": "https://dexscreener.com/solana/71wdm3m8xw93hvivqmhwrqghcrlzqupy52kyvqhopump",
+    "chainId": "solana",
+    "tokenAddress": "71wDM3m8Xw93HVivQmHWRqgHCrLZQupY52KYvQHopump",
+    "icon": "https://dd.dexscreener.com/ds-data/tokens/solana/71wDM3m8Xw93HVivQmHWRqgHCrLZQupY52KYvQHopump.png",
+    "header": "https://dd.dexscreener.com/ds-data/tokens/solana/71wDM3m8Xw93HVivQmHWRqgHCrLZQupY52KYvQHopump/header.png",
+    "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/71wDM3m8Xw93HVivQmHWRqgHCrLZQupY52KYvQHopump?timestamp=1740048600000",
+    "description": "Fried, forgotten, but never defeated.",
+    "links": [
+      {
+        "label": "Website",
+        "url": "https://sadnuggie.vip/"
+      },
+      {
+        "type": "twitter",
+        "url": "https://x.com/sadnuggieSpl"
+      },
+      {
+        "type": "telegram",
+        "url": "https://t.me/sadnuggieonsolana"
+      }
+    ],
+    "totalAmount": 50,
+    "amount": 50
+  },
+  {
+    "url": "https://dexscreener.com/solana/at4rdbqfp7wmh5xigdxcff3nxcpm8qetdt6jfsbxmyca",
+    "chainId": "solana",
+    "tokenAddress": "At4rDBqfP7wMH5xiGDXcfF3nxCPM8QetdT6jfSbxmyCA",
+    "icon": "https://dd.dexscreener.com/ds-data/tokens/solana/At4rDBqfP7wMH5xiGDXcfF3nxCPM8QetdT6jfSbxmyCA.png",
+    "header": "https://dd.dexscreener.com/ds-data/tokens/solana/At4rDBqfP7wMH5xiGDXcfF3nxCPM8QetdT6jfSbxmyCA/header.png",
+    "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/At4rDBqfP7wMH5xiGDXcfF3nxCPM8QetdT6jfSbxmyCA?timestamp=1740048600000",
+    "description": "He is a free retardigrade, beholden to no company or name, and he may do as he pleases.",
+    "links": [
+      {
+        "type": "twitter",
+        "url": "https://x.com/danesonance/status/1892457721414193215"
+      }
+    ],
+    "totalAmount": 50,
+    "amount": 10
+  },
+  {
+    "url": "https://dexscreener.com/solana/9rbt4cmeyg6cqh4css3vcjznd5kjwbe2rv4z7gcqmoon",
+    "chainId": "solana",
+    "tokenAddress": "9RbT4CMeyG6Cqh4cSs3vCjZNd5kjwbe2rV4z7Gcqmoon",
+    "description": "Pi Network is a social cryptocurrency, developer platform, and ecosystem designed for widespread accessibility and real-world utility.",
+    "icon": "izxWqQoIdM-pzuA9",
+    "header": "https://cdn.dexscreener.com/cms/images/TLHUXe00yeOkUKxI?width=900&height=300&fit=crop&quality=95&format=auto",
+    "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/9RbT4CMeyG6Cqh4cSs3vCjZNd5kjwbe2rV4z7Gcqmoon?timestamp=1740048600000",
+    "links": [
+      {
+        "url": "https://minepi.com/"
+      },
+      {
+        "type": "twitter",
+        "url": "https://x.com/picoreteam"
+      },
+      {
+        "type": "telegram",
+        "url": "https://t.me/minepi_SOL"
+      }
+    ],
+    "totalAmount": 100,
+    "amount": 100
+  },
+  {
+    "url": "https://dexscreener.com/solana/5gafjkg3jxm4pzpdenxmmcxdfgt27xqw5uwzjrexpump",
+    "chainId": "solana",
+    "tokenAddress": "5GAfJkG3JXM4PzPDenxMmcXDFGT27xQW5uwzJrExpump",
+    "icon": "https://dd.dexscreener.com/ds-data/tokens/solana/5GAfJkG3JXM4PzPDenxMmcXDFGT27xQW5uwzJrExpump.png",
+    "header": "https://dd.dexscreener.com/ds-data/tokens/solana/5GAfJkG3JXM4PzPDenxMmcXDFGT27xQW5uwzJrExpump/header.png",
+    "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/5GAfJkG3JXM4PzPDenxMmcXDFGT27xQW5uwzJrExpump?timestamp=1740048600000",
+    "description": "peduk - $pek quacking jokes and ribbiting puns. One slip on a lily pad later, he had everyone laughing so hard they forgot to swim!",
+    "links": [
+      {
+        "label": "Website",
+        "url": "https://peduk.lol"
+      },
+      {
+        "type": "twitter",
+        "url": "https://x.com/pedukpek"
+      },
+      {
+        "type": "telegram",
+        "url": "https://t.me/pedukpek"
+      }
+    ],
+    "totalAmount": 10,
+    "amount": 10
+  },
+  {
+    "url": "https://dexscreener.com/solana/ihysnidsmnfq57xefw8wz2tyen3wvekbvqvqsnvpump",
+    "chainId": "solana",
+    "tokenAddress": "iHYSNiDSmNFQ57xEFw8wz2TYEN3wVEKbVQvQsNvpump",
+    "icon": "https://dd.dexscreener.com/ds-data/tokens/solana/iHYSNiDSmNFQ57xEFw8wz2TYEN3wVEKbVQvQsNvpump.png",
+    "header": "https://dd.dexscreener.com/ds-data/tokens/solana/iHYSNiDSmNFQ57xEFw8wz2TYEN3wVEKbVQvQsNvpump/header.png",
+    "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/iHYSNiDSmNFQ57xEFw8wz2TYEN3wVEKbVQvQsNvpump?timestamp=1740048600000",
+    "description": "Binance’s merch dog",
+    "links": [
+      {
+        "type": "twitter",
+        "url": "https://x.com/milabinance/status/1776959798820651507"
+      },
+      {
+        "type": "telegram",
+        "url": "https://t.me/JessieForBinance"
+      }
+    ],
+    "totalAmount": 50,
+    "amount": 50
+  },
+  {
+    "url": "https://dexscreener.com/base/0x2d60674cea02a389cd02bed2e2e85eeba4e31b79",
+    "chainId": "base",
+    "tokenAddress": "0x2D60674CEA02A389cD02beD2E2e85EEBa4E31B79",
+    "icon": "https://dd.dexscreener.com/ds-data/tokens/base/0x2d60674cea02a389cd02bed2e2e85eeba4e31b79.png",
+    "header": "https://dd.dexscreener.com/ds-data/tokens/base/0x2d60674cea02a389cd02bed2e2e85eeba4e31b79/header.png",
+    "openGraph": "https://cdn.dexscreener.com/token-images/og/base/0x2d60674cea02a389cd02bed2e2e85eeba4e31b79?timestamp=1740048600000",
+    "description": "SUGOI is a meme coin behind a ready made AI-powered girlfriend platform, offering users interactive, personalized virtual companionship.\n\nWith a playful yet ambitious vision, $SUGOI blends crypto and AI to create the ultimate digital dating experience.",
+    "links": [
+      {
+        "label": "Website",
+        "url": "https://www.sugoicoin.xyz/"
+      },
+      {
+        "type": "twitter",
+        "url": "https://x.com/SugoiCoin_"
+      },
+      {
+        "type": "telegram",
+        "url": "https://t.me/SugoiAI"
+      }
+    ],
+    "totalAmount": 10,
+    "amount": 10
+  },
+  {
+    "url": "https://dexscreener.com/solana/8mup1qqcxsnjnwkn4euubhnc4ebxhvwmufsner3tpump",
+    "chainId": "solana",
+    "tokenAddress": "8mUp1qQCxSNjnWKn4euUbHNC4ebxhvwMufSner3tpump",
+    "icon": "https://dd.dexscreener.com/ds-data/tokens/solana/8mUp1qQCxSNjnWKn4euUbHNC4ebxhvwMufSner3tpump.png",
+    "header": "https://dd.dexscreener.com/ds-data/tokens/solana/8mUp1qQCxSNjnWKn4euUbHNC4ebxhvwMufSner3tpump/header.png",
+    "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/8mUp1qQCxSNjnWKn4euUbHNC4ebxhvwMufSner3tpump?timestamp=1740048600000",
+    "description": "Welcome to Rabbit Hole Media, the first 24/7 crypto news outlet. Support us on this journey and go grab $THERABBIT 🐇\n\n(Based on The Rabbit Hole - Elon Musk's secret account)",
+    "links": [
+      {
+        "type": "twitter",
+        "url": "https://x.com/therabbitcto"
+      },
+      {
+        "type": "telegram",
+        "url": "https://t.me/Therabbitholesolana"
+      }
+    ],
+    "totalAmount": 30,
+    "amount": 30
+  },
+  {
+    "url": "https://dexscreener.com/solana/5vfimzapbj4tykj5djgua3nb1jgtdbj4fdgvtwlcfdps",
+    "chainId": "solana",
+    "tokenAddress": "5VfimzAPbj4TYkJ5djguA3NB1JGTdbJ4fdgVTwLcfDPs",
+    "icon": "https://dd.dexscreener.com/ds-data/tokens/solana/5VfimzAPbj4TYkJ5djguA3NB1JGTdbJ4fdgVTwLcfDPs.png",
+    "header": "https://dd.dexscreener.com/ds-data/tokens/solana/5VfimzAPbj4TYkJ5djguA3NB1JGTdbJ4fdgVTwLcfDPs/header.png",
+    "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/5VfimzAPbj4TYkJ5djguA3NB1JGTdbJ4fdgVTwLcfDPs?timestamp=1740048600000",
+    "description": "The market speaks in signals Oblivya deciphers them. Stay ahead with real-time insights, predictive analytics, and algorithmic foresight.",
+    "links": [
+      {
+        "label": "Website",
+        "url": "https://oblivya.xyz/"
+      },
+      {
+        "type": "twitter",
+        "url": "https://x.com/oblivya_ai"
+      },
+      {
+        "type": "telegram",
+        "url": "https://t.me/oblivya_ai"
+      }
+    ],
+    "totalAmount": 500,
+    "amount": 500
+  },
+  {
+    "url": "https://dexscreener.com/solana/3hsdejlccm7ark8ewpjzpj4i3p9lhwncblt3kflfpump",
+    "chainId": "solana",
+    "tokenAddress": "3hsdEJLCcM7ArK8eWpjzpj4i3P9LHwnCbLt3kFLfpump",
+    "icon": "https://dd.dexscreener.com/ds-data/tokens/solana/3hsdEJLCcM7ArK8eWpjzpj4i3P9LHwnCbLt3kFLfpump.png",
+    "header": "https://dd.dexscreener.com/ds-data/tokens/solana/3hsdEJLCcM7ArK8eWpjzpj4i3P9LHwnCbLt3kFLfpump/header.png",
+    "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/3hsdEJLCcM7ArK8eWpjzpj4i3P9LHwnCbLt3kFLfpump?timestamp=1740048600000",
+    "description": "Optimize Performance and Enhance Security with Cloudex AI\nCloudex AI leverages AI automation to optimize your cloud infrastructure, reduce costs, and enhance security, providing real-time monitoring and control.",
+    "links": [
+      {
+        "label": "Website",
+        "url": "https://cloudexai.xyz"
+      },
+      {
+        "type": "twitter",
+        "url": "https://x.com/CloudexAiSol"
+      },
+      {
+        "type": "telegram",
+        "url": "https://t.me/CloudexAi"
+      }
+    ],
+    "totalAmount": 100,
+    "amount": 100
+  },
+  {
+    "url": "https://dexscreener.com/solana/at4rdbqfp7wmh5xigdxcff3nxcpm8qetdt6jfsbxmyca",
+    "chainId": "solana",
+    "tokenAddress": "At4rDBqfP7wMH5xiGDXcfF3nxCPM8QetdT6jfSbxmyCA",
+    "icon": "https://dd.dexscreener.com/ds-data/tokens/solana/At4rDBqfP7wMH5xiGDXcfF3nxCPM8QetdT6jfSbxmyCA.png",
+    "header": "https://dd.dexscreener.com/ds-data/tokens/solana/At4rDBqfP7wMH5xiGDXcfF3nxCPM8QetdT6jfSbxmyCA/header.png",
+    "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/At4rDBqfP7wMH5xiGDXcfF3nxCPM8QetdT6jfSbxmyCA?timestamp=1740048600000",
+    "description": "He is a free retardigrade, beholden to no company or name, and he may do as he pleases.",
+    "links": [
+      {
+        "type": "twitter",
+        "url": "https://x.com/danesonance/status/1892457721414193215"
+      }
+    ],
+    "totalAmount": 50,
+    "amount": 10
+  },
+  {
+    "url": "https://dexscreener.com/solana/cm4cgahehgwnrxm6nruhnbfvxb3loo1tueuyp6ukpump",
+    "chainId": "solana",
+    "tokenAddress": "Cm4CGaHeHGwnrXm6nruHnBFVXB3Loo1TUeuYp6uKpump",
+    "icon": "https://dd.dexscreener.com/ds-data/tokens/solana/Cm4CGaHeHGwnrXm6nruHnBFVXB3Loo1TUeuYp6uKpump.png",
+    "header": "https://dd.dexscreener.com/ds-data/tokens/solana/Cm4CGaHeHGwnrXm6nruHnBFVXB3Loo1TUeuYp6uKpump/header.png",
+    "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/Cm4CGaHeHGwnrXm6nruHnBFVXB3Loo1TUeuYp6uKpump?timestamp=1740048600000",
+    "description": "LAMB to $1,000,000,000",
+    "links": [
+      {
+        "type": "twitter",
+        "url": "https://x.com/LAMBILLIONARE?t=j4GG4ZfHOnhuTPJGBRKawA&s=09"
+      },
+      {
+        "type": "telegram",
+        "url": "https://t.me/LAMBILION"
+      }
+    ],
+    "totalAmount": 10,
+    "amount": 10
+  },
+  {
+    "url": "https://dexscreener.com/solana/7zrghfqwdzvqhfmg19rsqbd6cze5iedkuzoanuhpump",
+    "chainId": "solana",
+    "tokenAddress": "7ZRgHFqwdzvqhfmg19rSQBD6CZe5iEDkuZoaNUhpump",
+    "icon": "https://dd.dexscreener.com/ds-data/tokens/solana/7ZRgHFqwdzvqhfmg19rSQBD6CZe5iEDkuZoaNUhpump.png?claimId=dwqoyj0xb_yxITK5",
+    "header": "https://dd.dexscreener.com/ds-data/tokens/solana/7ZRgHFqwdzvqhfmg19rSQBD6CZe5iEDkuZoaNUhpump/header.png?claimId=dwqoyj0xb_yxITK5",
+    "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/7ZRgHFqwdzvqhfmg19rSQBD6CZe5iEDkuZoaNUhpump?timestamp=1740048600000",
+    "description": "-795K followers on Facebook \n-572K followers on Instagram \n\n$MONKEY can do a myriad of things including skating, swinging a baseball bat, painting, using a slingshot.  \n\nThis dog is very unique & Very Talented\n\nDon’t forget he’s the official Merlin from COD MWII, he is also an actor! \n\nOwner Omar is onboard too and working alongside side us to get exposure.",
+    "links": [
+      {
+        "label": "Website",
+        "url": "https://www.instagram.com/omarvonmuller?igsh=Znk5aDdmaGdhZWMy"
+      },
+      {
+        "type": "twitter",
+        "url": "https://x.com/monkeygoodboy"
+      },
+      {
+        "type": "telegram",
+        "url": "https://t.me/monkeyportal1"
+      }
+    ],
+    "totalAmount": 100,
+    "amount": 100
+  },
+  {
+    "url": "https://dexscreener.com/solana/a7m5ua4hwhtq1iy1e4dsk6aux8uz2j8euriagh2moon",
+    "chainId": "solana",
+    "tokenAddress": "a7M5ua4hWhtq1iY1E4dSk6auX8UZ2j8eUriaGH2moon",
+    "description": "Google AI is focused on bringing the benefits of AI to everyone. In conducting and applying our research, we advance the state-of-the-art in many domains.\r\n",
+    "icon": "4GtmZ1vQB1ushkzs",
+    "header": "https://cdn.dexscreener.com/cms/images/UkoV44Xkr9qXr5jd?width=900&height=300&fit=crop&quality=95&format=auto",
+    "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/a7M5ua4hWhtq1iY1E4dSk6auX8UZ2j8eUriaGH2moon?timestamp=1740048600000",
+    "links": [
+      {
+        "url": "https://research.google/"
+      },
+      {
+        "type": "twitter",
+        "url": "https://x.com/GoogleAI"
+      }
+    ],
+    "totalAmount": 110,
+    "amount": 10
+  },
+  {
+    "url": "https://dexscreener.com/solana/2scucjdvkmyxp4dt8sfaa9lkgsmk4ydpi9zlhiwxpump",
+    "chainId": "solana",
+    "tokenAddress": "2sCUCJdVkmyXp4dT8sFaA9LKgSMK4yDPi9zLHiwXpump",
+    "icon": "https://dd.dexscreener.com/ds-data/tokens/solana/2sCUCJdVkmyXp4dT8sFaA9LKgSMK4yDPi9zLHiwXpump.png",
+    "header": "https://dd.dexscreener.com/ds-data/tokens/solana/2sCUCJdVkmyXp4dT8sFaA9LKgSMK4yDPi9zLHiwXpump/header.png",
+    "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/2sCUCJdVkmyXp4dT8sFaA9LKgSMK4yDPi9zLHiwXpump?timestamp=1740048600000",
+    "description": "Be what you hold.",
+    "links": [
+      {
+        "type": "twitter",
+        "url": "https://x.com/alphaofsol"
+      },
+      {
+        "type": "telegram",
+        "url": "https://t.me/alphaofsol"
+      }
+    ],
+    "totalAmount": 1000,
+    "amount": 500
+  },
+  {
+    "url": "https://dexscreener.com/solana/2scucjdvkmyxp4dt8sfaa9lkgsmk4ydpi9zlhiwxpump",
+    "chainId": "solana",
+    "tokenAddress": "2sCUCJdVkmyXp4dT8sFaA9LKgSMK4yDPi9zLHiwXpump",
+    "icon": "https://dd.dexscreener.com/ds-data/tokens/solana/2sCUCJdVkmyXp4dT8sFaA9LKgSMK4yDPi9zLHiwXpump.png",
+    "header": "https://dd.dexscreener.com/ds-data/tokens/solana/2sCUCJdVkmyXp4dT8sFaA9LKgSMK4yDPi9zLHiwXpump/header.png",
+    "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/2sCUCJdVkmyXp4dT8sFaA9LKgSMK4yDPi9zLHiwXpump?timestamp=1740048600000",
+    "description": "Be what you hold.",
+    "links": [
+      {
+        "type": "twitter",
+        "url": "https://x.com/alphaofsol"
+      },
+      {
+        "type": "telegram",
+        "url": "https://t.me/alphaofsol"
+      }
+    ],
+    "totalAmount": 1000,
+    "amount": 500
+  }
+]
