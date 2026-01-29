@@ -1,0 +1,863 @@
+//using System;
+//using System.Collections.Generic;
+//using System.Globalization;
+//using System.IO;
+//using System.Linq;
+//using System.Net.Http;
+//using System.Security.Cryptography;
+//using System.Text;
+//using System.Text.Json;
+//using System.Text.Json.Serialization;
+//using System.Threading;
+//using System.Threading.Tasks;
+//using Microsoft.Extensions.Caching.Memory;
+//using Microsoft.Extensions.Hosting;
+//using Microsoft.Extensions.Logging;
+
+//namespace ARB1
+//{
+//    public sealed class OldDictService1 : BackgroundService
+//    {
+//        #region CONFIG
+//        private const string CG_API_KEY = "CG-KvnbzHqs557kDsTLejHMtXxK";
+//        private const int REQ_PER_MIN = 30;
+//        private static readonly int DelayMs = 60_000 / REQ_PER_MIN;
+
+//        private static readonly string[] ExchangeIds =
+//        {
+//            "bybit_spot",
+//            // "binance",
+//            "mxc",
+//            "okex",
+//            "bitget",
+//            "huobi",
+//            // "bitmart",
+//            // "gate",
+//            // "kucoin",
+//            // "xt",
+//            "lbank",
+//            // "poloniex"
+//        };
+
+//        private static readonly HashSet<string> TargetChains = new(StringComparer.OrdinalIgnoreCase)
+//        {
+//            "ethereum", "solana", "arbitrum-one", "scroll", "zksync", "binance-smart-chain",
+//            "base", "zora-network", "sui", "optimistic-ethereum", "avalanche", "tron",
+//            "the-open-network", "aptos", "near-protocol", "kava", "celo", "linea", "polygon-pos", "osmosis"
+//        };
+
+//        private static readonly HashSet<string> AllowedTargets = new(StringComparer.OrdinalIgnoreCase)
+//            { "USDT", "USDC", "ETH", "SOL" };
+//        #endregion
+
+//        private readonly IMemoryCache _cache;
+//        private readonly ILogger<OldDictService1> _logger;
+//        private readonly HttpClient _http = new();
+//        private DateTime _lastReq = DateTime.MinValue;
+//        private readonly Dictionary<string, Dictionary<string, AssetRec>> _assets = new(StringComparer.OrdinalIgnoreCase);
+
+//        public OldDictService1(IMemoryCache cache, ILogger<OldDictService1> logger)
+//        {
+//            _cache = cache;
+//            _logger = logger;
+//            _http.DefaultRequestHeaders.Add("x-cg-demo-api-key", CG_API_KEY);
+//            _http.Timeout = TimeSpan.FromSeconds(180);
+//        }
+
+//        #region PARSE HELPERS
+//        private static decimal ParseDecimal(string element)
+//        {
+//            try
+//            {
+//                return decimal.TryParse(element, NumberStyles.Any, CultureInfo.InvariantCulture, out decimal result) ? result : 0;
+//            }
+//            catch { return 0; }
+//        }
+
+//        private static string NormalizeChain(string raw)
+//        {
+//            if (string.IsNullOrWhiteSpace(raw)) return "";
+//            var s = raw.Trim().ToUpperInvariant();
+
+//            if (s is "ETH" or "ERC20" or "ETHEREUM" or "ETH-ERC20") return "ethereum";
+//            if (s is "SOL" or "SOL-SOL" or "SOLANA" or "SPL") return "solana";
+//            if (s is "ARBITRUM" or "ARBITRUMONE" or "ARBI" or "ARBEVM" or "ANIME-ARBITRUM ONE" or "ARBITRUM-ONE") return "arbitrum-one";
+//            if (s is "SCROLL" or "SCROLLETH" or "SCROLL-ETH") return "scroll";
+//            if (s is "ZKSYNC" or "ZKSYNCERA" or "ZKSERA" or "ZKSYNK") return "zksync";
+//            if (s is "BSC" or "BEP20" or "BNB SMART CHAIN" or "BSC_BNB" or "BNB" or "BNBCHAIN") return "binance-smart-chain";
+//            if (s is "BASE" or "BASEEVM" or "BASE-ETH" or "Base") return "base";
+//            if (s is "ZORA" or "ZORA-NETWORK") return "zora-network";
+//            if (s is "SUI") return "sui";
+//            if (s is "OPTIMISM" or "OP" or "OPETH" or "OPT" or "OPTIMISTIC-ETHEREUM") return "optimistic-ethereum";
+//            if (s is "AVAX" or "AVAX_C" or "C-CHAIN" or "CAVAX" or "AVALANCHE") return "avalanche";
+//            if (s is "TRON" or "TRX" or "TRC20" or "TRC") return "tron";
+//            if (s is "TON" or "TONCOIN") return "the-open-network";
+//            if (s is "APTOS" or "APT") return "aptos";
+//            if (s is "NEAR" or "NEAR PROTOCOL") return "near-protocol";
+//            if (s is "KAVA") return "kava";
+//            if (s is "CELO") return "celo";
+//            if (s is "LINEA" or "LINEAETH" or "LINEA-ETH") return "linea";
+//            if (s is "POLYGON" or "MATIC" or "POLYGON POS" or "POLYGON-POS") return "polygon-pos";
+//            if (s is "OSMOSIS") return "osmosis";
+
+//            return "";
+//        }
+//        #endregion
+
+//        #region COINGECKO API
+//        private async Task DelayIfNeeded(CancellationToken ct)
+//        {
+//            try
+//            {
+//                var now = DateTime.UtcNow;
+//                var el = (now - _lastReq).TotalMilliseconds;
+//                if (el < DelayMs) await Task.Delay(DelayMs - (int)el, ct);
+//                _lastReq = DateTime.UtcNow;
+//            }
+//            catch { }
+//        }
+
+//        private async Task<List<FullTicker>> LoadAllTickersAsync(CancellationToken ct)
+//        {
+//            var all = new List<FullTicker>();
+//            try
+//            {
+//                foreach (var ex in ExchangeIds)
+//                {
+//                    try
+//                    {
+//                        _logger.LogInformation("→ {Ex}", ex);
+//                        int page = 1;
+//                        while (true)
+//                        {
+//                            try
+//                            {
+//                                await DelayIfNeeded(ct);
+//                                var url = $"https://api.coingecko.com/api/v3/exchanges/{ex}/tickers?page={page}";
+//                                using var resp = await _http.GetAsync(url, ct);
+//                                if (!resp.IsSuccessStatusCode) break;
+
+//                                var json = await resp.Content.ReadAsStringAsync(ct);
+//                                var dto = JsonSerializer.Deserialize<ExchangeResponse>(json, new JsonSerializerOptions { PropertyNameCaseInsensitive = true });
+//                                var arr = dto?.Tickers;
+//                                if (arr == null || arr.Count == 0) break;
+
+//                                all.AddRange(arr.Select(t => new FullTicker
+//                                {
+//                                    ExchangeName = ex,
+//                                    Base = t.Base,
+//                                    Target = t.Target,
+//                                    Last = t.Last,
+//                                    Volume = t.Volume,
+//                                    TradeUrl = t.TradeUrl?.Trim(),
+//                                    CoinId = t.CoinId
+//                                }));
+//                                page++;
+//                            }
+//                            catch (Exception ex2)
+//                            {
+//                                _logger.LogWarning("Page error {Ex} page {Page}: {Msg}", ex, page, ex2.Message);
+//                                break;
+//                            }
+//                        }
+//                    }
+//                    catch (Exception ex2)
+//                    {
+//                        _logger.LogWarning("Exchange error {Ex}: {Msg}", ex, ex2.Message);
+//                    }
+//                }
+//            }
+//            catch (Exception ex)
+//            {
+//                _logger.LogError("LoadAllTickers failed: {Msg}", ex.Message);
+//            }
+//            return all;
+//        }
+
+//        private async Task<List<CoinInfo>> LoadCoinsAsync(CancellationToken ct)
+//        {
+//            try
+//            {
+//                await DelayIfNeeded(ct);
+//                var url = "https://api.coingecko.com/api/v3/coins/list?include_platform=true";
+//                using var resp = await _http.GetAsync(url, ct);
+//                if (!resp.IsSuccessStatusCode) return new();
+                
+//                var json = await resp.Content.ReadAsStringAsync(ct);
+//                return JsonSerializer.Deserialize<List<CoinInfo>>(json, new JsonSerializerOptions { PropertyNameCaseInsensitive = true }) ?? new();
+//            }
+//            catch (Exception ex)
+//            {
+//                _logger.LogError("LoadCoins failed: {Msg}", ex.Message);
+//                return new();
+//            }
+//        }
+//        #endregion
+
+//        #region ASSETS LOADING
+//        private sealed class AssetRec
+//        {
+//            public string Exchange { get; init; } = default!;
+//            public string CommitedChain { get; init; } = default!;
+//            public bool Deposit { get; init; }
+//            public bool Withdraw { get; init; }
+//            public decimal Fee { get; init; }
+//        }
+
+//        private void AddAsset(string ex, string contract, string committedChain, bool dep, bool wd, decimal fee)
+//        {
+//            try
+//            {
+//                if (string.IsNullOrWhiteSpace(contract)) return;
+//                var key = contract.ToLowerInvariant();
+//                if (!_assets.TryGetValue(key, out var dict))
+//                    _assets[key] = dict = new(StringComparer.OrdinalIgnoreCase);
+//                dict[ex] = new AssetRec { Exchange = ex, CommitedChain = committedChain, Deposit = dep, Withdraw = wd, Fee = fee };
+//            }
+//            catch { }
+//        }
+
+//        private async Task<string?> GetBybitAsync(CancellationToken ct)
+//        {
+//            try
+//            {
+//                const string ak = "QHWbs5oM6KUY6LXFvT", sk = "Ta1HqC3lwoiPH152WwunY9gRPszrVTjXwnxI";
+//                var ts = (DateTimeOffset.UtcNow.ToUnixTimeMilliseconds() - 10_000).ToString();
+//                const string recv = "30000";
+//                string sigSrc = ts + ak + recv;
+//                using var hmac = new HMACSHA256(Encoding.UTF8.GetBytes(sk));
+//                var sig = BitConverter.ToString(hmac.ComputeHash(Encoding.UTF8.GetBytes(sigSrc))).Replace("-", "").ToLower();
+//                var req = new HttpRequestMessage(HttpMethod.Get, "https://api.bybit.com/v5/asset/coin/query-info");
+//                req.Headers.Add("X-BAPI-API-KEY", ak);
+//                req.Headers.Add("X-BAPI-SIGN", sig);
+//                req.Headers.Add("X-BAPI-SIGN-TYPE", "2");
+//                req.Headers.Add("X-BAPI-TIMESTAMP", ts);
+//                req.Headers.Add("X-BAPI-RECV-WINDOW", recv);
+//                using var cts = CancellationTokenSource.CreateLinkedTokenSource(ct);
+//                cts.CancelAfter(TimeSpan.FromSeconds(30));
+//                var resp = await _http.SendAsync(req, cts.Token);
+//                return resp.IsSuccessStatusCode ? await resp.Content.ReadAsStringAsync(ct) : null;
+//            }
+//            catch { return null; }
+//        }
+
+//        private async Task<string?> GetOkxAsync(CancellationToken ct)
+//        {
+//            try
+//            {
+//                const string ak = "4ad7a621-70fd-4a3a-baba-8fcbf3c6b50c", sk = "60887C137411ACFE3A89630420588431", pw = "Emilfayzullin2001)";
+//                var ts = (DateTimeOffset.UtcNow.ToUnixTimeMilliseconds() / 1000.0).ToString("F3", CultureInfo.InvariantCulture);
+//                const string ep = "/api/v5/asset/currencies", mtd = "GET";
+//                string msg = ts + mtd + ep;
+//                using var hmac = new HMACSHA256(Encoding.UTF8.GetBytes(sk));
+//                var sig = Convert.ToBase64String(hmac.ComputeHash(Encoding.UTF8.GetBytes(msg)));
+//                var req = new HttpRequestMessage(HttpMethod.Get, "https://www.okx.com" + ep);
+//                req.Headers.Add("OK-ACCESS-KEY", ak);
+//                req.Headers.Add("OK-ACCESS-SIGN", sig);
+//                req.Headers.Add("OK-ACCESS-TIMESTAMP", ts);
+//                req.Headers.Add("OK-ACCESS-PASSPHRASE", pw);
+//                using var cts = CancellationTokenSource.CreateLinkedTokenSource(ct);
+//                cts.CancelAfter(TimeSpan.FromSeconds(30));
+//                var resp = await _http.SendAsync(req, cts.Token);
+//                return resp.IsSuccessStatusCode ? await resp.Content.ReadAsStringAsync(ct) : null;
+//            }
+//            catch { return null; }
+//        }
+
+//        private async Task<string?> GetMexcAsync(CancellationToken ct)
+//        {
+//            try
+//            {
+//                const string ak = "mx0vglC0x7lRK7PA8q", sk = "4e435923cfac41a9a08b59236bc4895c";
+//                var ts = DateTimeOffset.UtcNow.ToUnixTimeMilliseconds().ToString();
+//                const string recv = "30000";
+//                string qs = $"recvWindow={recv}&timestamp={ts}";
+//                using var hmac = new HMACSHA256(Encoding.UTF8.GetBytes(sk));
+//                var sig = BitConverter.ToString(hmac.ComputeHash(Encoding.UTF8.GetBytes(qs))).Replace("-", "").ToLower();
+//                var url = $"https://api.mexc.com/api/v3/capital/config/getall?{qs}&signature={sig}";
+//                var req = new HttpRequestMessage(HttpMethod.Get, url);
+//                req.Headers.Add("X-MEXC-APIKEY", ak);
+//                using var cts = CancellationTokenSource.CreateLinkedTokenSource(ct);
+//                cts.CancelAfter(TimeSpan.FromSeconds(30));
+//                var resp = await _http.SendAsync(req, cts.Token);
+//                return resp.IsSuccessStatusCode ? await resp.Content.ReadAsStringAsync(ct) : null;
+//            }
+//            catch { return null; }
+//        }
+
+//        private async Task<string?> GetBitgetAsync(CancellationToken ct)
+//        {
+//            try
+//            {
+//                using var cts = CancellationTokenSource.CreateLinkedTokenSource(ct);
+//                cts.CancelAfter(TimeSpan.FromSeconds(30));
+//                var resp = await _http.GetAsync("https://api.bitget.com/api/v2/spot/public/coins", cts.Token);
+//                return resp.IsSuccessStatusCode ? await resp.Content.ReadAsStringAsync(ct) : null;
+//            }
+//            catch { return null; }
+//        }
+
+//        private async Task<string?> GetHtxAsync(CancellationToken ct)
+//        {
+//            try
+//            {
+//                using var cts = CancellationTokenSource.CreateLinkedTokenSource(ct);
+//                cts.CancelAfter(TimeSpan.FromSeconds(30));
+//                var resp = await _http.GetAsync("https://api.huobi.pro/v1/settings/common/chains", cts.Token);
+//                return resp.IsSuccessStatusCode ? await resp.Content.ReadAsStringAsync(ct) : null;
+//            }
+//            catch { return null; }
+//        }
+
+//        private async Task<string?> GetBitmartAsync(CancellationToken ct)
+//        {
+//            try
+//            {
+//                using var cts = CancellationTokenSource.CreateLinkedTokenSource(ct);
+//                cts.CancelAfter(TimeSpan.FromSeconds(30));
+//                var resp = await _http.GetAsync("https://api-cloud.bitmart.com/account/v1/currencies", cts.Token);
+//                return resp.IsSuccessStatusCode ? await resp.Content.ReadAsStringAsync(ct) : null;
+//            }
+//            catch { return null; }
+//        }
+
+//        private async Task<string?> GetGateAsync(CancellationToken ct)
+//        {
+//            try
+//            {
+//                using var cts = CancellationTokenSource.CreateLinkedTokenSource(ct);
+//                cts.CancelAfter(TimeSpan.FromSeconds(30));
+//                var resp = await _http.GetAsync("https://api.gateio.ws/api/v4/spot/currencies", cts.Token);
+//                return resp.IsSuccessStatusCode ? await resp.Content.ReadAsStringAsync(ct) : null;
+//            }
+//            catch { return null; }
+//        }
+
+//        private async Task<string?> GetKucoinAsync(CancellationToken ct)
+//        {
+//            try
+//            {
+//                using var cts = CancellationTokenSource.CreateLinkedTokenSource(ct);
+//                cts.CancelAfter(TimeSpan.FromSeconds(30));
+//                var resp = await _http.GetAsync("https://api.kucoin.com/api/v3/currencies", cts.Token);
+//                return resp.IsSuccessStatusCode ? await resp.Content.ReadAsStringAsync(ct) : null;
+//            }
+//            catch { return null; }
+//        }
+
+//        private async Task<string?> GetXtAsync(CancellationToken ct)
+//        {
+//            try
+//            {
+//                using var cts = CancellationTokenSource.CreateLinkedTokenSource(ct);
+//                cts.CancelAfter(TimeSpan.FromSeconds(30));
+//                var resp = await _http.GetAsync("https://sapi.xt.com/v4/public/wallet/support/currency", cts.Token);
+//                return resp.IsSuccessStatusCode ? await resp.Content.ReadAsStringAsync(ct) : null;
+//            }
+//            catch { return null; }
+//        }
+
+//        private void FillBybitAssets(string? json)
+//        {
+//            try
+//            {
+//                if (json == null) return;
+//                using var doc = JsonDocument.Parse(json);
+//                if (!doc.RootElement.TryGetProperty("result", out var res) || !res.TryGetProperty("rows", out var rows)) return;
+//                foreach (var coin in rows.EnumerateArray())
+//                {
+//                    if (!coin.TryGetProperty("chains", out var chains)) continue;
+//                    foreach (var ch in chains.EnumerateArray())
+//                    {
+//                        try
+//                        {
+//                            if (!ch.TryGetProperty("contractAddress", out var ctEl) || !ch.TryGetProperty("chain", out var chainEl) ||
+//                                !ch.TryGetProperty("chainDeposit", out var depEl) || !ch.TryGetProperty("chainWithdraw", out var wdEl) ||
+//                                !ch.TryGetProperty("withdrawFee", out var feeEl)) continue;
+//                            AddAsset("bybit", ctEl.GetString() ?? "", chainEl.GetString() ?? "", 
+//                                depEl.GetString() == "1", wdEl.GetString() == "1", ParseDecimal(feeEl.GetString() ?? ""));
+//                        }
+//                        catch { }
+//                    }
+//                }
+//            }
+//            catch { }
+//        }
+
+//        private void FillOkxAssets(string? json)
+//        {
+//            try
+//            {
+//                if (json == null) return;
+//                using var doc = JsonDocument.Parse(json);
+//                if (!doc.RootElement.TryGetProperty("data", out var data)) return;
+//                foreach (var coin in data.EnumerateArray())
+//                {
+//                    try
+//                    {
+//                        if (!coin.TryGetProperty("ctAddr", out var ctEl) || !coin.TryGetProperty("chain", out var ch) ||
+//                            !coin.TryGetProperty("canDep", out var dep) || !coin.TryGetProperty("canWd", out var wd) ||
+//                            !coin.TryGetProperty("fee", out var fee)) continue;
+//                        AddAsset("okex", ctEl.GetString() ?? "", ch.GetString() ?? "", dep.GetBoolean(), wd.GetBoolean(), ParseDecimal(fee.GetString() ?? ""));
+//                    }
+//                    catch { }
+//                }
+//            }
+//            catch { }
+//        }
+
+//        private void FillMexcAssets(string? json)
+//        {
+//            try
+//            {
+//                if (json == null) return;
+//                using var doc = JsonDocument.Parse(json);
+//                foreach (var coin in doc.RootElement.EnumerateArray())
+//                {
+//                    if (!coin.TryGetProperty("networkList", out var nets)) continue;
+//                    foreach (var net in nets.EnumerateArray())
+//                    {
+//                        try
+//                        {
+//                            if (!net.TryGetProperty("contract", out var ctEl) || !net.TryGetProperty("netWork", out var nw) ||
+//                                !net.TryGetProperty("depositEnable", out var dep) || !net.TryGetProperty("withdrawEnable", out var wd) ||
+//                                !net.TryGetProperty("withdrawFee", out var fee)) continue;
+//                            AddAsset("mexc", ctEl.GetString() ?? "", nw.GetString() ?? "", dep.GetBoolean(), wd.GetBoolean(), ParseDecimal(fee.GetString() ?? ""));
+//                        }
+//                        catch { }
+//                    }
+//                }
+//            }
+//            catch { }
+//        }
+
+//        private void FillBitgetAssets(string? json)
+//        {
+//            try
+//            {
+//                if (json == null) return;
+//                using var doc = JsonDocument.Parse(json);
+//                if (!doc.RootElement.TryGetProperty("data", out var data)) return;
+//                foreach (var coin in data.EnumerateArray())
+//                {
+//                    if (!coin.TryGetProperty("chains", out var chains)) continue;
+//                    foreach (var ch in chains.EnumerateArray())
+//                    {
+//                        try
+//                        {
+//                            if (!ch.TryGetProperty("contractAddress", out var ctEl) || !ch.TryGetProperty("chain", out var nw) ||
+//                                !ch.TryGetProperty("rechargeable", out var dep) || !ch.TryGetProperty("withdrawable", out var wd) ||
+//                                !ch.TryGetProperty("withdrawFee", out var fee)) continue;
+//                            AddAsset("bitget", ctEl.GetString() ?? "", nw.GetString() ?? "", 
+//                                bool.Parse(dep.GetString() ?? "false"), bool.Parse(wd.GetString() ?? "false"), ParseDecimal(fee.GetString() ?? ""));
+//                        }
+//                        catch { }
+//                    }
+//                }
+//            }
+//            catch { }
+//        }
+
+//        private void FillHtxAssets(string? json)
+//        {
+//            try
+//            {
+//                if (json == null) return;
+//                using var doc = JsonDocument.Parse(json);
+//                if (!doc.RootElement.TryGetProperty("data", out var data)) return;
+//                foreach (var coin in data.EnumerateArray())
+//                {
+//                    try
+//                    {
+//                        if (!coin.TryGetProperty("ca", out var ctEl) || !coin.TryGetProperty("dn", out var nw) ||
+//                            !coin.TryGetProperty("de", out var dep) || !coin.TryGetProperty("we", out var wd)) continue;
+//                        AddAsset("huobi", ctEl.GetString() ?? "", nw.GetString() ?? "", dep.GetBoolean(), wd.GetBoolean(), 0m);
+//                    }
+//                    catch { }
+//                }
+//            }
+//            catch { }
+//        }
+
+//        private void FillBitmartAssets(string? json)
+//        {
+//            try
+//            {
+//                if (json == null) return;
+//                using var doc = JsonDocument.Parse(json);
+//                if (!doc.RootElement.TryGetProperty("data", out var data) || !data.TryGetProperty("currencies", out var curs)) return;
+//                foreach (var coin in curs.EnumerateArray())
+//                {
+//                    try
+//                    {
+//                        if (!coin.TryGetProperty("contract_address", out var ctEl) || !coin.TryGetProperty("network", out var nw) ||
+//                            !coin.TryGetProperty("deposit_enabled", out var dep) || !coin.TryGetProperty("withdraw_enabled", out var wd) ||
+//                            !coin.TryGetProperty("withdraw_fee", out var fee)) continue;
+//                        AddAsset("bitmart", ctEl.GetString() ?? "", nw.GetString() ?? "", dep.GetBoolean(), wd.GetBoolean(), ParseDecimal(fee.GetString() ?? ""));
+//                    }
+//                    catch { }
+//                }
+//            }
+//            catch { }
+//        }
+
+//        private void FillGateAssets(string? json)
+//        {
+//            try
+//            {
+//                if (json == null) return;
+//                using var doc = JsonDocument.Parse(json);
+//                foreach (var coin in doc.RootElement.EnumerateArray())
+//                {
+//                    if (!coin.TryGetProperty("chains", out var chains)) continue;
+//                    foreach (var ch in chains.EnumerateArray())
+//                    {
+//                        try
+//                        {
+//                            if (!ch.TryGetProperty("addr", out var ctEl) || !ch.TryGetProperty("name", out var nw) ||
+//                                !ch.TryGetProperty("deposit_disabled", out var dep) || !ch.TryGetProperty("withdraw_disabled", out var wd)) continue;
+//                            AddAsset("gate", ctEl.GetString() ?? "", nw.GetString() ?? "", !dep.GetBoolean(), !wd.GetBoolean(), 0m);
+//                        }
+//                        catch { }
+//                    }
+//                }
+//            }
+//            catch { }
+//        }
+
+//        private void FillKucoinAssets(string? json)
+//        {
+//            try
+//            {
+//                if (json == null) return;
+//                using var doc = JsonDocument.Parse(json);
+//                if (!doc.RootElement.TryGetProperty("data", out var data)) return;
+//                foreach (var coin in data.EnumerateArray())
+//                {
+//                    if (!coin.TryGetProperty("chains", out var chains)) continue;
+//                    foreach (var ch in chains.EnumerateArray())
+//                    {
+//                        try
+//                        {
+//                            if (!ch.TryGetProperty("contractAddress", out var ctEl) || !ch.TryGetProperty("chainName", out var nw) ||
+//                                !ch.TryGetProperty("isDepositEnabled", out var dep) || !ch.TryGetProperty("isWithdrawEnabled", out var wd) ||
+//                                !ch.TryGetProperty("withdrawalMinFee", out var fee)) continue;
+//                            AddAsset("kucoin", ctEl.GetString() ?? "", nw.GetString() ?? "", dep.GetBoolean(), wd.GetBoolean(), ParseDecimal(fee.GetString() ?? ""));
+//                        }
+//                        catch { }
+//                    }
+//                }
+//            }
+//            catch { }
+//        }
+
+//        private void FillXtAssets(string? json)
+//        {
+//            try
+//            {
+//                if (json == null) return;
+//                using var doc = JsonDocument.Parse(json);
+//                if (!doc.RootElement.TryGetProperty("result", out var res)) return;
+//                foreach (var coin in res.EnumerateArray())
+//                {
+//                    if (!coin.TryGetProperty("supportChains", out var chains)) continue;
+//                    foreach (var ch in chains.EnumerateArray())
+//                    {
+//                        try
+//                        {
+//                            if (!ch.TryGetProperty("contract", out var ctEl) || !ch.TryGetProperty("chain", out var nw) ||
+//                                !ch.TryGetProperty("depositEnabled", out var dep) || !ch.TryGetProperty("withdrawEnabled", out var wd)) continue;
+//                            decimal fee = 0;
+//                            if (ch.TryGetProperty("withdrawFeeAmount", out var feeEl))
+//                                fee = feeEl.ValueKind == JsonValueKind.String ? ParseDecimal(feeEl.GetString() ?? "0") : feeEl.GetDecimal();
+//                            AddAsset("xt", ctEl.GetString() ?? "", nw.GetString() ?? "", dep.GetBoolean(), wd.GetBoolean(), fee);
+//                        }
+//                        catch { }
+//                    }
+//                }
+//            }
+//            catch { }
+//        }
+
+//        private async Task LoadAssetsAsync(CancellationToken ct)
+//        {
+//            try
+//            {
+//                _assets.Clear();
+                
+//                var bybitTask = GetBybitAsync(ct);
+//                var okxTask = GetOkxAsync(ct);
+//                var mexcTask = GetMexcAsync(ct);
+//                var bitgetTask = GetBitgetAsync(ct);
+//                var htxTask = GetHtxAsync(ct);
+//                var bitmartTask = GetBitmartAsync(ct);
+//                var gateTask = GetGateAsync(ct);
+//                var kucoinTask = GetKucoinAsync(ct);
+//                var xtTask = GetXtAsync(ct);
+
+//                await Task.WhenAll(bybitTask, okxTask, mexcTask, bitgetTask, htxTask, bitmartTask, gateTask, kucoinTask, xtTask);
+
+//                FillBybitAssets(await bybitTask);
+//                FillOkxAssets(await okxTask);
+//                FillMexcAssets(await mexcTask);
+//                FillBitgetAssets(await bitgetTask);
+//                FillHtxAssets(await htxTask);
+//                FillBitmartAssets(await bitmartTask);
+//                FillGateAssets(await gateTask);
+//                FillKucoinAssets(await kucoinTask);
+//                FillXtAssets(await xtTask);
+
+//                _logger.LogInformation("Assets loaded: {Count}", _assets.Sum(kv => kv.Value.Count));
+//            }
+//            catch (Exception ex)
+//            {
+//                _logger.LogError("LoadAssets error: {Msg}", ex.Message);
+//            }
+//        }
+//        #endregion
+
+//        #region BUILD & FILTER
+//        private List<TokenResult> BuildFinalList(List<FullTicker> tickers, List<CoinInfo> coins)
+//        {
+//            var result = new List<TokenResult>();
+//            try
+//            {
+//                var byCoin = tickers.Where(t => !string.IsNullOrEmpty(t.CoinId))
+//                    .GroupBy(t => t.CoinId!, StringComparer.OrdinalIgnoreCase)
+//                    .ToDictionary(g => g.Key, g => g.ToList(), StringComparer.OrdinalIgnoreCase);
+
+//                foreach (var coin in coins)
+//                {
+//                    try
+//                    {
+//                        if (string.IsNullOrEmpty(coin.Id) || coin.Platforms == null) continue;
+//                        var symbol = coin.Symbol?.ToUpperInvariant() ?? coin.Id.ToUpperInvariant();
+                        
+//                        foreach (var (chain, contract) in coin.Platforms)
+//                        {
+//                            try
+//                            {
+//                                if (!TargetChains.Contains(chain) || string.IsNullOrWhiteSpace(contract)) continue;
+//                                if (!byCoin.TryGetValue(coin.Id, out var tlist)) continue;
+
+//                                var exchanges = tlist
+//                                    .Where(t => !string.IsNullOrEmpty(t.Target) && AllowedTargets.Contains(t.Target))
+//                                    .Select(t => new ExchangeInfo
+//                                    {
+//                                        Name = t.ExchangeName,
+//                                        Base = t.Base ?? symbol,
+//                                        Target = t.Target!,
+//                                        Last = t.Last ?? 0m,
+//                                        Volume = t.Volume ?? 0m,
+//                                        TradeUrl = t.TradeUrl ?? "",
+//                                        Confirmed = false
+//                                    }).ToList();
+
+//                                var key = contract.ToLowerInvariant();
+//                                if (_assets.TryGetValue(key, out var dict))
+//                                {
+//                                    foreach (var ex in exchanges)
+//                                    {
+//                                        try
+//                                        {
+//                                            if (dict.TryGetValue(ex.Name, out var asset))
+//                                            {
+//                                                ex.CommitedChain = asset.CommitedChain;
+//                                                ex.Confirmed = true;
+//                                                ex.IsDepositEnabled = asset.Deposit;
+//                                                ex.IsWithdrawEnabled = asset.Withdraw;
+//                                                ex.WithdrawFee = asset.Fee;
+//                                            }
+//                                        }
+//                                        catch { }
+//                                    }
+//                                }
+
+//                                exchanges.RemoveAll(ex => !ex.Confirmed);
+//                                if (exchanges.Count > 0)
+//                                {
+//                                    result.Add(new TokenResult
+//                                    {
+//                                        Symbol = symbol,
+//                                        Chain = chain,
+//                                        ContractAddress = contract,
+//                                        Exchanges = exchanges
+//                                    });
+//                                }
+//                            }
+//                            catch { }
+//                        }
+//                    }
+//                    catch { }
+//                }
+//            }
+//            catch (Exception ex)
+//            {
+//                _logger.LogError("BuildFinalList error: {Msg}", ex.Message);
+//            }
+//            return result;
+//        }
+
+//        private List<TokenResult> LeaveOnlyRealChains(List<TokenResult> src)
+//        {
+//            try
+//            {
+//                return src
+//                    .GroupBy(t => (t.Symbol, t.ContractAddress))
+//                    .SelectMany(g =>
+//                    {
+//                        try
+//                        {
+//                            var confirmed = g.Where(t => t.Exchanges.Any(e => e.Confirmed)).ToList();
+//                            if (confirmed.Count == 0) return g;
+
+//                            var realChains = confirmed
+//                                .Select(t => t.Exchanges.First(e => e.Confirmed).CommitedChain)
+//                                .Select(NormalizeChain)
+//                                .Where(c => !string.IsNullOrEmpty(c))
+//                                .Distinct()
+//                                .ToList();
+
+//                            if (realChains.Count == 1)
+//                                return g.Where(t => t.Chain.Equals(realChains[0], StringComparison.OrdinalIgnoreCase));
+
+//                            return g;
+//                        }
+//                        catch { return g; }
+//                    })
+//                    .ToList();
+//            }
+//            catch { return src; }
+//        }
+
+//        private List<TokenResult> FilterByTargets(List<TokenResult> src, HashSet<string> targets)
+//        {
+//            var list = new List<TokenResult>();
+//            try
+//            {
+//                foreach (var t in src)
+//                {
+//                    try
+//                    {
+//                        var filteredEx = t.Exchanges.Where(e => targets.Contains(e.Target)).ToList();
+//                        if (filteredEx.Count == 0) continue;
+//                        list.Add(new TokenResult
+//                        {
+//                            Symbol = t.Symbol,
+//                            Chain = t.Chain,
+//                            ContractAddress = t.ContractAddress,
+//                            Exchanges = filteredEx
+//                        });
+//                    }
+//                    catch { }
+//                }
+//            }
+//            catch { }
+//            return list;
+//        }
+//        #endregion
+
+//        #region MAIN EXECUTION
+//        protected override async Task ExecuteAsync(CancellationToken stoppingToken)
+//        {
+//            while (!stoppingToken.IsCancellationRequested)
+//            {
+//                try
+//                {
+//                    _logger.LogInformation("=== DICT UPDATE START ===");
+
+//                    var tickersTask = LoadAllTickersAsync(stoppingToken);
+//                    var coinsTask = LoadCoinsAsync(stoppingToken);
+//                    var assetsTask = LoadAssetsAsync(stoppingToken);
+
+//                    await Task.WhenAll(tickersTask, coinsTask, assetsTask);
+
+//                    var final = BuildFinalList(tickersTask.Result, coinsTask.Result);
+//                    final = LeaveOnlyRealChains(final);
+
+//                    _cache.Set("dict", final);
+
+//                    var usdtDict = FilterByTargets(final, new HashSet<string>(StringComparer.OrdinalIgnoreCase) { "USDT" });
+//                    var solEthDict = FilterByTargets(final, new HashSet<string>(StringComparer.OrdinalIgnoreCase) { "SOL", "ETH" });
+//                    var usdcDict = FilterByTargets(final, new HashSet<string>(StringComparer.OrdinalIgnoreCase) { "USDC" });
+
+//                    _cache.Set("dict_usdt", usdtDict);
+//                    _cache.Set("dict_sol_eth", solEthDict);
+//                    _cache.Set("dict_usdc", usdcDict);
+
+//                    _logger.LogInformation("Saved: all={All}, usdt={Usdt}, sol/eth={SolEth}, usdc={Usdc}", 
+//                        final.Count, usdtDict.Count, solEthDict.Count, usdcDict.Count);
+
+//                    var outPath = Path.Combine(AppContext.BaseDirectory, "filtered_output.json");
+//                    await File.WriteAllTextAsync(outPath, JsonSerializer.Serialize(final, new JsonSerializerOptions { WriteIndented = true }), stoppingToken);
+//                }
+//                catch (Exception ex)
+//                {
+//                    _logger.LogError("ExecuteAsync error: {Msg}", ex.Message);
+//                }
+
+//                await Task.Delay(TimeSpan.FromMinutes(1), stoppingToken);
+//            }
+//        }
+//        #endregion
+
+//        #region MODELS
+//        public sealed class TokenResult
+//        {
+//            [JsonPropertyName("Symbol")] public string Symbol { get; set; } = null!;
+//            [JsonPropertyName("Chain")] public string Chain { get; set; } = null!;
+//            [JsonPropertyName("ContractAddress")] public string ContractAddress { get; set; } = null!;
+//            [JsonPropertyName("Exchanges")] public List<ExchangeInfo> Exchanges { get; set; } = new();
+//        }
+
+//        public sealed class ExchangeInfo
+//        {
+//            [JsonPropertyName("Name")] public string Name { get; set; } = null!;
+//            [JsonPropertyName("Base")] public string Base { get; set; } = null!;
+//            [JsonPropertyName("Target")] public string Target { get; set; } = null!;
+//            [JsonPropertyName("Last")] public decimal Last { get; set; }
+//            [JsonPropertyName("Volume")] public decimal Volume { get; set; }
+//            [JsonPropertyName("Turnover")] public decimal Turnover { get; set; }
+//            [JsonPropertyName("TradeUrl")] public string TradeUrl { get; set; } = null!;
+//            [JsonPropertyName("CommitedChain")] public string CommitedChain { get; set; } = null!;
+//            [JsonPropertyName("Confirmed")] public bool Confirmed { get; set; }
+//            [JsonPropertyName("IsDepositEnabled")] public bool IsDepositEnabled { get; set; }
+//            [JsonPropertyName("IsWithdrawEnabled")] public bool IsWithdrawEnabled { get; set; }
+//            [JsonPropertyName("WithdrawFee")] public decimal WithdrawFee { get; set; }
+//        }
+
+//        private sealed class FullTicker
+//        {
+//            public string ExchangeName { get; set; } = null!;
+//            public string? Base { get; set; }
+//            public string? Target { get; set; }
+//            public string? TradeUrl { get; set; }
+//            public string? CoinId { get; set; }
+//            public decimal? Last { get; set; }
+//            public decimal? Volume { get; set; }
+//        }
+
+//        private sealed class TickerItem
+//        {
+//            [JsonPropertyName("Base")] public string? Base { get; set; }
+//            [JsonPropertyName("Target")] public string? Target { get; set; }
+//            [JsonPropertyName("Last")] public decimal? Last { get; set; }
+//            [JsonPropertyName("Volume")] public decimal? Volume { get; set; }
+//            [JsonPropertyName("Trade_url")] public string? TradeUrl { get; set; }
+//            [JsonPropertyName("Coin_id")] public string? CoinId { get; set; }
+//        }
+
+//        private sealed class ExchangeResponse
+//        {
+//            [JsonPropertyName("Tickers")] public List<TickerItem>? Tickers { get; set; }
+//        }
+
+//        private sealed class CoinInfo
+//        {
+//            [JsonPropertyName("Id")] public string? Id { get; set; }
+//            [JsonPropertyName("Symbol")] public string? Symbol { get; set; }
+//            [JsonPropertyName("Platforms")] public Dictionary<string, string>? Platforms { get; set; }
+//        }
+//        #endregion
+//    }
+//}
