@@ -1,0 +1,11 @@
+User-agent: *
+Allow: /
+Disallow: /dashboard/
+Disallow: /_next/
+
+User-agent: Googlebot
+Allow: /
+Disallow: /dashboard/
+
+Sitemap: https://twinheadsnake.com/sitemap.xml
+Host: https://twinheadsnake.com
